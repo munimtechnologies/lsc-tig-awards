@@ -1,11 +1,10 @@
 # SPDX-License-Identifier: Apache-2.0
 # Copyright 2026 Munim, Inc.
 import contextlib
-import csv
 import io
 import os
+import re
 import sys
-import tempfile
 import unittest
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -13,156 +12,153 @@ sys.path.insert(0, HERE)
 
 import tig  # noqa: E402
 
-DATA = tig.load()
-AWARDS = DATA["awards"]
-
-# Hand-summed from LSC's pages (see README); amounts in cents.
-LISTED = {
-    2021: (35, 29, 426573784),
-    2022: (33, 29, 467913503),
-    2023: (33, 29, 515703300),
-    2024: (32, 29, 630608100),
-    2025: (31, 28, 406430800),
-}
-AI_ALL = {2021: (1, 9329000), 2022: (2, 26141849), 2023: (4, 108963400),
-          2024: (9, 272042000), 2025: (11, 164394800)}
+STATES = set("""AK AL AR AZ CA CO CT DC DE FL GA HI IA ID IL IN KS KY LA MA MD ME MI MN MO MS MT
+NC ND NE NH NJ NM NV NY OH OK OR PA PR RI SC SD TN TX UT VA VI VT WA WI WV WY""".split())
+AI_WORDS = re.compile(r"\bAI\b|artificial intelligence|chatbot|generative", re.IGNORECASE)
+AI_UPPER = re.compile(r"\bAI\b")
 
 
-class DataFile(unittest.TestCase):
-    def test_well_formed(self):
-        self.assertEqual(tig.validate(DATA), [])
+class Data(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.doc = tig.load()
+        cls.awards = cls.doc["awards"]
+        cls.rows = {r["year"]: r for r in tig.summary(cls.awards)}
 
-    def test_counts_orgs_totals(self):
-        s = tig.summarize(AWARDS)
-        self.assertEqual(sorted(s), sorted(LISTED))
-        for year, (n, orgs, cents) in LISTED.items():
-            self.assertEqual((s[year]["awards"], s[year]["organizations"], s[year]["total_cents"]),
-                             (n, orgs, cents), year)
-        self.assertEqual(len(AWARDS), 164)
+    def test_award_counts_match_lsc(self):
+        for year, stated in self.doc["stated_totals"].items():
+            self.assertEqual(self.rows[int(year)]["awards"], stated["awards"], year)
 
-    def test_2022_matches_lsc_exact_total(self):
-        # LSC states $4,679,135 for 2022; the listed awards sum to $4,679,135.03.
-        self.assertEqual(tig.summarize(AWARDS)[2022]["total_cents"] // 100, 4679135)
+    def test_listed_dollars(self):
+        # Sums of the amounts as LSC printed them, award by award.
+        expected = {2021: 4268931, 2022: 4679135.03, 2023: 5157033, 2024: 6306081, 2025: 4064308}
+        for year, usd in expected.items():
+            self.assertAlmostEqual(self.rows[year]["dollars_listed"], usd, places=2)
+        # 2022 matches LSC's stated total to the dollar; 2021 is $7 under it.
+        self.assertEqual(int(self.rows[2022]["dollars_listed"]), self.doc["stated_totals"]["2022"]["usd"])
+        self.assertEqual(self.doc["stated_totals"]["2021"]["usd"] - self.rows[2021]["dollars_listed"], 7)
 
-    def test_2024_tips_have_no_description(self):
-        rows = [a for a in AWARDS if a["year"] == 2024 and a["category"] == "TIP"]
-        self.assertEqual(len(rows), 11)
-        self.assertTrue(all(not a["described"] and a["intake"] is None for a in rows))
+    def test_ai_counts(self):
+        got = {y: (r["ai_awards"], r["ai_intake_awards"], r["ai_dollars"]) for y, r in self.rows.items()}
+        self.assertEqual(got, {
+            2021: (1, 0, 93290),
+            2022: (2, 1, 261418.49),
+            2023: (4, 1, 1089634),
+            2024: (9, 2, 2720420),
+            2025: (12, 8, 1643948),
+        })
 
-    def test_missing_2025_award_is_noted_not_invented(self):
-        self.assertFalse(any(a["year"] == 2025 and "Greater Miami" in a["grantee"] for a in AWARDS))
-        self.assertIn("Greater Miami", " ".join(DATA["rounds"]["2025"]["notes"]))
+    def test_only_one_unpriced_award(self):
+        unpriced = [a for a in self.awards if a["amount_usd"] is None]
+        self.assertEqual([(a["year"], a["grantee"]) for a in unpriced],
+                         [(2025, "Legal Services of Greater Miami")])
+        self.assertEqual(unpriced[0]["source"], "2025-press")
 
+    def test_flags_are_consistent(self):
+        for a in self.awards:
+            label = "%s %s %s" % (a["year"], a["grantee"], a["amount_usd"])
+            self.assertIn(a["state"], STATES, label)
+            self.assertIn(str(a["year"]), self.doc["sources"], label)
+            self.assertIn(a.get("source", str(a["year"])), self.doc["sources"], label)
+            if a["mentions_ai"]:
+                self.assertTrue(a["ai_terms"] and AI_WORDS.search(a["ai_terms"]), label)
+            else:
+                self.assertIsNone(a["ai_terms"], label)
+            if not a["described"]:
+                self.assertFalse(a["mentions_ai"] or a["mentions_intake"], label)
 
-class AIShare(unittest.TestCase):
-    def test_ai_counts_and_dollars(self):
-        s = tig.summarize(AWARDS)
-        for year, (n, cents) in AI_ALL.items():
-            self.assertEqual((s[year]["ai_awards"], s[year]["ai_cents"]), (n, cents), year)
+    def test_ai_needs_uppercase_ai(self):
+        # 'Aid' must never count as AI.
+        for a in self.awards:
+            if a["mentions_ai"] and not re.search("artificial intelligence|chatbot", a["ai_terms"], re.I):
+                self.assertTrue(AI_UPPER.search(a["ai_terms"]), a["grantee"])
 
-    def test_dollar_share_by_round(self):
-        s = tig.summarize(AWARDS)
-        got = {y: round(v["ai_dollar_share"] * 100, 1) for y, v in s.items()}
-        self.assertEqual(got, {2021: 2.2, 2022: 5.6, 2023: 21.1, 2024: 43.1, 2025: 40.4})
+    def test_sources_are_lsc(self):
+        for url in self.doc["sources"].values():
+            self.assertTrue(url.startswith("https://www.lsc.gov/"), url)
 
-    def test_builds_only(self):
-        s = tig.summarize(AWARDS, kinds=("builds",))
-        self.assertEqual((s[2025]["ai_awards"], s[2025]["ai_cents"]), (6, 121074800))
-        self.assertEqual(round(s[2025]["ai_dollar_share"] * 100, 1), 29.8)
-        # Every AI mention before 2025 is a grant that builds or deploys AI.
-        for year in (2021, 2022, 2023, 2024):
-            self.assertEqual(s[year]["ai_cents"], AI_ALL[year][1], year)
-
-    def test_shares_are_fractions_and_kinds_nest(self):
-        wide = tig.summarize(AWARDS)
-        narrow = tig.summarize(AWARDS, kinds=("builds",))
-        for year in wide:
-            for key in ("ai_award_share", "ai_dollar_share"):
-                self.assertGreaterEqual(wide[year][key], 0.0)
-                self.assertLessEqual(wide[year][key], 1.0)
-                self.assertLessEqual(narrow[year][key], wide[year][key])
-
-    def test_word_ai_is_case_sensitive_in_evidence(self):
-        self.assertIsNotNone(tig.PHRASE_EVIDENCE.search("an AI-driven legal issue search"))
-        self.assertIsNotNone(tig.PHRASE_EVIDENCE.search("Artificial Intelligence"))
-        self.assertIsNone(tig.PHRASE_EVIDENCE.search("legal aid, an API and both bots"))
-        self.assertIsNone(tig.PHRASE_EVIDENCE.search("Legal Aid Content Intelligence"))
-
-    def test_ai_intake_leads(self):
-        leads = tig.ai_intake(AWARDS, years={2024, 2025})
-        self.assertEqual(sorted((a["year"], a["grantee"]) for a in leads), sorted([
-            (2024, "Legal Aid of North Carolina"),
-            (2025, "Florida Rural Legal Services"),
-            (2025, "Legal Aid of the Bluegrass"),
-            (2025, "Southern Minnesota Regional Legal Services"),
-            (2025, "Legal Services of Eastern Missouri"),
-            (2025, "Legal Services of the Hudson Valley"),
-            (2025, "Legal Aid Services of Oregon"),
-            (2025, "Legal Aid of Southeastern Pennsylvania"),
-            (2025, "Legal Aid Society of Middle Tennessee and the Cumberlands"),
+    def test_2025_ai_intake_awards(self):
+        names = sorted(a["grantee"] for a in tig.ai_awards(self.awards, 2025) if a["mentions_intake"])
+        self.assertEqual(names, sorted([
+            "Florida Rural Legal Services",
+            "Legal Aid of the Bluegrass",
+            "Southern Minnesota Regional Legal Services",
+            "Legal Services of Eastern Missouri",
+            "Legal Services of the Hudson Valley",
+            "Legal Aid Services of Oregon",
+            "Legal Aid of Southeastern Pennsylvania",
+            "The Legal Aid Society of Middle Tennessee and the Cumberlands",
         ]))
 
 
-class Statements(unittest.TestCase):
-    def test_total_rules(self):
-        self.assertTrue(tig.total_agrees(515703300, 510000000, "millions"))   # $5.16M as "$5.1 million"
-        self.assertFalse(tig.total_agrees(630608100, 620000000, "millions"))  # $6.31M is not "$6.2 million"
-        self.assertTrue(tig.total_agrees(467913503, 467913500, "exact"))
-        self.assertFalse(tig.total_agrees(406430800, 420000000, "over"))
-        with self.assertRaises(ValueError):
-            tig.total_agrees(1, 1, "about")
+class States(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.awards = tig.load()["awards"]
+        cls.rounds = tig.state_rounds(cls.awards)
 
-    def test_which_statements_agree(self):
-        got = [(r["year"], r["source"].split()[0], r["agrees"]) for r in tig.check_statements(DATA)]
-        self.assertEqual(got, [
-            (2021, "list", True),
-            (2022, "headline", True),
-            (2022, "body", True),
-            (2023, "body", True),
-            (2024, "headline", False),
-            (2024, "body", False),
-            (2025, "list", False),
-            (2025, "press", False),
-        ])
+    def test_jurisdictions(self):
+        self.assertEqual(len(tig.JURISDICTIONS), 51)
+        self.assertTrue(set(tig.JURISDICTIONS) <= STATES)
 
-    def test_2025_details(self):
-        r = [r for r in tig.check_statements(DATA) if r["year"] == 2025]
-        self.assertEqual(r[0]["grants"], {"stated": 32, "listed": 31, "agrees": False})
-        self.assertEqual(r[0]["organizations"], {"stated": 22, "listed": 28, "agrees": False})
-        self.assertEqual(r[1]["states"], {"stated": 22, "listed": 21, "agrees": False})
+    def test_no_award_in_five_rounds(self):
+        never = sorted(s for s, n in self.rounds.items() if n == 0)
+        self.assertEqual(never, ["IA", "IN", "MD", "NJ", "RI", "UT", "WY"])
 
-    def test_2024_body_count_agrees_but_total_does_not(self):
-        r = [r for r in tig.check_statements(DATA) if r["year"] == 2024 and r["source"] == "body"][0]
-        self.assertTrue(r["grants"]["agrees"])
-        self.assertFalse(r["total"]["agrees"])
+    def test_no_territory(self):
+        self.assertEqual(set(self.rounds), set(tig.JURISDICTIONS))
+
+    def test_every_round(self):
+        five = sorted(s for s, n in self.rounds.items() if n == 5)
+        self.assertEqual(five, ["CA", "FL", "GA", "IL", "KY", "MI", "MT", "PA"])
+        self.assertEqual(tig.every_round(self.awards),
+                         ["Land of Lincoln Legal Aid", "Montana Legal Services Association"])
+
+    def test_states_per_round(self):
+        # LSC's 2024 release says 22 states; its 2025 text says 22, the records give 21.
+        per_year = {}
+        for a in self.awards:
+            per_year.setdefault(a["year"], set()).add(a["state"])
+        self.assertEqual({y: len(s) for y, s in per_year.items()},
+                         {2021: 24, 2022: 25, 2023: 22, 2024: 22, 2025: 21})
 
 
 class Output(unittest.TestCase):
-    def test_dollars(self):
-        self.assertEqual(tig.dollars(467913503), "$4,679,135.03")
-        self.assertEqual(tig.dollars(3500000), "$35,000")
+    def test_readme_table_is_current(self):
+        table = tig.markdown(tig.summary(tig.load()["awards"]))
+        with open(os.path.join(HERE, "README.md"), encoding="utf-8") as f:
+            self.assertIn(table, f.read())
 
-    def test_csv(self):
-        with tempfile.TemporaryDirectory() as d:
-            path = os.path.join(d, "awards.csv")
-            tig.write_csv(AWARDS, path)
-            with open(path, newline="", encoding="utf-8") as f:
-                rows = list(csv.DictReader(f))
-        self.assertEqual(len(rows), 164)
-        self.assertEqual(list(rows[0]), tig.CSV_FIELDS)
-        self.assertEqual(sum(round(float(r["amount_usd"]) * 100) for r in rows),
-                         sum(v[2] for v in LISTED.values()))
+    def test_readme_states_table_is_current(self):
+        table = tig.states_markdown(tig.load()["awards"])
+        with open(os.path.join(HERE, "README.md"), encoding="utf-8") as f:
+            self.assertIn(table, f.read())
+
+    def test_shares(self):
+        self.assertEqual(tig.pct(9, 32), "28.1%")
+        self.assertEqual(tig.pct(2720420, 6306081), "43.1%")
+        self.assertEqual(tig.dollars(261418.49), "$261,418")
 
     def test_cli(self):
-        for argv in ([], ["--check"], ["--kinds", "builds"], ["--ai-intake", "2025"]):
-            buf = io.StringIO()
-            with contextlib.redirect_stdout(buf):
-                self.assertEqual(tig.main(argv), 0)
-            self.assertTrue(buf.getvalue().strip(), argv)
         buf = io.StringIO()
         with contextlib.redirect_stdout(buf):
-            tig.main(["--ai-intake", "2025"])
-        self.assertEqual(len(buf.getvalue().strip().splitlines()), 8)
+            self.assertEqual(tig.main(["--ai", "2025"]), 0)
+        lines = buf.getvalue().splitlines()
+        self.assertEqual(len(lines), 12)
+        self.assertTrue(any(l.startswith("Legal Services of Greater Miami (FL) unpublished") for l in lines))
+
+    def test_cli_states(self):
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            self.assertEqual(tig.main(["--states"]), 0)
+        out = buf.getvalue()
+        self.assertIn("| 0 | IA, IN, MD, NJ, RI, UT, WY (7) |", out)
+        self.assertTrue(out.rstrip().endswith(
+            "Award in every round: Land of Lincoln Legal Aid; Montana Legal Services Association"))
+
+    def test_licence(self):
+        with open(os.path.join(HERE, "README.md"), encoding="utf-8") as f:
+            self.assertIn("Apache-2.0", f.read())
 
 
 if __name__ == "__main__":
