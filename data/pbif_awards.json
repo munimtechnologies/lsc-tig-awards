@@ -1,0 +1,671 @@
+{
+ "name": "lsc-pbif-awards",
+ "source": {
+  "title": "LSC Pro Bono Innovation Fund: PBIF Awards",
+  "url": "https://www.lsc.gov/grants-grantee-resources/our-grant-programs/pro-bono-innovation-fund/awards"
+ },
+ "description": "LSC Pro Bono Innovation Fund awards as printed in the headings of LSC's PBIF Awards page, with each grantee's state taken from LSC's 2025 basic field notice. CC BY 4.0.",
+ "unmatched": [],
+ "awards": [
+  {
+   "grantee": "Legal Aid of East Tennessee",
+   "abbreviation": "LAET",
+   "track": "Planning",
+   "year": 2025,
+   "subject": null,
+   "printed_amount": "$62,673.00",
+   "amount_usd": 62673.0,
+   "state": "TN"
+  },
+  {
+   "grantee": "Legal Aid of Western Ohio",
+   "abbreviation": "LAWO",
+   "track": "Planning",
+   "year": 2025,
+   "subject": null,
+   "printed_amount": "$73,211.00",
+   "amount_usd": 73211.0,
+   "state": "OH"
+  },
+  {
+   "grantee": "South Carolina Legal Services",
+   "abbreviation": "SCLS",
+   "track": "Planning",
+   "year": 2025,
+   "subject": null,
+   "printed_amount": "$50,523.00",
+   "amount_usd": 50523.0,
+   "state": "SC"
+  },
+  {
+   "grantee": "Appalachian Research and Defense Fund of Kentucky",
+   "abbreviation": "AppalReD Legal Aid",
+   "track": "Planning",
+   "year": 2024,
+   "subject": null,
+   "printed_amount": "$65,076.00",
+   "amount_usd": 65076.0,
+   "state": "KY"
+  },
+  {
+   "grantee": "Atlanta Legal Aid Society",
+   "abbreviation": "ALAS",
+   "track": "Planning",
+   "year": 2024,
+   "subject": null,
+   "printed_amount": "$55,578.00",
+   "amount_usd": 55578.0,
+   "state": "GA"
+  },
+  {
+   "grantee": "Central California Legal Services",
+   "abbreviation": "CCLS",
+   "track": "Planning",
+   "year": 2024,
+   "subject": null,
+   "printed_amount": "$75,655.00",
+   "amount_usd": 75655.0,
+   "state": "CA"
+  },
+  {
+   "grantee": "Land of Lincoln Legal Aid",
+   "abbreviation": "LOLLA",
+   "track": "Planning",
+   "year": 2024,
+   "subject": null,
+   "printed_amount": "$89,098.00",
+   "amount_usd": 89098.0,
+   "state": "IL"
+  },
+  {
+   "grantee": "Legal Aid of North Carolina",
+   "abbreviation": "LANC",
+   "track": "Planning",
+   "year": 2024,
+   "subject": null,
+   "printed_amount": "$87,316.00",
+   "amount_usd": 87316.0,
+   "state": "NC"
+  },
+  {
+   "grantee": "Legal Aid Society",
+   "abbreviation": "LAS KY",
+   "track": "Planning",
+   "year": 2024,
+   "subject": null,
+   "printed_amount": "$68,090.00",
+   "amount_usd": 68090.0,
+   "state": "KY"
+  },
+  {
+   "grantee": "Legal Aid Society of Middle Tennessee and the Cumberlands",
+   "abbreviation": "LASMTC",
+   "track": "Planning",
+   "year": 2024,
+   "subject": null,
+   "printed_amount": "$73,218.00",
+   "amount_usd": 73218.0,
+   "state": "TN"
+  },
+  {
+   "grantee": "Nassau Suffolk Law Services Committee",
+   "abbreviation": "NSLS",
+   "track": "Planning",
+   "year": 2024,
+   "subject": null,
+   "printed_amount": "$75,000.00",
+   "amount_usd": 75000.0,
+   "state": "NY"
+  },
+  {
+   "grantee": "Legal Services of Northern Virginia",
+   "abbreviation": "LSNV",
+   "track": "Planning",
+   "year": 2023,
+   "subject": null,
+   "printed_amount": "$86,250",
+   "amount_usd": 86250.0,
+   "state": "VA"
+  },
+  {
+   "grantee": "Neighborhood Legal Services of Los Angeles County",
+   "abbreviation": "NLSLA",
+   "track": "Planning",
+   "year": 2023,
+   "subject": null,
+   "printed_amount": "$75,752.30",
+   "amount_usd": 75752.3,
+   "state": "CA"
+  },
+  {
+   "grantee": "West Tennessee Legal Services",
+   "abbreviation": "WTLS",
+   "track": "Planning",
+   "year": 2023,
+   "subject": null,
+   "printed_amount": "$56,717.00",
+   "amount_usd": 56717.0,
+   "state": "TN"
+  },
+  {
+   "grantee": "Alaska Legal Services Corporation",
+   "abbreviation": "ALSC",
+   "track": "Project",
+   "year": 2025,
+   "subject": "Domestic Violence",
+   "printed_amount": "$371,593.00",
+   "amount_usd": 371593.0,
+   "state": "AK"
+  },
+  {
+   "grantee": "Iowa Legal Aid",
+   "abbreviation": "ILA",
+   "track": "Project",
+   "year": 2025,
+   "subject": "Expungement",
+   "printed_amount": "$489,100.00",
+   "amount_usd": 489100.0,
+   "state": "IA"
+  },
+  {
+   "grantee": "Land of Lincoln Legal Aid",
+   "abbreviation": "LOLLA",
+   "track": "Project",
+   "year": 2025,
+   "subject": "Consumer",
+   "printed_amount": "$256,163.00",
+   "amount_usd": 256163.0,
+   "state": "IL"
+  },
+  {
+   "grantee": "Legal Aid Foundation of Los Angeles",
+   "abbreviation": "LAFLA",
+   "track": "Project",
+   "year": 2025,
+   "subject": "Clinic Model",
+   "printed_amount": "$344,578.00",
+   "amount_usd": 344578.0,
+   "state": "CA"
+  },
+  {
+   "grantee": "Legal Aid of Southeastern Pennsylvania",
+   "abbreviation": "LASP",
+   "track": "Project",
+   "year": 2025,
+   "subject": "Bankruptcy",
+   "printed_amount": "$324,556.00",
+   "amount_usd": 324556.0,
+   "state": "PA"
+  },
+  {
+   "grantee": "Legal Aid of the Bluegrass",
+   "abbreviation": "LABG",
+   "track": "Project",
+   "year": 2025,
+   "subject": "Expungement",
+   "printed_amount": "$358,129.00",
+   "amount_usd": 358129.0,
+   "state": "KY"
+  },
+  {
+   "grantee": "Legal Services of Northwest Minnesota",
+   "abbreviation": "LSNM",
+   "track": "Project",
+   "year": 2025,
+   "subject": "Estate Planning",
+   "printed_amount": "$218,895.00",
+   "amount_usd": 218895.0,
+   "state": "MN"
+  },
+  {
+   "grantee": "Michigan Advocacy Program",
+   "abbreviation": "MAP",
+   "track": "Project",
+   "year": 2025,
+   "subject": "Public Benefits",
+   "printed_amount": "$379,091.00",
+   "amount_usd": 379091.0,
+   "state": "MI"
+  },
+  {
+   "grantee": "Legal Aid Chicago",
+   "abbreviation": "LAC",
+   "track": "Project",
+   "year": 2024,
+   "subject": "Housing",
+   "printed_amount": "$392,214.19",
+   "amount_usd": 392214.19,
+   "state": "IL"
+  },
+  {
+   "grantee": "Legal Aid of Western Virginia",
+   "abbreviation": "LAWV",
+   "track": "Project",
+   "year": 2024,
+   "subject": "Family",
+   "printed_amount": "$235,465.00",
+   "amount_usd": 235465.0,
+   "state": "WV"
+  },
+  {
+   "grantee": "Legal Aid of Southeast and Central Ohio",
+   "abbreviation": "LASCO",
+   "track": "Project",
+   "year": 2024,
+   "subject": "Immigration",
+   "printed_amount": "$359,546.00",
+   "amount_usd": 359546.0,
+   "state": "OH"
+  },
+  {
+   "grantee": "Legal Aid of Western New York",
+   "abbreviation": "LawNY",
+   "track": "Project",
+   "year": 2024,
+   "subject": "Expungement",
+   "printed_amount": "$204,917.00",
+   "amount_usd": 204917.0,
+   "state": "NY"
+  },
+  {
+   "grantee": "Northeast New Jersey Legal Services Corporation",
+   "abbreviation": "NNJLS",
+   "track": "Project",
+   "year": 2024,
+   "subject": "Expungement",
+   "printed_amount": "$350,000.00",
+   "amount_usd": 350000.0,
+   "state": "NJ"
+  },
+  {
+   "grantee": "Community Legal Aid SoCal",
+   "abbreviation": "CLA SoCal",
+   "track": "Project",
+   "year": 2023,
+   "subject": "Housing",
+   "printed_amount": "$313,702.00",
+   "amount_usd": 313702.0,
+   "state": "CA"
+  },
+  {
+   "grantee": "Kansas Legal Services",
+   "abbreviation": "KLS",
+   "track": "Project",
+   "year": 2023,
+   "subject": "Driver\u2019s License Restoration",
+   "printed_amount": "$342,867.00",
+   "amount_usd": 342867.0,
+   "state": "KS"
+  },
+  {
+   "grantee": "Legal Aid of Northwest Texas",
+   "abbreviation": "LANWT",
+   "track": "Project",
+   "year": 2023,
+   "subject": "Expungement",
+   "printed_amount": "$384,937.00",
+   "amount_usd": 384937.0,
+   "state": "TX"
+  },
+  {
+   "grantee": "Legal Aid Society of Eastern Virginia",
+   "abbreviation": "LASEV",
+   "track": "Project",
+   "year": 2023,
+   "subject": "Housing",
+   "printed_amount": "$398,660.00",
+   "amount_usd": 398660.0,
+   "state": "VA"
+  },
+  {
+   "grantee": "Legal Services Vermont",
+   "abbreviation": "LSV",
+   "track": "Project",
+   "year": 2023,
+   "subject": "Volunteers",
+   "printed_amount": "$227,982.00",
+   "amount_usd": 227982.0,
+   "state": "VT"
+  },
+  {
+   "grantee": "Michigan Indian Legal Services",
+   "abbreviation": "MILS",
+   "track": "Project",
+   "year": 2023,
+   "subject": "Public Benefits",
+   "printed_amount": "$181,960.00",
+   "amount_usd": 181960.0,
+   "state": "MI"
+  },
+  {
+   "grantee": "Pine Tree Legal Assistance",
+   "abbreviation": "PTLA",
+   "track": "Project",
+   "year": 2023,
+   "subject": "Housing",
+   "printed_amount": "$372,223.60",
+   "amount_usd": 372223.6,
+   "state": "ME"
+  },
+  {
+   "grantee": "Prairie State Legal Services",
+   "abbreviation": "PSLS",
+   "track": "Project",
+   "year": 2023,
+   "subject": "Expungement",
+   "printed_amount": "$198,599.00",
+   "amount_usd": 198599.0,
+   "state": "IL"
+  },
+  {
+   "grantee": "Southeast Louisiana Legal Services",
+   "abbreviation": "SLLS",
+   "track": "Project",
+   "year": 2023,
+   "subject": "Housing",
+   "printed_amount": "$287,321.00",
+   "amount_usd": 287321.0,
+   "state": "LA"
+  },
+  {
+   "grantee": "Legal Aid Foundation of Los Angeles County",
+   "abbreviation": "LAFLA",
+   "track": "Project",
+   "year": 2022,
+   "subject": "Veterans",
+   "printed_amount": "$383,695.74",
+   "amount_usd": 383695.74,
+   "state": "CA"
+  },
+  {
+   "grantee": "Nevada Legal Services",
+   "abbreviation": "NLS",
+   "track": "Project",
+   "year": 2022,
+   "subject": "Family",
+   "printed_amount": "$377,782.08",
+   "amount_usd": 377782.08,
+   "state": "NV"
+  },
+  {
+   "grantee": "Northeast Legal Aid",
+   "abbreviation": "NLA",
+   "track": "Project",
+   "year": 2022,
+   "subject": "Housing",
+   "printed_amount": "$275,000.18",
+   "amount_usd": 275000.18,
+   "state": "MA"
+  },
+  {
+   "grantee": "Community Legal Aid SoCal",
+   "abbreviation": "CLSoCal",
+   "track": "Sustainability",
+   "year": 2025,
+   "subject": "Housing",
+   "printed_amount": "$336,130.00",
+   "amount_usd": 336130.0,
+   "state": "CA"
+  },
+  {
+   "grantee": "Legal Aid Society of Eastern Virginia",
+   "abbreviation": "LASEV",
+   "track": "Sustainability",
+   "year": 2025,
+   "subject": "Expungement",
+   "printed_amount": "$403,616.00",
+   "amount_usd": 403616.0,
+   "state": "VA"
+  },
+  {
+   "grantee": "Pine Tree Legal Assistance",
+   "abbreviation": "PTLA",
+   "track": "Sustainability",
+   "year": 2025,
+   "subject": "Housing",
+   "printed_amount": "$361,097.00",
+   "amount_usd": 361097.0,
+   "state": "ME"
+  },
+  {
+   "grantee": "Prairie State Legal Services",
+   "abbreviation": "PSLS",
+   "track": "Sustainability",
+   "year": 2025,
+   "subject": "Expungement",
+   "printed_amount": "$230,300.00",
+   "amount_usd": 230300.0,
+   "state": "IL"
+  },
+  {
+   "grantee": "California Rural Legal Assistance",
+   "abbreviation": "CRLA",
+   "track": "Sustainability",
+   "year": 2024,
+   "subject": "Expungement",
+   "printed_amount": "$346,060.00",
+   "amount_usd": 346060.0,
+   "state": "CA"
+  },
+  {
+   "grantee": "Land of Lincoln Legal Aid",
+   "abbreviation": "LOLLA",
+   "track": "Sustainability",
+   "year": 2024,
+   "subject": "Family",
+   "printed_amount": "$272,211.00",
+   "amount_usd": 272211.0,
+   "state": "IL"
+  },
+  {
+   "grantee": "Legal Action Wisconsin",
+   "abbreviation": "LAW",
+   "track": "Sustainability",
+   "year": 2024,
+   "subject": "Consumer",
+   "printed_amount": "$314,164.00",
+   "amount_usd": 314164.0,
+   "state": "WI"
+  },
+  {
+   "grantee": "The Legal Aid Society of Cleveland",
+   "abbreviation": "LASC",
+   "track": "Sustainability",
+   "year": 2024,
+   "subject": "Housing",
+   "printed_amount": "$478,532.00",
+   "amount_usd": 478532.0,
+   "state": "OH"
+  },
+  {
+   "grantee": "Michigan Advocacy Program",
+   "abbreviation": "MAP",
+   "track": "Sustainability",
+   "year": 2024,
+   "subject": "Expungement",
+   "printed_amount": "$311,095.00",
+   "amount_usd": 311095.0,
+   "state": "MI"
+  },
+  {
+   "grantee": "Legal Aid Society",
+   "abbreviation": "LAS KY",
+   "track": "Sustainability",
+   "year": 2023,
+   "subject": "Housing",
+   "printed_amount": "$198,090.00",
+   "amount_usd": 198090.0,
+   "state": "KY"
+  },
+  {
+   "grantee": "Legal Services NYC",
+   "abbreviation": "LSNYC",
+   "track": "Sustainability",
+   "year": 2023,
+   "subject": "Public Benefits",
+   "printed_amount": "$300,042.37",
+   "amount_usd": 300042.37,
+   "state": "NY"
+  },
+  {
+   "grantee": "Community Legal Aid Services",
+   "abbreviation": "CLASI",
+   "track": "Sustainability",
+   "year": 2022,
+   "subject": "Consumer",
+   "printed_amount": "$180,765.04",
+   "amount_usd": 180765.04,
+   "state": "OH"
+  },
+  {
+   "grantee": "Legal Aid Chicago",
+   "abbreviation": "LAC",
+   "track": "Sustainability",
+   "year": 2022,
+   "subject": "Expungement",
+   "printed_amount": "$256,495.98",
+   "amount_usd": 256495.98,
+   "state": "IL"
+  },
+  {
+   "grantee": "Southeast Louisiana Legal Services",
+   "abbreviation": "SLLS",
+   "track": "Sustainability",
+   "year": 2022,
+   "subject": "Housing",
+   "printed_amount": "$127,055.53",
+   "amount_usd": 127055.53,
+   "state": "LA"
+  },
+  {
+   "grantee": "Atlanta Legal Aid Society",
+   "abbreviation": "ALAS",
+   "track": "Transformation",
+   "year": 2025,
+   "subject": null,
+   "printed_amount": "$422,781.00",
+   "amount_usd": 422781.0,
+   "state": "GA"
+  },
+  {
+   "grantee": "Legal Aid of North Carolina",
+   "abbreviation": "LANC",
+   "track": "Transformation",
+   "year": 2025,
+   "subject": null,
+   "printed_amount": "$408,286.00",
+   "amount_usd": 408286.0,
+   "state": "NC"
+  },
+  {
+   "grantee": "Legal Aid Society of Middle Tennessee and the Cumberlands",
+   "abbreviation": "LASMTC",
+   "track": "Transformation",
+   "year": 2025,
+   "subject": null,
+   "printed_amount": "$106,717.00",
+   "amount_usd": 106717.0,
+   "state": "TN"
+  },
+  {
+   "grantee": "Neighborhood Legal Services of Los Angeles County",
+   "abbreviation": "NLSLA",
+   "track": "Transformation",
+   "year": 2025,
+   "subject": null,
+   "printed_amount": "$363,257.00",
+   "amount_usd": 363257.0,
+   "state": "CA"
+  },
+  {
+   "grantee": "Central Virginia Legal Aid Society",
+   "abbreviation": "CVLAS",
+   "track": "Transformation",
+   "year": 2024,
+   "subject": null,
+   "printed_amount": "$383,909.00",
+   "amount_usd": 383909.0,
+   "state": "VA"
+  },
+  {
+   "grantee": "Legal Services of Northern Virginia",
+   "abbreviation": "LSNV",
+   "track": "Transformation",
+   "year": 2024,
+   "subject": null,
+   "printed_amount": "$365,538.00",
+   "amount_usd": 365538.0,
+   "state": "VA"
+  },
+  {
+   "grantee": "Neighborhood Legal Services Association",
+   "abbreviation": "NLSA",
+   "track": "Transformation",
+   "year": 2024,
+   "subject": null,
+   "printed_amount": "$402,867.00",
+   "amount_usd": 402867.0,
+   "state": "PA"
+  },
+  {
+   "grantee": "West Tennessee Legal Services",
+   "abbreviation": "WTLS",
+   "track": "Transformation",
+   "year": 2024,
+   "subject": null,
+   "printed_amount": "$424,694.00",
+   "amount_usd": 424694.0,
+   "state": "TN"
+  },
+  {
+   "grantee": "Center for Arkansas Legal Services",
+   "abbreviation": "CALS",
+   "track": "Transformation",
+   "year": 2023,
+   "subject": null,
+   "printed_amount": "$378,710.00",
+   "amount_usd": 378710.0,
+   "state": "AR"
+  },
+  {
+   "grantee": "Legal Aid of Western Michigan",
+   "abbreviation": "LAWM",
+   "track": "Transformation",
+   "year": 2023,
+   "subject": null,
+   "printed_amount": "$443,982.00",
+   "amount_usd": 443982.0,
+   "state": "MI"
+  },
+  {
+   "grantee": "Legal Services of North Florida",
+   "abbreviation": "LSNF",
+   "track": "Transformation",
+   "year": 2023,
+   "subject": null,
+   "printed_amount": "$481,386,29",
+   "amount_usd": 481386.29,
+   "state": "FL"
+  },
+  {
+   "grantee": "Alaska Legal Services Corporation",
+   "abbreviation": "ALSC",
+   "track": "Transformation",
+   "year": 2022,
+   "subject": null,
+   "printed_amount": "$350,206.04",
+   "amount_usd": 350206.04,
+   "state": "AK"
+  },
+  {
+   "grantee": "Inland Counties Legal Services",
+   "abbreviation": "ICLS",
+   "track": "Transformation",
+   "year": 2022,
+   "subject": null,
+   "printed_amount": "$435,403,80",
+   "amount_usd": 435403.8,
+   "state": "CA"
+  }
+ ]
+}

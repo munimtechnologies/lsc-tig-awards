@@ -1,0 +1,89 @@
+{
+ "name": "lsc-pbif-releases",
+ "description": "Pro Bono Innovation Fund grants as printed in LSC's yearly press releases, used to check LSC's PBIF Awards page. Grantee names and amounts are copied as the release prints them (whole dollars). `complete` is true when the release prints every grant of its round with an amount. Counts and totals are LSC's own words. Read 16 October 2026. CC BY 4.0.",
+ "releases": [
+  {
+   "year": 2022,
+   "date": "2022-08-17",
+   "title": "2022 Pro Bono Grants Totaling $4.75 Million Awarded to Legal Aid Organizations",
+   "url": "https://www.lsc.gov/press-release/2022-pro-bono-grants-totaling-475-million-awarded-legal-aid-organizations",
+   "complete": true,
+   "stated_organizations": 15,
+   "stated_states": null,
+   "stated_total": "$4.75 million",
+   "grants": [
+    {"grantee": "Alaska Legal Services Corporation", "printed": "$350,206"},
+    {"grantee": "Inland Counties Legal Services", "printed": "$435,404"},
+    {"grantee": "Legal Aid Foundation of Los Angeles", "printed": "$383,696"},
+    {"grantee": "California Rural Legal Assistance", "printed": "$367,167"},
+    {"grantee": "Georgia Legal Services Program", "printed": "$304,946"},
+    {"grantee": "Land of Lincoln Legal Aid", "printed": "$369,179"},
+    {"grantee": "Legal Aid of Chicago", "printed": "$256,496"},
+    {"grantee": "Southeast Louisiana Legal Services Corporation", "printed": "$127,056"},
+    {"grantee": "Northeast Legal Aid", "printed": "$275,000"},
+    {"grantee": "Michigan Advocacy Program", "printed": "$320,906"},
+    {"grantee": "Nevada Legal Services", "printed": "$377,782"},
+    {"grantee": "Community Legal Aid Services, Inc.", "printed": "$180,764"},
+    {"grantee": "The Legal Aid Society of Cleveland", "printed": "$433,243"},
+    {"grantee": "Legal Services of the Virgin Islands", "printed": "$204,429"},
+    {"grantee": "Legal Action of Wisconsin", "printed": "$368,277"}
+   ]
+  },
+  {
+   "year": 2023,
+   "date": "2023-09-20",
+   "title": "2023 Pro Bono Grants Totaling $5 Million Awarded to Legal Aid Organizations",
+   "url": "https://www.lsc.gov/press-release/2023-pro-bono-grants-totaling-5-million-awarded-legal-aid-organizations",
+   "complete": true,
+   "stated_organizations": 17,
+   "stated_states": null,
+   "stated_total": "$5 million",
+   "grants": [
+    {"grantee": "Center for Arkansas Legal Services", "printed": "$394,344"},
+    {"grantee": "Community Legal Aid SoCal", "printed": "$313,702"},
+    {"grantee": "Neighborhood Legal Services of Los Angeles County", "printed": "$75,752"},
+    {"grantee": "Legal Services of North Florida", "printed": "$481,386"},
+    {"grantee": "Prairie State Legal Services", "printed": "$198,599"},
+    {"grantee": "Prairie State Legal Services", "printed": "$318,650"},
+    {"grantee": "Kansas Legal Services", "printed": "$334,132"},
+    {"grantee": "Legal Aid Society", "printed": "$198,090"},
+    {"grantee": "Southeast Louisiana Legal Services Corporation", "printed": "$287,321"},
+    {"grantee": "Pine Tree Legal Assistance", "printed": "$372,223"},
+    {"grantee": "Legal Aid of Western Michigan", "printed": "$443,982"},
+    {"grantee": "Michigan Indian Legal Services", "printed": "$181,960"},
+    {"grantee": "Legal Services NYC", "printed": "$300,042"},
+    {"grantee": "West Tennessee Legal Services", "printed": "$56,717"},
+    {"grantee": "Legal Aid of NorthWest Texas", "printed": "$384,937"},
+    {"grantee": "Legal Aid Society of Eastern Virginia", "printed": "$398,660"},
+    {"grantee": "Legal Services of Northern Virginia", "printed": "$86,250"},
+    {"grantee": "Legal Services Vermont", "printed": "$227,982"}
+   ]
+  },
+  {
+   "year": 2024,
+   "date": "2024-09-30",
+   "title": "LSC Awards $5.4 M for Legal Aid Pro Bono Programs",
+   "url": "https://www.lsc.gov/press-release/lsc-awards-54-m-legal-aid-pro-bono-programs",
+   "complete": false,
+   "stated_organizations": 21,
+   "stated_states": 14,
+   "stated_total": "over $5.4 million",
+   "grants": []
+  },
+  {
+   "year": 2025,
+   "date": "2025-09-11",
+   "title": "Legal Services Corporation Awards $5.5 M for Pro Bono Programs in 15 States",
+   "url": "https://www.lsc.gov/press-release/legal-services-corporation-awards-55-m-pro-bono-programs-15-states",
+   "complete": false,
+   "stated_organizations": 19,
+   "stated_states": 15,
+   "stated_total": "more than $5.5 million",
+   "grants": [
+    {"grantee": "Alaska Legal Services Corporation", "printed": "$371,593"},
+    {"grantee": "Land of Lincoln Legal Aid", "printed": "$265,153"},
+    {"grantee": "Pine Tree Legal Assistance", "printed": "$361,097"}
+   ]
+  }
+ ]
+}
