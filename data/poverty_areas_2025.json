@@ -1,0 +1,1306 @@
+[
+ {
+  "service_area": "AK-1",
+  "state": "AK",
+  "kind": "general",
+  "amount_2025_usd": 1164808,
+  "poverty_population": 98225,
+  "source": "printed"
+ },
+ {
+  "service_area": "AL-4",
+  "state": "AL",
+  "kind": "general",
+  "amount_2025_usd": 8750973,
+  "poverty_population": 737945,
+  "source": "derived"
+ },
+ {
+  "service_area": "AR-6",
+  "state": "AR",
+  "kind": "general",
+  "amount_2025_usd": 2032378,
+  "poverty_population": 171385,
+  "source": "derived"
+ },
+ {
+  "service_area": "AR-7",
+  "state": "AR",
+  "kind": "general",
+  "amount_2025_usd": 3059342,
+  "poverty_population": 257986,
+  "source": "derived"
+ },
+ {
+  "service_area": "AS-1",
+  "state": "AS",
+  "kind": "general",
+  "amount_2025_usd": 314015,
+  "poverty_population": 26480,
+  "source": "derived"
+ },
+ {
+  "service_area": "AZ-2",
+  "state": "AZ",
+  "kind": "general",
+  "amount_2025_usd": 611384,
+  "poverty_population": 51556,
+  "source": "printed"
+ },
+ {
+  "service_area": "AZ-3",
+  "state": "AZ",
+  "kind": "general",
+  "amount_2025_usd": 6707899,
+  "poverty_population": 565659,
+  "source": "derived"
+ },
+ {
+  "service_area": "AZ-5",
+  "state": "AZ",
+  "kind": "general",
+  "amount_2025_usd": 2929853,
+  "poverty_population": 247066,
+  "source": "derived"
+ },
+ {
+  "service_area": "CA-1",
+  "state": "CA",
+  "kind": "general",
+  "amount_2025_usd": 24495,
+  "poverty_population": 2066,
+  "source": "derived"
+ },
+ {
+  "service_area": "CA-12",
+  "state": "CA",
+  "kind": "general",
+  "amount_2025_usd": 6091858,
+  "poverty_population": 513709,
+  "source": "derived"
+ },
+ {
+  "service_area": "CA-14",
+  "state": "CA",
+  "kind": "general",
+  "amount_2025_usd": 3461331,
+  "poverty_population": 291884,
+  "source": "printed"
+ },
+ {
+  "service_area": "CA-19",
+  "state": "CA",
+  "kind": "general",
+  "amount_2025_usd": 4477012,
+  "poverty_population": 377534,
+  "source": "derived"
+ },
+ {
+  "service_area": "CA-2",
+  "state": "CA",
+  "kind": "general",
+  "amount_2025_usd": 1696585,
+  "poverty_population": 143068,
+  "source": "derived"
+ },
+ {
+  "service_area": "CA-26",
+  "state": "CA",
+  "kind": "general",
+  "amount_2025_usd": 3763684,
+  "poverty_population": 317381,
+  "source": "derived"
+ },
+ {
+  "service_area": "CA-27",
+  "state": "CA",
+  "kind": "general",
+  "amount_2025_usd": 5019313,
+  "poverty_population": 423265,
+  "source": "derived"
+ },
+ {
+  "service_area": "CA-28",
+  "state": "CA",
+  "kind": "general",
+  "amount_2025_usd": 6077900,
+  "poverty_population": 512532,
+  "source": "derived"
+ },
+ {
+  "service_area": "CA-29",
+  "state": "CA",
+  "kind": "general",
+  "amount_2025_usd": 7146969,
+  "poverty_population": 602684,
+  "source": "derived"
+ },
+ {
+  "service_area": "CA-30",
+  "state": "CA",
+  "kind": "general",
+  "amount_2025_usd": 5601424,
+  "poverty_population": 472353,
+  "source": "derived"
+ },
+ {
+  "service_area": "CA-31",
+  "state": "CA",
+  "kind": "general",
+  "amount_2025_usd": 6483119,
+  "poverty_population": 546703,
+  "source": "printed"
+ },
+ {
+  "service_area": "CO-6",
+  "state": "CO",
+  "kind": "general",
+  "amount_2025_usd": 6040901,
+  "poverty_population": 509412,
+  "source": "derived"
+ },
+ {
+  "service_area": "CT-1",
+  "state": "CT",
+  "kind": "general",
+  "amount_2025_usd": 4212822,
+  "poverty_population": 355256,
+  "source": "derived"
+ },
+ {
+  "service_area": "DC-1",
+  "state": "DC",
+  "kind": "general",
+  "amount_2025_usd": 1079960,
+  "poverty_population": 91070,
+  "source": "derived"
+ },
+ {
+  "service_area": "DE-1",
+  "state": "DE",
+  "kind": "general",
+  "amount_2025_usd": 1223573,
+  "poverty_population": 103180,
+  "source": "printed"
+ },
+ {
+  "service_area": "FL-13",
+  "state": "FL",
+  "kind": "general",
+  "amount_2025_usd": 2227254,
+  "poverty_population": 187818,
+  "source": "derived"
+ },
+ {
+  "service_area": "FL-14",
+  "state": "FL",
+  "kind": "general",
+  "amount_2025_usd": 3382885,
+  "poverty_population": 285269,
+  "source": "derived"
+ },
+ {
+  "service_area": "FL-15",
+  "state": "FL",
+  "kind": "general",
+  "amount_2025_usd": 6898210,
+  "poverty_population": 581707,
+  "source": "derived"
+ },
+ {
+  "service_area": "FL-16",
+  "state": "FL",
+  "kind": "general",
+  "amount_2025_usd": 5280016,
+  "poverty_population": 445249,
+  "source": "derived"
+ },
+ {
+  "service_area": "FL-17",
+  "state": "FL",
+  "kind": "general",
+  "amount_2025_usd": 5864861,
+  "poverty_population": 494567,
+  "source": "derived"
+ },
+ {
+  "service_area": "FL-18",
+  "state": "FL",
+  "kind": "general",
+  "amount_2025_usd": 3336864,
+  "poverty_population": 281388,
+  "source": "derived"
+ },
+ {
+  "service_area": "FL-5",
+  "state": "FL",
+  "kind": "general",
+  "amount_2025_usd": 4335324,
+  "poverty_population": 365586,
+  "source": "derived"
+ },
+ {
+  "service_area": "GA-1",
+  "state": "GA",
+  "kind": "general",
+  "amount_2025_usd": 5183192,
+  "poverty_population": 437084,
+  "source": "derived"
+ },
+ {
+  "service_area": "GA-2",
+  "state": "GA",
+  "kind": "general",
+  "amount_2025_usd": 11432892,
+  "poverty_population": 964104,
+  "source": "derived"
+ },
+ {
+  "service_area": "GU-1",
+  "state": "GU",
+  "kind": "general",
+  "amount_2025_usd": 348737,
+  "poverty_population": 29408,
+  "source": "derived"
+ },
+ {
+  "service_area": "HI-1",
+  "state": "HI",
+  "kind": "general",
+  "amount_2025_usd": 1967206,
+  "poverty_population": 165889,
+  "source": "derived"
+ },
+ {
+  "service_area": "IA-3",
+  "state": "IA",
+  "kind": "general",
+  "amount_2025_usd": 3854750,
+  "poverty_population": 325060,
+  "source": "printed"
+ },
+ {
+  "service_area": "ID-1",
+  "state": "ID",
+  "kind": "general",
+  "amount_2025_usd": 1851318,
+  "poverty_population": 156117,
+  "source": "printed"
+ },
+ {
+  "service_area": "IL-3",
+  "state": "IL",
+  "kind": "general",
+  "amount_2025_usd": 3525538,
+  "poverty_population": 297299,
+  "source": "derived"
+ },
+ {
+  "service_area": "IL-6",
+  "state": "IL",
+  "kind": "general",
+  "amount_2025_usd": 7748398,
+  "poverty_population": 653401,
+  "source": "derived"
+ },
+ {
+  "service_area": "IL-7",
+  "state": "IL",
+  "kind": "general",
+  "amount_2025_usd": 5353610,
+  "poverty_population": 451455,
+  "source": "derived"
+ },
+ {
+  "service_area": "IN-5",
+  "state": "IN",
+  "kind": "general",
+  "amount_2025_usd": 9535954,
+  "poverty_population": 804141,
+  "source": "derived"
+ },
+ {
+  "service_area": "KS-1",
+  "state": "KS",
+  "kind": "general",
+  "amount_2025_usd": 3790590,
+  "poverty_population": 319650,
+  "source": "printed"
+ },
+ {
+  "service_area": "KY-10",
+  "state": "KY",
+  "kind": "general",
+  "amount_2025_usd": 2039664,
+  "poverty_population": 171999,
+  "source": "derived"
+ },
+ {
+  "service_area": "KY-2",
+  "state": "KY",
+  "kind": "general",
+  "amount_2025_usd": 2166654,
+  "poverty_population": 182708,
+  "source": "derived"
+ },
+ {
+  "service_area": "KY-5",
+  "state": "KY",
+  "kind": "general",
+  "amount_2025_usd": 2282338,
+  "poverty_population": 192463,
+  "source": "printed"
+ },
+ {
+  "service_area": "KY-9",
+  "state": "KY",
+  "kind": "general",
+  "amount_2025_usd": 1741089,
+  "poverty_population": 146821,
+  "source": "derived"
+ },
+ {
+  "service_area": "LA-13",
+  "state": "LA",
+  "kind": "general",
+  "amount_2025_usd": 4843304,
+  "poverty_population": 408422,
+  "source": "derived"
+ },
+ {
+  "service_area": "LA-15",
+  "state": "LA",
+  "kind": "general",
+  "amount_2025_usd": 4774162,
+  "poverty_population": 402592,
+  "source": "derived"
+ },
+ {
+  "service_area": "MA-10",
+  "state": "MA",
+  "kind": "general",
+  "amount_2025_usd": 2498686,
+  "poverty_population": 210707,
+  "source": "derived"
+ },
+ {
+  "service_area": "MA-11",
+  "state": "MA",
+  "kind": "general",
+  "amount_2025_usd": 2978618,
+  "poverty_population": 251179,
+  "source": "derived"
+ },
+ {
+  "service_area": "MA-12",
+  "state": "MA",
+  "kind": "general",
+  "amount_2025_usd": 1579769,
+  "poverty_population": 133218,
+  "source": "derived"
+ },
+ {
+  "service_area": "MA-4",
+  "state": "MA",
+  "kind": "general",
+  "amount_2025_usd": 1234941,
+  "poverty_population": 104139,
+  "source": "derived"
+ },
+ {
+  "service_area": "MAZ",
+  "state": "AZ",
+  "kind": "agricultural_worker",
+  "amount_2025_usd": 487788,
+  "poverty_population": 41134,
+  "source": "derived"
+ },
+ {
+  "service_area": "MCA",
+  "state": "CA",
+  "kind": "agricultural_worker",
+  "amount_2025_usd": 4571473,
+  "poverty_population": 385500,
+  "source": "printed"
+ },
+ {
+  "service_area": "MCO",
+  "state": "CO",
+  "kind": "agricultural_worker",
+  "amount_2025_usd": 321278,
+  "poverty_population": 27092,
+  "source": "derived"
+ },
+ {
+  "service_area": "MD-1",
+  "state": "MD",
+  "kind": "general",
+  "amount_2025_usd": 6656508,
+  "poverty_population": 561325,
+  "source": "derived"
+ },
+ {
+  "service_area": "MDE",
+  "state": "DE",
+  "kind": "agricultural_worker",
+  "amount_2025_usd": 33732,
+  "poverty_population": 2845,
+  "source": "derived"
+ },
+ {
+  "service_area": "ME-1",
+  "state": "ME",
+  "kind": "general",
+  "amount_2025_usd": 1554224,
+  "poverty_population": 131063,
+  "source": "printed"
+ },
+ {
+  "service_area": "MFL",
+  "state": "FL",
+  "kind": "agricultural_worker",
+  "amount_2025_usd": 1042718,
+  "poverty_population": 87930,
+  "source": "derived"
+ },
+ {
+  "service_area": "MGA",
+  "state": "GA",
+  "kind": "agricultural_worker",
+  "amount_2025_usd": 713016,
+  "poverty_population": 60127,
+  "source": "derived"
+ },
+ {
+  "service_area": "MI-12",
+  "state": "MI",
+  "kind": "general",
+  "amount_2025_usd": 2445571,
+  "poverty_population": 206228,
+  "source": "derived"
+ },
+ {
+  "service_area": "MI-13",
+  "state": "MI",
+  "kind": "general",
+  "amount_2025_usd": 6213347,
+  "poverty_population": 523954,
+  "source": "printed"
+ },
+ {
+  "service_area": "MI-14",
+  "state": "MI",
+  "kind": "general",
+  "amount_2025_usd": 2270726,
+  "poverty_population": 191484,
+  "source": "printed"
+ },
+ {
+  "service_area": "MI-15",
+  "state": "MI",
+  "kind": "general",
+  "amount_2025_usd": 2885740,
+  "poverty_population": 243346,
+  "source": "derived"
+ },
+ {
+  "service_area": "MI-9",
+  "state": "MI",
+  "kind": "general",
+  "amount_2025_usd": 1199133,
+  "poverty_population": 101120,
+  "source": "derived"
+ },
+ {
+  "service_area": "MIA",
+  "state": "IA",
+  "kind": "agricultural_worker",
+  "amount_2025_usd": 310274,
+  "poverty_population": 26165,
+  "source": "printed"
+ },
+ {
+  "service_area": "MID",
+  "state": "ID",
+  "kind": "agricultural_worker",
+  "amount_2025_usd": 444915,
+  "poverty_population": 37518,
+  "source": "printed"
+ },
+ {
+  "service_area": "MIL",
+  "state": "IL",
+  "kind": "agricultural_worker",
+  "amount_2025_usd": 288935,
+  "poverty_population": 24365,
+  "source": "derived"
+ },
+ {
+  "service_area": "MIN",
+  "state": "IN",
+  "kind": "agricultural_worker",
+  "amount_2025_usd": 204672,
+  "poverty_population": 17259,
+  "source": "derived"
+ },
+ {
+  "service_area": "MMD",
+  "state": "MD",
+  "kind": "agricultural_worker",
+  "amount_2025_usd": 152206,
+  "poverty_population": 12835,
+  "source": "derived"
+ },
+ {
+  "service_area": "MMI",
+  "state": "MI",
+  "kind": "agricultural_worker",
+  "amount_2025_usd": 718716,
+  "poverty_population": 60607,
+  "source": "derived"
+ },
+ {
+  "service_area": "MMN",
+  "state": "MN",
+  "kind": "agricultural_worker",
+  "amount_2025_usd": 552260,
+  "poverty_population": 46571,
+  "source": "derived"
+ },
+ {
+  "service_area": "MMO",
+  "state": "MO",
+  "kind": "agricultural_worker",
+  "amount_2025_usd": 213321,
+  "poverty_population": 17989,
+  "source": "derived"
+ },
+ {
+  "service_area": "MMT",
+  "state": "MT",
+  "kind": "agricultural_worker",
+  "amount_2025_usd": 179939,
+  "poverty_population": 15174,
+  "source": "derived"
+ },
+ {
+  "service_area": "MMX-1",
+  "state": "ME",
+  "kind": "agricultural_worker",
+  "amount_2025_usd": 393989,
+  "poverty_population": 33224,
+  "source": "printed"
+ },
+ {
+  "service_area": "MN-1",
+  "state": "MN",
+  "kind": "general",
+  "amount_2025_usd": 590043,
+  "poverty_population": 49757,
+  "source": "derived"
+ },
+ {
+  "service_area": "MN-4",
+  "state": "MN",
+  "kind": "general",
+  "amount_2025_usd": 530440,
+  "poverty_population": 44731,
+  "source": "derived"
+ },
+ {
+  "service_area": "MN-5",
+  "state": "MN",
+  "kind": "general",
+  "amount_2025_usd": 2149346,
+  "poverty_population": 181248,
+  "source": "derived"
+ },
+ {
+  "service_area": "MN-6",
+  "state": "MN",
+  "kind": "general",
+  "amount_2025_usd": 2351480,
+  "poverty_population": 198294,
+  "source": "derived"
+ },
+ {
+  "service_area": "MNC",
+  "state": "NC",
+  "kind": "agricultural_worker",
+  "amount_2025_usd": 819300,
+  "poverty_population": 69089,
+  "source": "derived"
+ },
+ {
+  "service_area": "MND",
+  "state": "ND",
+  "kind": "agricultural_worker",
+  "amount_2025_usd": 144610,
+  "poverty_population": 12195,
+  "source": "derived"
+ },
+ {
+  "service_area": "MNE",
+  "state": "NE",
+  "kind": "agricultural_worker",
+  "amount_2025_usd": 247544,
+  "poverty_population": 20875,
+  "source": "printed"
+ },
+ {
+  "service_area": "MNJ",
+  "state": "NJ",
+  "kind": "agricultural_worker",
+  "amount_2025_usd": 180507,
+  "poverty_population": 15222,
+  "source": "printed"
+ },
+ {
+  "service_area": "MNM",
+  "state": "NM",
+  "kind": "agricultural_worker",
+  "amount_2025_usd": 215564,
+  "poverty_population": 18178,
+  "source": "derived"
+ },
+ {
+  "service_area": "MNY",
+  "state": "NY",
+  "kind": "agricultural_worker",
+  "amount_2025_usd": 391497,
+  "poverty_population": 33014,
+  "source": "derived"
+ },
+ {
+  "service_area": "MO-3",
+  "state": "MO",
+  "kind": "general",
+  "amount_2025_usd": 2730859,
+  "poverty_population": 230286,
+  "source": "derived"
+ },
+ {
+  "service_area": "MO-4",
+  "state": "MO",
+  "kind": "general",
+  "amount_2025_usd": 2713284,
+  "poverty_population": 228804,
+  "source": "derived"
+ },
+ {
+  "service_area": "MO-5",
+  "state": "MO",
+  "kind": "general",
+  "amount_2025_usd": 649748,
+  "poverty_population": 54791,
+  "source": "derived"
+ },
+ {
+  "service_area": "MO-7",
+  "state": "MO",
+  "kind": "general",
+  "amount_2025_usd": 2233446,
+  "poverty_population": 188340,
+  "source": "derived"
+ },
+ {
+  "service_area": "MOH",
+  "state": "OH",
+  "kind": "agricultural_worker",
+  "amount_2025_usd": 251513,
+  "poverty_population": 21209,
+  "source": "derived"
+ },
+ {
+  "service_area": "MOK",
+  "state": "OK",
+  "kind": "agricultural_worker",
+  "amount_2025_usd": 345613,
+  "poverty_population": 29145,
+  "source": "derived"
+ },
+ {
+  "service_area": "MOR",
+  "state": "OR",
+  "kind": "agricultural_worker",
+  "amount_2025_usd": 644790,
+  "poverty_population": 54373,
+  "source": "printed"
+ },
+ {
+  "service_area": "MP-1",
+  "state": "MP",
+  "kind": "general",
+  "amount_2025_usd": 1874768,
+  "poverty_population": 158094,
+  "source": "derived"
+ },
+ {
+  "service_area": "MPA",
+  "state": "PA",
+  "kind": "agricultural_worker",
+  "amount_2025_usd": 486158,
+  "poverty_population": 40996,
+  "source": "derived"
+ },
+ {
+  "service_area": "MPR",
+  "state": "PR",
+  "kind": "agricultural_worker",
+  "amount_2025_usd": 72608,
+  "poverty_population": 6123,
+  "source": "derived"
+ },
+ {
+  "service_area": "MS-10",
+  "state": "MS",
+  "kind": "general",
+  "amount_2025_usd": 3433299,
+  "poverty_population": 289521,
+  "source": "derived"
+ },
+ {
+  "service_area": "MS-9",
+  "state": "MS",
+  "kind": "general",
+  "amount_2025_usd": 2265149,
+  "poverty_population": 191014,
+  "source": "derived"
+ },
+ {
+  "service_area": "MSC",
+  "state": "SC",
+  "kind": "agricultural_worker",
+  "amount_2025_usd": 319726,
+  "poverty_population": 26962,
+  "source": "derived"
+ },
+ {
+  "service_area": "MSX-2",
+  "state": "TX",
+  "kind": "agricultural_worker",
+  "amount_2025_usd": 3398860,
+  "poverty_population": 286616,
+  "source": "derived"
+ },
+ {
+  "service_area": "MT-1",
+  "state": "MT",
+  "kind": "general",
+  "amount_2025_usd": 1359362,
+  "poverty_population": 114631,
+  "source": "derived"
+ },
+ {
+  "service_area": "MUT",
+  "state": "UT",
+  "kind": "agricultural_worker",
+  "amount_2025_usd": 127323,
+  "poverty_population": 10737,
+  "source": "printed"
+ },
+ {
+  "service_area": "MVA",
+  "state": "VA",
+  "kind": "agricultural_worker",
+  "amount_2025_usd": 365814,
+  "poverty_population": 30848,
+  "source": "printed"
+ },
+ {
+  "service_area": "MWA",
+  "state": "WA",
+  "kind": "agricultural_worker",
+  "amount_2025_usd": 1197930,
+  "poverty_population": 101018,
+  "source": "printed"
+ },
+ {
+  "service_area": "MWI",
+  "state": "WI",
+  "kind": "agricultural_worker",
+  "amount_2025_usd": 555641,
+  "poverty_population": 46856,
+  "source": "derived"
+ },
+ {
+  "service_area": "NC-5",
+  "state": "NC",
+  "kind": "general",
+  "amount_2025_usd": 15181463,
+  "poverty_population": 1280211,
+  "source": "derived"
+ },
+ {
+  "service_area": "ND-3",
+  "state": "ND",
+  "kind": "general",
+  "amount_2025_usd": 731026,
+  "poverty_population": 61645,
+  "source": "derived"
+ },
+ {
+  "service_area": "NE-4",
+  "state": "NE",
+  "kind": "general",
+  "amount_2025_usd": 2148835,
+  "poverty_population": 181205,
+  "source": "printed"
+ },
+ {
+  "service_area": "NH-1",
+  "state": "NH",
+  "kind": "general",
+  "amount_2025_usd": 1124426,
+  "poverty_population": 94820,
+  "source": "derived"
+ },
+ {
+  "service_area": "NJ-15",
+  "state": "NJ",
+  "kind": "general",
+  "amount_2025_usd": 758392,
+  "poverty_population": 63953,
+  "source": "printed"
+ },
+ {
+  "service_area": "NJ-17",
+  "state": "NJ",
+  "kind": "general",
+  "amount_2025_usd": 1869464,
+  "poverty_population": 157647,
+  "source": "printed"
+ },
+ {
+  "service_area": "NJ-18",
+  "state": "NJ",
+  "kind": "general",
+  "amount_2025_usd": 2814627,
+  "poverty_population": 237350,
+  "source": "printed"
+ },
+ {
+  "service_area": "NJ-20",
+  "state": "NJ",
+  "kind": "general",
+  "amount_2025_usd": 3514627,
+  "poverty_population": 296379,
+  "source": "printed"
+ },
+ {
+  "service_area": "NJ-8",
+  "state": "NJ",
+  "kind": "general",
+  "amount_2025_usd": 1378205,
+  "poverty_population": 116220,
+  "source": "printed"
+ },
+ {
+  "service_area": "NM-1",
+  "state": "NM",
+  "kind": "general",
+  "amount_2025_usd": 284496,
+  "poverty_population": 23991,
+  "source": "printed"
+ },
+ {
+  "service_area": "NM-5",
+  "state": "NM",
+  "kind": "general",
+  "amount_2025_usd": 3871837,
+  "poverty_population": 326501,
+  "source": "derived"
+ },
+ {
+  "service_area": "NV-1",
+  "state": "NV",
+  "kind": "general",
+  "amount_2025_usd": 4476668,
+  "poverty_population": 377505,
+  "source": "printed"
+ },
+ {
+  "service_area": "NY-20",
+  "state": "NY",
+  "kind": "general",
+  "amount_2025_usd": 3001759,
+  "poverty_population": 253130,
+  "source": "derived"
+ },
+ {
+  "service_area": "NY-21",
+  "state": "NY",
+  "kind": "general",
+  "amount_2025_usd": 2223558,
+  "poverty_population": 187506,
+  "source": "derived"
+ },
+ {
+  "service_area": "NY-22",
+  "state": "NY",
+  "kind": "general",
+  "amount_2025_usd": 2492329,
+  "poverty_population": 210171,
+  "source": "derived"
+ },
+ {
+  "service_area": "NY-23",
+  "state": "NY",
+  "kind": "general",
+  "amount_2025_usd": 2582642,
+  "poverty_population": 217787,
+  "source": "derived"
+ },
+ {
+  "service_area": "NY-24",
+  "state": "NY",
+  "kind": "general",
+  "amount_2025_usd": 2032390,
+  "poverty_population": 171386,
+  "source": "derived"
+ },
+ {
+  "service_area": "NY-7",
+  "state": "NY",
+  "kind": "general",
+  "amount_2025_usd": 2058921,
+  "poverty_population": 173623,
+  "source": "derived"
+ },
+ {
+  "service_area": "NY-9",
+  "state": "NY",
+  "kind": "general",
+  "amount_2025_usd": 17270072,
+  "poverty_population": 1456337,
+  "source": "derived"
+ },
+ {
+  "service_area": "OH-18",
+  "state": "OH",
+  "kind": "general",
+  "amount_2025_usd": 2369019,
+  "poverty_population": 199773,
+  "source": "derived"
+ },
+ {
+  "service_area": "OH-20",
+  "state": "OH",
+  "kind": "general",
+  "amount_2025_usd": 2943543,
+  "poverty_population": 248221,
+  "source": "derived"
+ },
+ {
+  "service_area": "OH-21",
+  "state": "OH",
+  "kind": "general",
+  "amount_2025_usd": 3178825,
+  "poverty_population": 268061,
+  "source": "derived"
+ },
+ {
+  "service_area": "OH-23",
+  "state": "OH",
+  "kind": "general",
+  "amount_2025_usd": 4160123,
+  "poverty_population": 350812,
+  "source": "derived"
+ },
+ {
+  "service_area": "OH-24",
+  "state": "OH",
+  "kind": "general",
+  "amount_2025_usd": 5215678,
+  "poverty_population": 439824,
+  "source": "printed"
+ },
+ {
+  "service_area": "OK-3",
+  "state": "OK",
+  "kind": "general",
+  "amount_2025_usd": 7080042,
+  "poverty_population": 597040,
+  "source": "derived"
+ },
+ {
+  "service_area": "OR-6",
+  "state": "OR",
+  "kind": "general",
+  "amount_2025_usd": 5362107,
+  "poverty_population": 452172,
+  "source": "printed"
+ },
+ {
+  "service_area": "PA-1",
+  "state": "PA",
+  "kind": "general",
+  "amount_2025_usd": 3532146,
+  "poverty_population": 297856,
+  "source": "derived"
+ },
+ {
+  "service_area": "PA-23",
+  "state": "PA",
+  "kind": "general",
+  "amount_2025_usd": 2249087,
+  "poverty_population": 189659,
+  "source": "derived"
+ },
+ {
+  "service_area": "PA-24",
+  "state": "PA",
+  "kind": "general",
+  "amount_2025_usd": 3094290,
+  "poverty_population": 260933,
+  "source": "derived"
+ },
+ {
+  "service_area": "PA-25",
+  "state": "PA",
+  "kind": "general",
+  "amount_2025_usd": 3765838,
+  "poverty_population": 317563,
+  "source": "printed"
+ },
+ {
+  "service_area": "PA-26",
+  "state": "PA",
+  "kind": "general",
+  "amount_2025_usd": 912334,
+  "poverty_population": 76935,
+  "source": "derived"
+ },
+ {
+  "service_area": "PA-27",
+  "state": "PA",
+  "kind": "general",
+  "amount_2025_usd": 1632271,
+  "poverty_population": 137645,
+  "source": "printed"
+ },
+ {
+  "service_area": "PA-8",
+  "state": "PA",
+  "kind": "general",
+  "amount_2025_usd": 2127050,
+  "poverty_population": 179368,
+  "source": "derived"
+ },
+ {
+  "service_area": "PR-1",
+  "state": "PR",
+  "kind": "general",
+  "amount_2025_usd": 14540452,
+  "poverty_population": 1226156,
+  "source": "derived"
+ },
+ {
+  "service_area": "PR-2",
+  "state": "PR",
+  "kind": "general",
+  "amount_2025_usd": 300331,
+  "poverty_population": 25326,
+  "source": "derived"
+ },
+ {
+  "service_area": "RI-1",
+  "state": "RI",
+  "kind": "general",
+  "amount_2025_usd": 1347809,
+  "poverty_population": 113657,
+  "source": "printed"
+ },
+ {
+  "service_area": "SC-8",
+  "state": "SC",
+  "kind": "general",
+  "amount_2025_usd": 8299079,
+  "poverty_population": 699838,
+  "source": "derived"
+ },
+ {
+  "service_area": "SD-2",
+  "state": "SD",
+  "kind": "general",
+  "amount_2025_usd": 664495,
+  "poverty_population": 56035,
+  "source": "derived"
+ },
+ {
+  "service_area": "SD-4",
+  "state": "SD",
+  "kind": "general",
+  "amount_2025_usd": 576919,
+  "poverty_population": 48650,
+  "source": "printed"
+ },
+ {
+  "service_area": "TN-10",
+  "state": "TN",
+  "kind": "general",
+  "amount_2025_usd": 4486365,
+  "poverty_population": 378323,
+  "source": "derived"
+ },
+ {
+  "service_area": "TN-4",
+  "state": "TN",
+  "kind": "general",
+  "amount_2025_usd": 2111084,
+  "poverty_population": 178022,
+  "source": "printed"
+ },
+ {
+  "service_area": "TN-7",
+  "state": "TN",
+  "kind": "general",
+  "amount_2025_usd": 1079731,
+  "poverty_population": 91051,
+  "source": "derived"
+ },
+ {
+  "service_area": "TN-9",
+  "state": "TN",
+  "kind": "general",
+  "amount_2025_usd": 3660807,
+  "poverty_population": 308706,
+  "source": "derived"
+ },
+ {
+  "service_area": "TX-13",
+  "state": "TX",
+  "kind": "general",
+  "amount_2025_usd": 18089444,
+  "poverty_population": 1525433,
+  "source": "derived"
+ },
+ {
+  "service_area": "TX-14",
+  "state": "TX",
+  "kind": "general",
+  "amount_2025_usd": 13205098,
+  "poverty_population": 1113549,
+  "source": "printed"
+ },
+ {
+  "service_area": "TX-15",
+  "state": "TX",
+  "kind": "general",
+  "amount_2025_usd": 15932266,
+  "poverty_population": 1343524,
+  "source": "derived"
+ },
+ {
+  "service_area": "UT-1",
+  "state": "UT",
+  "kind": "general",
+  "amount_2025_usd": 3480646,
+  "poverty_population": 293513,
+  "source": "printed"
+ },
+ {
+  "service_area": "VA-15",
+  "state": "VA",
+  "kind": "general",
+  "amount_2025_usd": 1153314,
+  "poverty_population": 97256,
+  "source": "printed"
+ },
+ {
+  "service_area": "VA-16",
+  "state": "VA",
+  "kind": "general",
+  "amount_2025_usd": 2165801,
+  "poverty_population": 182636,
+  "source": "printed"
+ },
+ {
+  "service_area": "VA-17",
+  "state": "VA",
+  "kind": "general",
+  "amount_2025_usd": 1236048,
+  "poverty_population": 104232,
+  "source": "derived"
+ },
+ {
+  "service_area": "VA-18",
+  "state": "VA",
+  "kind": "general",
+  "amount_2025_usd": 1788548,
+  "poverty_population": 150823,
+  "source": "printed"
+ },
+ {
+  "service_area": "VA-19",
+  "state": "VA",
+  "kind": "general",
+  "amount_2025_usd": 1290767,
+  "poverty_population": 108847,
+  "source": "derived"
+ },
+ {
+  "service_area": "VA-20",
+  "state": "VA",
+  "kind": "general",
+  "amount_2025_usd": 2250194,
+  "poverty_population": 189753,
+  "source": "derived"
+ },
+ {
+  "service_area": "VI-1",
+  "state": "VI",
+  "kind": "general",
+  "amount_2025_usd": 229321,
+  "poverty_population": 19338,
+  "source": "printed"
+ },
+ {
+  "service_area": "VT-1",
+  "state": "VT",
+  "kind": "general",
+  "amount_2025_usd": 648871,
+  "poverty_population": 54718,
+  "source": "printed"
+ },
+ {
+  "service_area": "WA-1",
+  "state": "WA",
+  "kind": "general",
+  "amount_2025_usd": 8222810,
+  "poverty_population": 693407,
+  "source": "printed"
+ },
+ {
+  "service_area": "WI-2",
+  "state": "WI",
+  "kind": "general",
+  "amount_2025_usd": 1367428,
+  "poverty_population": 115311,
+  "source": "printed"
+ },
+ {
+  "service_area": "WI-5",
+  "state": "WI",
+  "kind": "general",
+  "amount_2025_usd": 5392184,
+  "poverty_population": 454708,
+  "source": "derived"
+ },
+ {
+  "service_area": "WV-5",
+  "state": "WV",
+  "kind": "general",
+  "amount_2025_usd": 3388941,
+  "poverty_population": 285780,
+  "source": "derived"
+ },
+ {
+  "service_area": "WY-4",
+  "state": "WY",
+  "kind": "general",
+  "amount_2025_usd": 762624,
+  "poverty_population": 64310,
+  "source": "derived"
+ }
+]

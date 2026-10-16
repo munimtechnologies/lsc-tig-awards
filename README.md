@@ -115,13 +115,94 @@ Where the basic field figures come from: LSC's Notice of Intent to Award for 202
 What this does and doesn't say:
 
 - It compares five rounds of TIG awards (2021-2025) with **one** year of basic field money (2025). Each state's share of basic field money moves slowly: LSC says the poverty estimates it allocates by change only every three years. But it is not fixed.
-- A state's basic field share is close to, not exactly, its poverty share. LSC's [allocation rule](https://www.lsc.gov/grants/basic-field-grant/basic-field-allocation-process) sets aside a fixed 2.802% of the basic field appropriation for Native American service areas and splits the rest among general and agricultural worker areas by their share of the US poverty population (American Community Survey for general areas, Decennial Census for American Samoa, Guam and the Virgin Islands, Department of Labor figures for agricultural worker areas).
+- A state's basic field share is close to, not exactly, its poverty share. LSC's [allocation rule](https://www.lsc.gov/grants/basic-field-grant/basic-field-allocation-process) sets aside a fixed 2.802% of the basic field appropriation for Native American service areas and splits the rest among general and agricultural worker areas by their share of the US poverty population (American Community Survey for general areas, Decennial Census for American Samoa, Guam and the Virgin Islands, Department of Labor figures for agricultural worker areas). The next section divides by people in poverty instead.
 - The 2025 amounts are LSC's **estimates** from November 2024, made before the final FY2025 appropriation.
 - 2025 is the newest year available this way. LSC published a Notice of Intent to Award in the Federal Register every autumn from 2016 to 2024, but as of 16 October 2026 there is none for 2026 grants (Federal Register API search of LSC documents).
 - Basic field money here includes all three kinds of service area: general, Native American (codes starting with N) and agricultural worker (codes starting with M). The two multi-state agricultural worker areas count in the state LSC printed for them: MMX-1 (Pine Tree Legal Assistance) in Maine and MSX-2 (Texas RioGrande Legal Aid) in Texas. TN-4 names two alternative applicants, and its money counts in Tennessee either way.
 - US territories have basic field money and no TIG in these rounds, so they appear with an index of 0.
 - As in the section above, these are awards, not applications. A low index can mean nobody applied, and a statewide or national project funded in one state may also serve others.
 - Awards with no published amount (one in 2025) are left out of the TIG dollars, as in the first table.
+
+## TIG dollars per person in poverty, by state
+
+The section above compares TIG money with basic field **dollars**. Those dollars include LSC's fixed set-aside for Native American service areas, which is not divided by poverty population. This section divides by the **people in poverty** LSC funds against instead, and adds TIG dollars per person in poverty.
+
+LSC does not publish a per-area poverty table we could fetch as data, but its page of [2027 service areas subject to competition](https://www.lsc.gov/grants/basic-field-grant/lsc-service-areas/2027-service-areas-subject-competition) prints the poverty population of 46 general and agricultural worker areas. Dividing their 2025 amounts from the Federal Register notice by those populations gives one rate, **$11.8586 per person in poverty**. Each of the 46 printed populations comes back from its 2025 amount at that rate to within one person. The same page's 2027 estimates are the 2025 amounts times 0.9616, to within $1 in all 60 areas it lists, Native American areas included. Applying the rate to every other 2025 amount gives the poverty population of all 163 general and agricultural worker areas (`data/poverty_areas_2025.json`, 46 printed by LSC and 117 derived).
+
+Across the 56 jurisdictions, that is 42,301,792 people and 58 cents of TIG money per person in poverty over five rounds. The spread is wide. Vermont received $12.39 per person in poverty, about 300 times Virginia's 4 cents. The 20 jurisdictions with an index under 0.5 hold 36.0% of the poverty population and received 7.5% of TIG dollars. The 11 with an index of 2.0 or more (DC, DE, KS, MI, MN, MO, MT, ND, NH, VT, WV) hold 8.8% and received 33.5%. The 12 with no TIG in 2021-2025 hold 10.9% of the poverty population. California (10.8% of people in poverty, 4.7% of TIG dollars), Texas (10.1%, 5.6%) and New York (6.4%, 1.2%) are the three largest.
+
+Counting people instead of dollars moves the states with large Native American service areas. Alaska goes from 0.37 to 0.62, Arizona from just under 0.50 to 0.71 and South Dakota from 0.28 to 0.58, so all three leave the under-0.5 group, which shrinks from 23 to 20. North Dakota (4.67 to 6.64), Montana (13.38 to 15.03), Hawaii (1.54 to 1.76) and Oklahoma (0.84 to 0.95) rise too. The dollar index counted their Native American set-aside money in their basic field share, which made that share larger than their share of people in poverty and their index smaller.
+
+| State | People in poverty | Share | TIG 2021-2025 | Share | TIG per person in poverty | Index | Index on dollars (0.3.0) |
+|---|---|---|---|---|---|---|---|
+| VT | 54,718 | 0.1% | $677,957 | 2.8% | $12.39 | 21.41 | 22.03 |
+| MT | 129,805 | 0.3% | $1,128,707 | 4.6% | $8.70 | 15.03 | 13.38 |
+| DC | 91,070 | 0.2% | $618,890 | 2.5% | $6.80 | 11.75 | 12.08 |
+| ND | 73,840 | 0.2% | $283,730 | 1.2% | $3.84 | 6.64 | 4.67 |
+| NH | 94,820 | 0.2% | $303,175 | 1.2% | $3.20 | 5.53 | 5.69 |
+| MN | 520,601 | 1.2% | $1,041,608 | 4.3% | $2.00 | 3.46 | 3.36 |
+| WV | 285,780 | 0.7% | $570,726 | 2.3% | $2.00 | 3.45 | 3.55 |
+| KS | 319,650 | 0.8% | $506,883 | 2.1% | $1.59 | 2.74 | 2.82 |
+| MI | 1,326,739 | 3.1% | $1,920,027 | 7.8% | $1.45 | 2.50 | 2.53 |
+| DE | 106,025 | 0.3% | $150,000 | 0.6% | $1.41 | 2.45 | 2.52 |
+| MO | 720,210 | 1.7% | $987,038 | 4.0% | $1.37 | 2.37 | 2.44 |
+| ME | 164,287 | 0.4% | $187,988 | 0.8% | $1.14 | 1.98 | 1.94 |
+| WI | 616,875 | 1.5% | $681,175 | 2.8% | $1.10 | 1.91 | 1.90 |
+| IL | 1,426,520 | 3.4% | $1,484,680 | 6.1% | $1.04 | 1.80 | 1.85 |
+| HI | 165,889 | 0.4% | $168,955 | 0.7% | $1.02 | 1.76 | 1.54 |
+| OR | 506,545 | 1.2% | $494,965 | 2.0% | $0.98 | 1.69 | 1.66 |
+| GA | 1,461,315 | 3.5% | $1,371,407 | 5.6% | $0.94 | 1.62 | 1.67 |
+| TN | 956,102 | 2.3% | $812,612 | 3.3% | $0.85 | 1.47 | 1.51 |
+| NE | 202,080 | 0.5% | $170,317 | 0.7% | $0.84 | 1.46 | 1.47 |
+| CO | 536,504 | 1.3% | $443,899 | 1.8% | $0.83 | 1.43 | 1.44 |
+| KY | 693,991 | 1.6% | $539,833 | 2.2% | $0.78 | 1.34 | 1.38 |
+| FL | 2,729,514 | 6.5% | $1,831,678 | 7.5% | $0.67 | 1.16 | 1.19 |
+| OH | 1,527,900 | 3.6% | $1,004,447 | 4.1% | $0.66 | 1.14 | 1.17 |
+| PA | 1,500,955 | 3.5% | $928,090 | 3.8% | $0.62 | 1.07 | 1.10 |
+| WA | 794,425 | 1.9% | $450,129 | 1.8% | $0.57 | 0.98 | 0.96 |
+| OK | 626,185 | 1.5% | $344,223 | 1.4% | $0.55 | 0.95 | 0.84 |
+| MA | 699,243 | 1.7% | $372,455 | 1.5% | $0.53 | 0.92 | 0.95 |
+| CT | 355,256 | 0.8% | $185,593 | 0.8% | $0.52 | 0.90 | 0.92 |
+| NC | 1,349,300 | 3.2% | $553,987 | 2.3% | $0.41 | 0.71 | 0.72 |
+| MS | 480,535 | 1.1% | $196,911 | 0.8% | $0.41 | 0.71 | 0.71 |
+| AZ | 905,415 | 2.1% | $370,000 | 1.5% | $0.41 | 0.71 | 0.50 |
+| AK | 98,225 | 0.2% | $35,000 | 0.1% | $0.36 | 0.62 | 0.37 |
+| LA | 811,014 | 1.9% | $279,817 | 1.1% | $0.35 | 0.60 | 0.61 |
+| NV | 377,505 | 0.9% | $127,159 | 0.5% | $0.34 | 0.58 | 0.57 |
+| SD | 104,685 | 0.2% | $35,000 | 0.1% | $0.33 | 0.58 | 0.28 |
+| TX | 4,269,122 | 10.1% | $1,379,134 | 5.6% | $0.32 | 0.56 | 0.57 |
+| CA | 4,588,679 | 10.8% | $1,151,563 | 4.7% | $0.25 | 0.43 | 0.44 |
+| AL | 737,945 | 1.7% | $173,920 | 0.7% | $0.24 | 0.41 | 0.42 |
+| ID | 193,635 | 0.5% | $35,000 | 0.1% | $0.18 | 0.31 | 0.31 |
+| AR | 429,371 | 1.0% | $66,343 | 0.3% | $0.15 | 0.27 | 0.27 |
+| NY | 2,702,954 | 6.4% | $305,600 | 1.2% | $0.11 | 0.20 | 0.20 |
+| NM | 368,670 | 0.9% | $34,870 | 0.1% | $0.09 | 0.16 | 0.14 |
+| SC | 726,800 | 1.7% | $35,000 | 0.1% | $0.05 | 0.08 | 0.09 |
+| VA | 864,395 | 2.0% | $34,997 | 0.1% | $0.04 | 0.07 | 0.07 |
+| AS | 26,480 | 0.1% | $0 | 0.0% | $0.00 | 0.00 | 0.00 |
+| GU | 29,408 | 0.1% | $0 | 0.0% | $0.00 | 0.00 | 0.00 |
+| IA | 351,225 | 0.8% | $0 | 0.0% | $0.00 | 0.00 | 0.00 |
+| IN | 821,400 | 1.9% | $0 | 0.0% | $0.00 | 0.00 | 0.00 |
+| MD | 574,160 | 1.4% | $0 | 0.0% | $0.00 | 0.00 | 0.00 |
+| MP | 158,094 | 0.4% | $0 | 0.0% | $0.00 | 0.00 | 0.00 |
+| NJ | 886,771 | 2.1% | $0 | 0.0% | $0.00 | 0.00 | 0.00 |
+| PR | 1,257,605 | 3.0% | $0 | 0.0% | $0.00 | 0.00 | 0.00 |
+| RI | 113,657 | 0.3% | $0 | 0.0% | $0.00 | 0.00 | 0.00 |
+| UT | 304,250 | 0.7% | $0 | 0.0% | $0.00 | 0.00 | 0.00 |
+| VI | 19,338 | 0.0% | $0 | 0.0% | $0.00 | 0.00 | 0.00 |
+| WY | 64,310 | 0.2% | $0 | 0.0% | $0.00 | 0.00 | 0.00 |
+
+Generated by `python poverty.py` from `data/awards.json`, `data/basic_field_2025.json` and `data/lsc_2027_competition.json`, and checked by the tests. `python poverty.py --check` prints each printed area with the population its 2025 amount implies, `--areas` prints the per-area file, and `--summary` the headline figures.
+
+What this does and doesn't say:
+
+- The per-area poverty populations are LSC's own figures, recovered from its published dollars. They are not new data: LSC's own service area pages show them, in tables loaded by script. What is new here is a machine-readable copy for all 163 areas and the comparison with TIG money.
+- 117 of the 163 populations are derived, on the assumption that every general and agricultural worker area is funded at the one rate the 46 printed areas share. The 46 are in 26 states and the Virgin Islands, and all of them fit it to within one person, but the derived figures were not checked one by one.
+- The MP row is LSC's Micronesia service area. A Congressional Research Service report ([RL34016](https://www.everycrsreport.com/reports/RL34016.html), 2016) describes LSC's Micronesia grantee as serving the Northern Mariana Islands, the Marshall Islands, the Federated States of Micronesia and Palau, so its 158,094 is not a count for the Northern Mariana Islands alone, and it rests most on the one-rate assumption.
+- The 2027 page does not say which year's poverty estimates it uses. LSC updates them every three years.
+- Agricultural worker populations come from Department of Labor figures, not the Census, and LSC's pages do not say whether they overlap with the general areas' counts. Both count here.
+- Native American service areas are left out of the people column because LSC funds them from a fixed set-aside. TIG awards to Native American grantees still count in their state's TIG dollars, which raises the index of any state where a Native American grantee won a TIG.
+- The limits of the section above still hold: awards, not applications; five rounds against one year; multi-state projects counted once; one 2025 award with no published amount left out.
 
 ## How the flags are set
 
@@ -146,10 +227,14 @@ What this does and doesn't say:
 |---|---|
 | `data/awards.json` | 165 awards, field definitions, LSC source pages, and LSC's stated totals for each year. |
 | `data/basic_field_2025.json` | LSC's 190 basic field service areas with estimated annualized 2025 funding, parsed from FR doc 2024-26004, with its source. |
+| `data/lsc_2027_competition.json` | The 60 service areas on LSC's 2027 competition page, with the poverty population and estimated grant LSC prints for each, checked against the page on 16 October 2026. |
+| `data/poverty_areas_2025.json` | Poverty population of all 163 general and agricultural worker service areas, marked `printed` (LSC's figure) or `derived` (2025 amount at the common rate). Output of `python poverty.py --areas`. |
 | `tig.py` | The summary table, JSON output, per-year AI lists and the states table. Standard library only. |
 | `test_tig.py` | Checks counts and sums against LSC's figures, the consistency of every flag, the states table, and that both README tables are current. |
 | `basic_field.py` | The TIG-versus-basic-field table, headline figures (`--summary`), JSON rows (`--json`) and the notice parser (`--build`). Standard library only. |
 | `test_basic_field.py` | Checks the parser on sample notice lines, spot rows and totals of the data file, the index arithmetic, and that the README table is current. |
+| `poverty.py` | The per-person table, headline figures (`--summary`), the check of LSC's printed figures (`--check`) and the per-area poverty file (`--areas`). Standard library only. |
+| `test_poverty.py` | Checks the one rate against all 46 printed populations, the 2027 scale factor, the Native American set-aside, the index arithmetic, and that the README table and the per-area file are current. |
 
 ```
 python tig.py
@@ -158,6 +243,8 @@ python tig.py --ai 2024
 python tig.py --states
 python basic_field.py
 python basic_field.py --summary
+python poverty.py
+python poverty.py --check
 python -m unittest -v
 ```
 
@@ -165,4 +252,4 @@ python -m unittest -v
 
 Data and documentation: CC BY 4.0. Code: Apache-2.0. The award facts are LSC's (https://www.lsc.gov/), and short fragments of LSC's descriptions are quoted only to show why a flag was set.
 
-Compiled by MV2 of Munim, Inc., with AI agents working in his name. Awards checked on 14 October 2026; the states section and the 2018-2020 lookups on 15 October 2026; the basic field comparison on 16 October 2026. This is information about public grants. It is not legal advice and says nothing about any grantee's work beyond what LSC published.
+Compiled by MV2 of Munim, Inc., with AI agents working in his name. Awards checked on 14 October 2026; the states section and the 2018-2020 lookups on 15 October 2026; the basic field comparison and the poverty population check on 16 October 2026. This is information about public grants. It is not legal advice and says nothing about any grantee's work beyond what LSC published.
