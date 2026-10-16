@@ -1,0 +1,1153 @@
+{
+ "name": "lsc-basic-field-2025",
+ "source": {
+  "document": "2024-26004",
+  "citation": "89 FR 88814 (8 November 2024)",
+  "title": "Legal Services Corporation: Notice of Intent To Award - Grant Awards for the Delivery of Civil Legal Services to Eligible Low-Income Clients Beginning January 1, 2025",
+  "url": "https://www.federalregister.gov/documents/full_text/text/2024/11/08/2024-26004.txt",
+  "column": "Estimated annualized 2025 funding"
+ },
+ "description": "LSC basic field service areas and estimated annualized 2025 funding as printed in LSC's Notice of Intent to Award. Names lose the printer's dot leaders. CC BY 4.0.",
+ "service_areas": [
+  {
+   "grantee": "Alaska Legal Services Corporation",
+   "state": "AK",
+   "service_area": "AK-1",
+   "amount_usd": 1164808
+  },
+  {
+   "grantee": "Legal Services Alabama, Inc",
+   "state": "AL",
+   "service_area": "AL-4",
+   "amount_usd": 8750973
+  },
+  {
+   "grantee": "Legal Aid of Arkansas, Inc",
+   "state": "AR",
+   "service_area": "AR-6",
+   "amount_usd": 2032378
+  },
+  {
+   "grantee": "Center for Arkansas Legal Services",
+   "state": "AR",
+   "service_area": "AR-7",
+   "amount_usd": 3059342
+  },
+  {
+   "grantee": "American Samoa Legal Aid",
+   "state": "AS",
+   "service_area": "AS-1",
+   "amount_usd": 314015
+  },
+  {
+   "grantee": "DNA-Peoples Legal Services, Inc",
+   "state": "AZ",
+   "service_area": "AZ-2",
+   "amount_usd": 611384
+  },
+  {
+   "grantee": "Community Legal Services, Inc",
+   "state": "AZ",
+   "service_area": "AZ-3",
+   "amount_usd": 6707899
+  },
+  {
+   "grantee": "Southern Arizona Legal Aid, Inc",
+   "state": "AZ",
+   "service_area": "AZ-5",
+   "amount_usd": 2929853
+  },
+  {
+   "grantee": "California Indian Legal Services, Inc",
+   "state": "CA",
+   "service_area": "CA-1",
+   "amount_usd": 24495
+  },
+  {
+   "grantee": "Inland Counties Legal Services, Inc",
+   "state": "CA",
+   "service_area": "CA-12",
+   "amount_usd": 6091858
+  },
+  {
+   "grantee": "Legal Aid Society of San Diego, Inc",
+   "state": "CA",
+   "service_area": "CA-14",
+   "amount_usd": 3461331
+  },
+  {
+   "grantee": "Community Legal Aid SoCal",
+   "state": "CA",
+   "service_area": "CA-19",
+   "amount_usd": 4477012
+  },
+  {
+   "grantee": "Greater Bakersfield Legal Assistance, Inc",
+   "state": "CA",
+   "service_area": "CA-2",
+   "amount_usd": 1696585
+  },
+  {
+   "grantee": "Central California Legal Services",
+   "state": "CA",
+   "service_area": "CA-26",
+   "amount_usd": 3763684
+  },
+  {
+   "grantee": "Legal Services of Northern California, Inc",
+   "state": "CA",
+   "service_area": "CA-27",
+   "amount_usd": 5019313
+  },
+  {
+   "grantee": "Bay Area Legal Aid",
+   "state": "CA",
+   "service_area": "CA-28",
+   "amount_usd": 6077900
+  },
+  {
+   "grantee": "Legal Aid Foundation of Los Angeles",
+   "state": "CA",
+   "service_area": "CA-29",
+   "amount_usd": 7146969
+  },
+  {
+   "grantee": "Neighborhood Legal Services of Los Angeles County",
+   "state": "CA",
+   "service_area": "CA-30",
+   "amount_usd": 5601424
+  },
+  {
+   "grantee": "California Rural Legal Assistance, Inc",
+   "state": "CA",
+   "service_area": "CA-31",
+   "amount_usd": 6483119
+  },
+  {
+   "grantee": "Colorado Legal Services",
+   "state": "CO",
+   "service_area": "CO-6",
+   "amount_usd": 6040901
+  },
+  {
+   "grantee": "Statewide Legal Services of Connecticut, Inc",
+   "state": "CT",
+   "service_area": "CT-1",
+   "amount_usd": 4212822
+  },
+  {
+   "grantee": "Neighborhood Legal Services Program of the District of Columbia",
+   "state": "DC",
+   "service_area": "DC-1",
+   "amount_usd": 1079960
+  },
+  {
+   "grantee": "Legal Services Corporation of Delaware, Inc",
+   "state": "DE",
+   "service_area": "DE-1",
+   "amount_usd": 1223573
+  },
+  {
+   "grantee": "Legal Services of North Florida, Inc",
+   "state": "FL",
+   "service_area": "FL-13",
+   "amount_usd": 2227254
+  },
+  {
+   "grantee": "Three Rivers Legal Services, Inc",
+   "state": "FL",
+   "service_area": "FL-14",
+   "amount_usd": 3382885
+  },
+  {
+   "grantee": "Community Legal Services of Mid-Florida, Inc",
+   "state": "FL",
+   "service_area": "FL-15",
+   "amount_usd": 6898210
+  },
+  {
+   "grantee": "Bay Area Legal Services, Inc",
+   "state": "FL",
+   "service_area": "FL-16",
+   "amount_usd": 5280016
+  },
+  {
+   "grantee": "Florida Rural Legal Services, Inc",
+   "state": "FL",
+   "service_area": "FL-17",
+   "amount_usd": 5864861
+  },
+  {
+   "grantee": "Coast to Coast Legal Aid of South Florida, Inc",
+   "state": "FL",
+   "service_area": "FL-18",
+   "amount_usd": 3336864
+  },
+  {
+   "grantee": "Legal Services of Greater Miami, Inc",
+   "state": "FL",
+   "service_area": "FL-5",
+   "amount_usd": 4335324
+  },
+  {
+   "grantee": "Atlanta Legal Aid Society, Inc",
+   "state": "GA",
+   "service_area": "GA-1",
+   "amount_usd": 5183192
+  },
+  {
+   "grantee": "Georgia Legal Services Program",
+   "state": "GA",
+   "service_area": "GA-2",
+   "amount_usd": 11432892
+  },
+  {
+   "grantee": "Micronesian Legal Services Corporation",
+   "state": "GU",
+   "service_area": "GU-1",
+   "amount_usd": 348737
+  },
+  {
+   "grantee": "Legal Aid Society of Hawaii",
+   "state": "HI",
+   "service_area": "HI-1",
+   "amount_usd": 1967206
+  },
+  {
+   "grantee": "Iowa Legal Aid",
+   "state": "IA",
+   "service_area": "IA-3",
+   "amount_usd": 3854750
+  },
+  {
+   "grantee": "Idaho Legal Aid Services, Inc",
+   "state": "ID",
+   "service_area": "ID-1",
+   "amount_usd": 1851318
+  },
+  {
+   "grantee": "Land of Lincoln Legal Aid, Inc",
+   "state": "IL",
+   "service_area": "IL-3",
+   "amount_usd": 3525538
+  },
+  {
+   "grantee": "Legal Aid Chicago",
+   "state": "IL",
+   "service_area": "IL-6",
+   "amount_usd": 7748398
+  },
+  {
+   "grantee": "Prairie State Legal Services, Inc",
+   "state": "IL",
+   "service_area": "IL-7",
+   "amount_usd": 5353610
+  },
+  {
+   "grantee": "Indiana Legal Services, Inc",
+   "state": "IN",
+   "service_area": "IN-5",
+   "amount_usd": 9535954
+  },
+  {
+   "grantee": "Kansas Legal Services, Inc",
+   "state": "KS",
+   "service_area": "KS-1",
+   "amount_usd": 3790590
+  },
+  {
+   "grantee": "Legal Aid of the Bluegrass",
+   "state": "KY",
+   "service_area": "KY-10",
+   "amount_usd": 2039664
+  },
+  {
+   "grantee": "Legal Aid Society",
+   "state": "KY",
+   "service_area": "KY-2",
+   "amount_usd": 2166654
+  },
+  {
+   "grantee": "Appalachian Research and Defense Fund of Kentucky",
+   "state": "KY",
+   "service_area": "KY-5",
+   "amount_usd": 2282338
+  },
+  {
+   "grantee": "Kentucky Legal Aid",
+   "state": "KY",
+   "service_area": "KY-9",
+   "amount_usd": 1741089
+  },
+  {
+   "grantee": "Southeast Louisiana Legal Services Corporation",
+   "state": "LA",
+   "service_area": "LA-13",
+   "amount_usd": 4843304
+  },
+  {
+   "grantee": "Acadiana Legal Service Corporation",
+   "state": "LA",
+   "service_area": "LA-15",
+   "amount_usd": 4774162
+  },
+  {
+   "grantee": "Community Legal Aid, Inc",
+   "state": "MA",
+   "service_area": "MA-10",
+   "amount_usd": 2498686
+  },
+  {
+   "grantee": "Volunteer Lawyers Project of the Boston Bar Association",
+   "state": "MA",
+   "service_area": "MA-11",
+   "amount_usd": 2978618
+  },
+  {
+   "grantee": "South Coastal Counties Legal Services",
+   "state": "MA",
+   "service_area": "MA-12",
+   "amount_usd": 1579769
+  },
+  {
+   "grantee": "Northeast Legal Aid, Inc",
+   "state": "MA",
+   "service_area": "MA-4",
+   "amount_usd": 1234941
+  },
+  {
+   "grantee": "Community Legal Services, Inc",
+   "state": "AZ",
+   "service_area": "MAZ",
+   "amount_usd": 487788
+  },
+  {
+   "grantee": "California Rural Legal Assistance, Inc",
+   "state": "CA",
+   "service_area": "MCA",
+   "amount_usd": 4571473
+  },
+  {
+   "grantee": "Colorado Legal Services",
+   "state": "CO",
+   "service_area": "MCO",
+   "amount_usd": 321278
+  },
+  {
+   "grantee": "Maryland Legal Aid",
+   "state": "MD",
+   "service_area": "MD-1",
+   "amount_usd": 6656508
+  },
+  {
+   "grantee": "Maryland Legal Aid",
+   "state": "DE",
+   "service_area": "MDE",
+   "amount_usd": 33732
+  },
+  {
+   "grantee": "Pine Tree Legal Assistance, Inc",
+   "state": "ME",
+   "service_area": "ME-1",
+   "amount_usd": 1554224
+  },
+  {
+   "grantee": "Florida Rural Legal Services, Inc",
+   "state": "FL",
+   "service_area": "MFL",
+   "amount_usd": 1042718
+  },
+  {
+   "grantee": "Georgia Legal Services Program",
+   "state": "GA",
+   "service_area": "MGA",
+   "amount_usd": 713016
+  },
+  {
+   "grantee": "Michigan Advocacy Program",
+   "state": "MI",
+   "service_area": "MI-12",
+   "amount_usd": 2445571
+  },
+  {
+   "grantee": "Lakeshore Legal Aid",
+   "state": "MI",
+   "service_area": "MI-13",
+   "amount_usd": 6213347
+  },
+  {
+   "grantee": "Legal Services of Eastern Michigan",
+   "state": "MI",
+   "service_area": "MI-14",
+   "amount_usd": 2270726
+  },
+  {
+   "grantee": "Legal Aid of Western Michigan",
+   "state": "MI",
+   "service_area": "MI-15",
+   "amount_usd": 2885740
+  },
+  {
+   "grantee": "Legal Services of Northern Michigan, Inc",
+   "state": "MI",
+   "service_area": "MI-9",
+   "amount_usd": 1199133
+  },
+  {
+   "grantee": "Iowa Legal Aid",
+   "state": "IA",
+   "service_area": "MIA",
+   "amount_usd": 310274
+  },
+  {
+   "grantee": "Idaho Legal Aid Services, Inc",
+   "state": "ID",
+   "service_area": "MID",
+   "amount_usd": 444915
+  },
+  {
+   "grantee": "Legal Aid Chicago",
+   "state": "IL",
+   "service_area": "MIL",
+   "amount_usd": 288935
+  },
+  {
+   "grantee": "Indiana Legal Services, Inc",
+   "state": "IN",
+   "service_area": "MIN",
+   "amount_usd": 204672
+  },
+  {
+   "grantee": "Maryland Legal Aid",
+   "state": "MD",
+   "service_area": "MMD",
+   "amount_usd": 152206
+  },
+  {
+   "grantee": "Michigan Advocacy Program",
+   "state": "MI",
+   "service_area": "MMI",
+   "amount_usd": 718716
+  },
+  {
+   "grantee": "Southern Minnesota Regional Legal Services, Inc",
+   "state": "MN",
+   "service_area": "MMN",
+   "amount_usd": 552260
+  },
+  {
+   "grantee": "Legal Aid of Western Missouri",
+   "state": "MO",
+   "service_area": "MMO",
+   "amount_usd": 213321
+  },
+  {
+   "grantee": "Montana Legal Services Association",
+   "state": "MT",
+   "service_area": "MMT",
+   "amount_usd": 179939
+  },
+  {
+   "grantee": "Pine Tree Legal Assistance, Inc",
+   "state": "ME",
+   "service_area": "MMX-1",
+   "amount_usd": 393989
+  },
+  {
+   "grantee": "Legal Aid Service of Northeastern Minnesota",
+   "state": "MN",
+   "service_area": "MN-1",
+   "amount_usd": 590043
+  },
+  {
+   "grantee": "Legal Services of Northwest Minnesota Corporation",
+   "state": "MN",
+   "service_area": "MN-4",
+   "amount_usd": 530440
+  },
+  {
+   "grantee": "Southern Minnesota Regional Legal Services, Inc",
+   "state": "MN",
+   "service_area": "MN-5",
+   "amount_usd": 2149346
+  },
+  {
+   "grantee": "Central Minnesota Legal Services, Inc",
+   "state": "MN",
+   "service_area": "MN-6",
+   "amount_usd": 2351480
+  },
+  {
+   "grantee": "Legal Aid of North Carolina, Inc",
+   "state": "NC",
+   "service_area": "MNC",
+   "amount_usd": 819300
+  },
+  {
+   "grantee": "Southern Minnesota Regional Legal Services, Inc",
+   "state": "ND",
+   "service_area": "MND",
+   "amount_usd": 144610
+  },
+  {
+   "grantee": "Legal Aid of Nebraska",
+   "state": "NE",
+   "service_area": "MNE",
+   "amount_usd": 247544
+  },
+  {
+   "grantee": "South Jersey Legal Services, Inc",
+   "state": "NJ",
+   "service_area": "MNJ",
+   "amount_usd": 180507
+  },
+  {
+   "grantee": "New Mexico Legal Aid",
+   "state": "NM",
+   "service_area": "MNM",
+   "amount_usd": 215564
+  },
+  {
+   "grantee": "Legal Aid Society of Mid-New York, Inc",
+   "state": "NY",
+   "service_area": "MNY",
+   "amount_usd": 391497
+  },
+  {
+   "grantee": "Legal Aid of Western Missouri",
+   "state": "MO",
+   "service_area": "MO-3",
+   "amount_usd": 2730859
+  },
+  {
+   "grantee": "Legal Services of Eastern Missouri, Inc",
+   "state": "MO",
+   "service_area": "MO-4",
+   "amount_usd": 2713284
+  },
+  {
+   "grantee": "Mid-Missouri Legal Services Corporation",
+   "state": "MO",
+   "service_area": "MO-5",
+   "amount_usd": 649748
+  },
+  {
+   "grantee": "Legal Services of Southern Missouri",
+   "state": "MO",
+   "service_area": "MO-7",
+   "amount_usd": 2233446
+  },
+  {
+   "grantee": "Legal Aid of Western Ohio, Inc",
+   "state": "OH",
+   "service_area": "MOH",
+   "amount_usd": 251513
+  },
+  {
+   "grantee": "Legal Aid Services of Oklahoma, Inc",
+   "state": "OK",
+   "service_area": "MOK",
+   "amount_usd": 345613
+  },
+  {
+   "grantee": "Legal Aid Services of Oregon",
+   "state": "OR",
+   "service_area": "MOR",
+   "amount_usd": 644790
+  },
+  {
+   "grantee": "Micronesian Legal Services Corporation",
+   "state": "MP",
+   "service_area": "MP-1",
+   "amount_usd": 1874768
+  },
+  {
+   "grantee": "Philadelphia Legal Assistance Center",
+   "state": "PA",
+   "service_area": "MPA",
+   "amount_usd": 486158
+  },
+  {
+   "grantee": "Puerto Rico Legal Services, Inc",
+   "state": "PR",
+   "service_area": "MPR",
+   "amount_usd": 72608
+  },
+  {
+   "grantee": "Mississippi Center for Legal Services",
+   "state": "MS",
+   "service_area": "MS-10",
+   "amount_usd": 3433299
+  },
+  {
+   "grantee": "North Mississippi Rural Legal Services, Inc",
+   "state": "MS",
+   "service_area": "MS-9",
+   "amount_usd": 2265149
+  },
+  {
+   "grantee": "South Carolina Legal Services, Inc",
+   "state": "SC",
+   "service_area": "MSC",
+   "amount_usd": 319726
+  },
+  {
+   "grantee": "Texas RioGrande Legal Aid, Inc",
+   "state": "TX",
+   "service_area": "MSX-2",
+   "amount_usd": 3398860
+  },
+  {
+   "grantee": "Montana Legal Services Association",
+   "state": "MT",
+   "service_area": "MT-1",
+   "amount_usd": 1359362
+  },
+  {
+   "grantee": "Utah Legal Services, Inc",
+   "state": "UT",
+   "service_area": "MUT",
+   "amount_usd": 127323
+  },
+  {
+   "grantee": "Central Virginia Legal Aid Society, Inc",
+   "state": "VA",
+   "service_area": "MVA",
+   "amount_usd": 365814
+  },
+  {
+   "grantee": "Northwest Justice Project",
+   "state": "WA",
+   "service_area": "MWA",
+   "amount_usd": 1197930
+  },
+  {
+   "grantee": "Legal Action of Wisconsin, Inc",
+   "state": "WI",
+   "service_area": "MWI",
+   "amount_usd": 555641
+  },
+  {
+   "grantee": "Alaska Legal Services Corporation",
+   "state": "AK",
+   "service_area": "NAK-1",
+   "amount_usd": 815380
+  },
+  {
+   "grantee": "DNA-Peoples Legal Services, Inc",
+   "state": "AZ",
+   "service_area": "NAZ-5",
+   "amount_usd": 3934252
+  },
+  {
+   "grantee": "Southern Arizona Legal Aid, Inc",
+   "state": "AZ",
+   "service_area": "NAZ-6",
+   "amount_usd": 961025
+  },
+  {
+   "grantee": "Legal Aid of North Carolina, Inc",
+   "state": "NC",
+   "service_area": "NC-5",
+   "amount_usd": 15181463
+  },
+  {
+   "grantee": "California Indian Legal Services, Inc",
+   "state": "CA",
+   "service_area": "NCA-1",
+   "amount_usd": 1332026
+  },
+  {
+   "grantee": "Colorado Legal Services",
+   "state": "CO",
+   "service_area": "NCO-1",
+   "amount_usd": 144793
+  },
+  {
+   "grantee": "Pine Tree Legal Assistance, Inc",
+   "state": "CT",
+   "service_area": "NCT-1",
+   "amount_usd": 23604
+  },
+  {
+   "grantee": "Legal Services of North Dakota",
+   "state": "ND",
+   "service_area": "ND-3",
+   "amount_usd": 731026
+  },
+  {
+   "grantee": "Legal Aid of Nebraska",
+   "state": "NE",
+   "service_area": "NE-4",
+   "amount_usd": 2148835
+  },
+  {
+   "grantee": "603 Legal Aid",
+   "state": "NH",
+   "service_area": "NH-1",
+   "amount_usd": 1124426
+  },
+  {
+   "grantee": "Legal Aid Society of Hawaii",
+   "state": "HI",
+   "service_area": "NHI-1",
+   "amount_usd": 345365
+  },
+  {
+   "grantee": "Idaho Legal Aid Services, Inc",
+   "state": "ID",
+   "service_area": "NID-1",
+   "amount_usd": 97951
+  },
+  {
+   "grantee": "Legal Services of Northwest Jersey, Inc",
+   "state": "NJ",
+   "service_area": "NJ-15",
+   "amount_usd": 758392
+  },
+  {
+   "grantee": "Central Jersey Legal Services, Inc",
+   "state": "NJ",
+   "service_area": "NJ-17",
+   "amount_usd": 1869464
+  },
+  {
+   "grantee": "Northeast New Jersey Legal Services Corporation",
+   "state": "NJ",
+   "service_area": "NJ-18",
+   "amount_usd": 2814627
+  },
+  {
+   "grantee": "South Jersey Legal Services, Inc",
+   "state": "NJ",
+   "service_area": "NJ-20",
+   "amount_usd": 3514627
+  },
+  {
+   "grantee": "Essex-Newark Legal Services Project, Inc",
+   "state": "NJ",
+   "service_area": "NJ-8",
+   "amount_usd": 1378205
+  },
+  {
+   "grantee": "DNA-Peoples Legal Services, Inc",
+   "state": "NM",
+   "service_area": "NM-1",
+   "amount_usd": 284496
+  },
+  {
+   "grantee": "New Mexico Legal Aid",
+   "state": "NM",
+   "service_area": "NM-5",
+   "amount_usd": 3871837
+  },
+  {
+   "grantee": "Pine Tree Legal Assistance, Inc",
+   "state": "ME",
+   "service_area": "NME-1",
+   "amount_usd": 97177
+  },
+  {
+   "grantee": "Michigan Indian Legal Services, Inc",
+   "state": "MI",
+   "service_area": "NMI-1",
+   "amount_usd": 248191
+  },
+  {
+   "grantee": "Anishinabe Legal Services, Inc",
+   "state": "MN",
+   "service_area": "NMN-1",
+   "amount_usd": 360310
+  },
+  {
+   "grantee": "Mississippi Center for Legal Services",
+   "state": "MS",
+   "service_area": "NMS-1",
+   "amount_usd": 125327
+  },
+  {
+   "grantee": "Montana Legal Services Association",
+   "state": "MT",
+   "service_area": "NMT-1",
+   "amount_usd": 240065
+  },
+  {
+   "grantee": "Legal Aid of North Carolina, Inc",
+   "state": "NC",
+   "service_area": "NNC-1",
+   "amount_usd": 329047
+  },
+  {
+   "grantee": "Legal Services of North Dakota",
+   "state": "ND",
+   "service_area": "NND-3",
+   "amount_usd": 406131
+  },
+  {
+   "grantee": "Legal Aid of Nebraska",
+   "state": "NE",
+   "service_area": "NNE-1",
+   "amount_usd": 49837
+  },
+  {
+   "grantee": "DNA-Peoples Legal Services, Inc",
+   "state": "NM",
+   "service_area": "NNM-2",
+   "amount_usd": 34254
+  },
+  {
+   "grantee": "New Mexico Legal Aid",
+   "state": "NM",
+   "service_area": "NNM-4",
+   "amount_usd": 700532
+  },
+  {
+   "grantee": "Nevada Legal Services, Inc",
+   "state": "NV",
+   "service_area": "NNV-1",
+   "amount_usd": 200483
+  },
+  {
+   "grantee": "Oklahoma Indian Legal Services, Inc",
+   "state": "OK",
+   "service_area": "NOK-1",
+   "amount_usd": 1234480
+  },
+  {
+   "grantee": "Legal Aid Services of Oregon",
+   "state": "OR",
+   "service_area": "NOR-1",
+   "amount_usd": 278321
+  },
+  {
+   "grantee": "Dakota Plains Legal Services, Inc",
+   "state": "SD",
+   "service_area": "NSD-1",
+   "amount_usd": 1407733
+  },
+  {
+   "grantee": "Texas RioGrande Legal Aid, Inc",
+   "state": "TX",
+   "service_area": "NTX-1",
+   "amount_usd": 47187
+  },
+  {
+   "grantee": "Utah Legal Services, Inc",
+   "state": "UT",
+   "service_area": "NUT-1",
+   "amount_usd": 124037
+  },
+  {
+   "grantee": "Nevada Legal Services, Inc",
+   "state": "NV",
+   "service_area": "NV-1",
+   "amount_usd": 4476668
+  },
+  {
+   "grantee": "Northwest Justice Project",
+   "state": "WA",
+   "service_area": "NWA-1",
+   "amount_usd": 429491
+  },
+  {
+   "grantee": "Judicare Legal Aid",
+   "state": "WI",
+   "service_area": "NWI-1",
+   "amount_usd": 233875
+  },
+  {
+   "grantee": "Legal Aid of Wyoming, Inc",
+   "state": "WY",
+   "service_area": "NWY-1",
+   "amount_usd": 260534
+  },
+  {
+   "grantee": "Legal Services of the Hudson Valley",
+   "state": "NY",
+   "service_area": "NY-20",
+   "amount_usd": 3001759
+  },
+  {
+   "grantee": "Legal Aid Society of Northeastern New York, Inc",
+   "state": "NY",
+   "service_area": "NY-21",
+   "amount_usd": 2223558
+  },
+  {
+   "grantee": "Legal Aid Society of Mid-New York, Inc",
+   "state": "NY",
+   "service_area": "NY-22",
+   "amount_usd": 2492329
+  },
+  {
+   "grantee": "Legal Assistance of Western New York, Inc",
+   "state": "NY",
+   "service_area": "NY-23",
+   "amount_usd": 2582642
+  },
+  {
+   "grantee": "Neighborhood Legal Services, Inc",
+   "state": "NY",
+   "service_area": "NY-24",
+   "amount_usd": 2032390
+  },
+  {
+   "grantee": "Nassau/Suffolk Law Services Committee, Inc",
+   "state": "NY",
+   "service_area": "NY-7",
+   "amount_usd": 2058921
+  },
+  {
+   "grantee": "Legal Services NYC",
+   "state": "NY",
+   "service_area": "NY-9",
+   "amount_usd": 17270072
+  },
+  {
+   "grantee": "Legal Aid Society of Greater Cincinnati",
+   "state": "OH",
+   "service_area": "OH-18",
+   "amount_usd": 2369019
+  },
+  {
+   "grantee": "Community Legal Aid Services, Inc",
+   "state": "OH",
+   "service_area": "OH-20",
+   "amount_usd": 2943543
+  },
+  {
+   "grantee": "The Legal Aid Society of Cleveland",
+   "state": "OH",
+   "service_area": "OH-21",
+   "amount_usd": 3178825
+  },
+  {
+   "grantee": "Legal Aid of Western Ohio, Inc",
+   "state": "OH",
+   "service_area": "OH-23",
+   "amount_usd": 4160123
+  },
+  {
+   "grantee": "Legal Aid of Southeast and Central Ohio",
+   "state": "OH",
+   "service_area": "OH-24",
+   "amount_usd": 5215678
+  },
+  {
+   "grantee": "Legal Aid Services of Oklahoma, Inc",
+   "state": "OK",
+   "service_area": "OK-3",
+   "amount_usd": 7080042
+  },
+  {
+   "grantee": "Legal Aid Services of Oregon",
+   "state": "OR",
+   "service_area": "OR-6",
+   "amount_usd": 5362107
+  },
+  {
+   "grantee": "Philadelphia Legal Assistance Center",
+   "state": "PA",
+   "service_area": "PA-1",
+   "amount_usd": 3532146
+  },
+  {
+   "grantee": "Legal Aid of Southeastern Pennsylvania",
+   "state": "PA",
+   "service_area": "PA-23",
+   "amount_usd": 2249087
+  },
+  {
+   "grantee": "North Penn Legal Services, Inc",
+   "state": "PA",
+   "service_area": "PA-24",
+   "amount_usd": 3094290
+  },
+  {
+   "grantee": "MidPenn Legal Services, Inc",
+   "state": "PA",
+   "service_area": "PA-25",
+   "amount_usd": 3765838
+  },
+  {
+   "grantee": "Northwestern Legal Services",
+   "state": "PA",
+   "service_area": "PA-26",
+   "amount_usd": 912334
+  },
+  {
+   "grantee": "Summit Legal Aid",
+   "state": "PA",
+   "service_area": "PA-27",
+   "amount_usd": 1632271
+  },
+  {
+   "grantee": "Neighborhood Legal Services Association",
+   "state": "PA",
+   "service_area": "PA-8",
+   "amount_usd": 2127050
+  },
+  {
+   "grantee": "Puerto Rico Legal Services, Inc",
+   "state": "PR",
+   "service_area": "PR-1",
+   "amount_usd": 14540452
+  },
+  {
+   "grantee": "Community Law Office, Inc",
+   "state": "PR",
+   "service_area": "PR-2",
+   "amount_usd": 300331
+  },
+  {
+   "grantee": "Rhode Island Legal Services, Inc",
+   "state": "RI",
+   "service_area": "RI-1",
+   "amount_usd": 1347809
+  },
+  {
+   "grantee": "South Carolina Legal Services, Inc",
+   "state": "SC",
+   "service_area": "SC-8",
+   "amount_usd": 8299079
+  },
+  {
+   "grantee": "East River Legal Services",
+   "state": "SD",
+   "service_area": "SD-2",
+   "amount_usd": 664495
+  },
+  {
+   "grantee": "Dakota Plains Legal Services, Inc",
+   "state": "SD",
+   "service_area": "SD-4",
+   "amount_usd": 576919
+  },
+  {
+   "grantee": "Legal Aid Society of Middle Tennessee and the Cumberlands",
+   "state": "TN",
+   "service_area": "TN-10",
+   "amount_usd": 4486365
+  },
+  {
+   "grantee": "Memphis Area Legal Services, Inc. or West Tennessee Legal Services, Inc",
+   "state": "TN",
+   "service_area": "TN-4",
+   "amount_usd": 2111084
+  },
+  {
+   "grantee": "West Tennessee Legal Services, Inc",
+   "state": "TN",
+   "service_area": "TN-7",
+   "amount_usd": 1079731
+  },
+  {
+   "grantee": "Legal Aid of East Tennessee",
+   "state": "TN",
+   "service_area": "TN-9",
+   "amount_usd": 3660807
+  },
+  {
+   "grantee": "Lone Star Legal Aid",
+   "state": "TX",
+   "service_area": "TX-13",
+   "amount_usd": 18089444
+  },
+  {
+   "grantee": "Legal Aid of NorthWest Texas",
+   "state": "TX",
+   "service_area": "TX-14",
+   "amount_usd": 13205098
+  },
+  {
+   "grantee": "Texas RioGrande Legal Aid, Inc",
+   "state": "TX",
+   "service_area": "TX-15",
+   "amount_usd": 15932266
+  },
+  {
+   "grantee": "Utah Legal Services, Inc",
+   "state": "UT",
+   "service_area": "UT-1",
+   "amount_usd": 3480646
+  },
+  {
+   "grantee": "Southwest Virginia Legal Aid Society, Inc",
+   "state": "VA",
+   "service_area": "VA-15",
+   "amount_usd": 1153314
+  },
+  {
+   "grantee": "Legal Aid Society of Eastern Virginia",
+   "state": "VA",
+   "service_area": "VA-16",
+   "amount_usd": 2165801
+  },
+  {
+   "grantee": "Virginia Legal Aid Society, Inc",
+   "state": "VA",
+   "service_area": "VA-17",
+   "amount_usd": 1236048
+  },
+  {
+   "grantee": "Central Virginia Legal Aid Society, Inc",
+   "state": "VA",
+   "service_area": "VA-18",
+   "amount_usd": 1788548
+  },
+  {
+   "grantee": "Blue Ridge Legal Services, Inc",
+   "state": "VA",
+   "service_area": "VA-19",
+   "amount_usd": 1290767
+  },
+  {
+   "grantee": "Legal Services of Northern Virginia, Inc",
+   "state": "VA",
+   "service_area": "VA-20",
+   "amount_usd": 2250194
+  },
+  {
+   "grantee": "Legal Services of the Virgin Islands, Inc",
+   "state": "VI",
+   "service_area": "VI-1",
+   "amount_usd": 229321
+  },
+  {
+   "grantee": "Legal Services Vermont",
+   "state": "VT",
+   "service_area": "VT-1",
+   "amount_usd": 648871
+  },
+  {
+   "grantee": "Northwest Justice Project",
+   "state": "WA",
+   "service_area": "WA-1",
+   "amount_usd": 8222810
+  },
+  {
+   "grantee": "Judicare Legal Aid",
+   "state": "WI",
+   "service_area": "WI-2",
+   "amount_usd": 1367428
+  },
+  {
+   "grantee": "Legal Action of Wisconsin, Inc",
+   "state": "WI",
+   "service_area": "WI-5",
+   "amount_usd": 5392184
+  },
+  {
+   "grantee": "Legal Aid of West Virginia, Inc",
+   "state": "WV",
+   "service_area": "WV-5",
+   "amount_usd": 3388941
+  },
+  {
+   "grantee": "Legal Aid of Wyoming, Inc",
+   "state": "WY",
+   "service_area": "WY-4",
+   "amount_usd": 762624
+  }
+ ]
+}
