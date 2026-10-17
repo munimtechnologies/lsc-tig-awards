@@ -1,0 +1,212 @@
+{
+  "version": "0.1.0",
+  "description": "LSC Technology Initiative Grants, other than LawHelp Interactive's (data/national_grants.json), that LSC's own text says pay for a named service LSC calls national: LSNTAP, A2J Author, Stateside Legal, Legal Navigator and the national LawHelp.org site. scope 'whole': LSC's description of the grant is only about the service. scope 'part': it also names work for the grantee's own state; national_part_usd is the amount LSC prints for the national part, or null where it prints none. Each grant matches exactly one row of the list its round's module checks, by year, state and amount. 'considered' lists close calls left out, with the reason. Quotes are LSC's words as saved from the source (whitespace normalised; an ellipsis marks a cut).",
+  "license": "CC BY 4.0",
+  "compiled_by": "MV2 of Munim, Inc., with AI agents working in his name",
+  "checked": "2026-10-17",
+  "services": [
+    {
+      "service": "LSNTAP",
+      "quote": "a national technology support resource for the national legal aid community",
+      "source": "https://www.lsc.gov/grants/technology-initiative-grant-program/technology-initiative-grant-awards-tig-projects-funded-year/2018-tig-awards-project-descriptions"
+    },
+    {
+      "service": "A2J Author",
+      "quote": "a national document assembly platform for clients",
+      "source": "https://www.lsc.gov/press-release/lsc-awards-nearly-4-million-technology-grants-legal-aid-organizations-1"
+    },
+    {
+      "service": "Stateside Legal",
+      "quote": "the national veterans legal assistance website",
+      "source": "https://www.lsc.gov/press-release/lsc-awards-nearly-35-million-2014-technology-grants-legal-aid-organizations-local"
+    },
+    {
+      "service": "Legal Navigator",
+      "quote": "the national Legal Navigator tool",
+      "source": "https://www.lsc.gov/grants/technology-initiative-grant-program/technology-initiative-grant-awards-tig-projects-funded-year/2021-tig-award-project-descriptions"
+    },
+    {
+      "service": "LawHelp.org",
+      "quote": "the national LawHelp.org legal aid website",
+      "source": "https://www.lsc.gov/press-release/lsc-awards-nearly-4-million-technology-grants-legal-aid-organizations-1"
+    }
+  ],
+  "grants": [
+    {
+      "year": 2014,
+      "grantee_as_printed": "Pine Tree Legal Assistance, Inc.",
+      "state": "ME",
+      "amount_usd": 138139,
+      "service": "Stateside Legal",
+      "named_as": "Stateside Legal",
+      "scope": "part",
+      "national_part_usd": 75270,
+      "quote": "Pine Tree Legal Assistance received: $75,270 to support expansion of the national veterans legal assistance website, Stateside Legal, and develop new user-friendly tools specifically for women veterans in need of legal help. $62, 869 to develop web-based expert systems involving key legal issues associated with debt collection defense in Maine.",
+      "source": "https://www.lsc.gov/press-release/lsc-awards-nearly-35-million-2014-technology-grants-legal-aid-organizations-local"
+    },
+    {
+      "year": 2015,
+      "grantee_as_printed": "Northwest Justice Project",
+      "state": "WA",
+      "amount_usd": 505660,
+      "service": "LSNTAP",
+      "named_as": "NTAP",
+      "scope": "part",
+      "national_part_usd": 429960,
+      "quote": "Northwest Justice Project received: $75,700 to create mobile-compatible, web-based legal education videos that will be accessible for others to replicate. $429,960 to support a core collection of services and resources, provide one-on-one guidance on a variety of legal technologies, and help other legal services programs replicate other TIG technologies through the NTAP.",
+      "source": "https://www.lsc.gov/press-release/2015-technology-initiative-grants-awarded-30-lsc-grantees"
+    },
+    {
+      "year": 2016,
+      "grantee_as_printed": "Idaho Legal Aid Services, Inc.",
+      "state": "ID",
+      "amount_usd": 251985,
+      "service": "A2J Author",
+      "named_as": "A2J Author",
+      "scope": "whole",
+      "national_part_usd": 251985,
+      "quote": "Funding of $251,985 allows Idaho Legal Aid Services to ensure that the catalog of over 1,000 A2J Guided Interviews available to the legal aid community are current, easy to use, and accurate. ... The project adds new features to the A2J Author tool.",
+      "source": "https://web.archive.org/web/20190611223436/https://www.lsc.gov/grants-grantee-resources/our-grant-programs/tig/2016-tig-awards-project-descriptions"
+    },
+    {
+      "year": 2017,
+      "grantee_as_printed": "Atlanta Legal Aid Society",
+      "state": "GA",
+      "amount_usd": 134720,
+      "service": "LawHelp.org",
+      "named_as": "LawHelp.org",
+      "scope": "part",
+      "national_part_usd": null,
+      "quote": "Atlanta Legal Aid Society will receive $134,720 to address accessibility and readability issues on the national LawHelp.org legal aid website. The program will also make improvements to the website GeorgiaLegalAid.org",
+      "source": "https://www.lsc.gov/press-release/lsc-awards-nearly-4-million-technology-grants-legal-aid-organizations-1"
+    },
+    {
+      "year": 2017,
+      "grantee_as_printed": "Pine Tree Legal Assistance",
+      "state": "ME",
+      "amount_usd": 175250,
+      "service": "Stateside Legal",
+      "named_as": "StateSideLegal.org",
+      "scope": "whole",
+      "national_part_usd": 175250,
+      "quote": "Pine Tree Legal Assistance will receive $175,250 to improve the design and content of StateSideLegal.org , the first website in the nation to focus exclusively on veterans' federal legal rights and resources.",
+      "source": "https://www.lsc.gov/press-release/lsc-awards-nearly-4-million-technology-grants-legal-aid-organizations-1"
+    },
+    {
+      "year": 2017,
+      "grantee_as_printed": "Michigan Advocacy Program",
+      "state": "MI",
+      "amount_usd": 209825,
+      "service": "A2J Author",
+      "named_as": "A2J Author",
+      "scope": "whole",
+      "national_part_usd": 209825,
+      "quote": "Michigan Advocacy Program will receive $209,825 to support improvements to A2J Author, a national document assembly platform for clients, which uses plain-language interview questions to help clients complete court forms.",
+      "source": "https://www.lsc.gov/press-release/lsc-awards-nearly-4-million-technology-grants-legal-aid-organizations-1"
+    },
+    {
+      "year": 2018,
+      "grantee_as_printed": "Alaska Legal Services Corporation",
+      "state": "AK",
+      "amount_usd": 179879,
+      "service": "Legal Navigator",
+      "named_as": "Legal Navigator",
+      "scope": "whole",
+      "national_part_usd": 179879,
+      "quote": "Alaska Legal Services Corporation will receive $179,879 to streamline communication with people in need of civil legal assistance. The project will enhance the electronic client referral system for states piloting Legal Navigator portals —an initiative launched by LSC, Microsoft, and Pro Bono Net to direct individuals with civil legal needs to the most appropriate forms of assistance.",
+      "source": "https://www.lsc.gov/press-release/lsc-awards-nearly-4-million-technology-grants-legal-aid-organizations-0",
+      "note": "LSC's 2018 description page and release print $179,879; an earlier 2018 bundle prints $171,879 (see docs/tig-history.md)."
+    },
+    {
+      "year": 2018,
+      "grantee_as_printed": "Northwest Justice Project",
+      "state": "WA",
+      "amount_usd": 297175,
+      "service": "LSNTAP",
+      "named_as": "LSNTAP",
+      "scope": "whole",
+      "national_part_usd": 297175,
+      "quote": "Northwest Justice Project received funding to add new components to LSNTAP.org, a national technology support resource for the national legal aid community. This grant also supports a technology training webinar series and in-depth technology guides.",
+      "source": "https://www.lsc.gov/grants/technology-initiative-grant-program/technology-initiative-grant-awards-tig-projects-funded-year/2018-tig-awards-project-descriptions",
+      "note": "The 2018 description page prints $297,175; LSC's 2018 release prints $267,175 (see docs/tig-history.md)."
+    },
+    {
+      "year": 2018,
+      "grantee_as_printed": "Legal Aid of North Carolina, Inc.",
+      "state": "NC",
+      "amount_usd": 182000,
+      "service": "A2J Author",
+      "named_as": "A2J Author",
+      "scope": "part",
+      "national_part_usd": null,
+      "quote": "Legal Aid of North Carolina received funding to continue developing the A2J Author document assembly product, cloud-based software that helps self-represented litigants prepare court forms and other legal documents. The project also expands the availability of user-friendly legal forms for North Carolinians facing civil legal issues.",
+      "source": "https://www.lsc.gov/grants/technology-initiative-grant-program/technology-initiative-grant-awards-tig-projects-funded-year/2018-tig-awards-project-descriptions"
+    },
+    {
+      "year": 2020,
+      "grantee_as_printed": "Pine Tree Legal Assistance, Inc.",
+      "state": "ME",
+      "amount_usd": 50000,
+      "service": "Stateside Legal",
+      "named_as": "Stateside Legal",
+      "scope": "whole",
+      "national_part_usd": 50000,
+      "quote": "Pine Tree Legal Assistance will receive a TIG award to continue support of Stateside Legal, a website focused exclusively on veterans’ federal legal rights and resources.",
+      "source": "https://www.lsc.gov/grants/technology-initiative-grant-program/technology-initiative-grant-awards-tig-projects-funded-year/2020-tig-awards-project-descriptions"
+    },
+    {
+      "year": 2020,
+      "grantee_as_printed": "Michigan Advocacy Program",
+      "state": "MI",
+      "amount_usd": 259500,
+      "service": "A2J Author",
+      "named_as": "A2J Author",
+      "scope": "whole",
+      "national_part_usd": 259500,
+      "quote": "TIG funding of $259,500 will add three new features to the popular A2J Author document assembly program in order to increase resources available for self-represented litigants.",
+      "source": "https://www.lsc.gov/grants/technology-initiative-grant-program/technology-initiative-grant-awards-tig-projects-funded-year/2020-tig-awards-project-descriptions"
+    },
+    {
+      "year": 2021,
+      "grantee_as_printed": "Legal Aid Society of Hawaii",
+      "state": "HI",
+      "amount_usd": 93290,
+      "service": "Legal Navigator",
+      "named_as": "Legal Navigator",
+      "scope": "whole",
+      "national_part_usd": 93290,
+      "quote": "Funding will create a governance structure for the long-term maintenance and ongoing development of the national Legal Navigator tool.",
+      "source": "https://www.lsc.gov/grants/technology-initiative-grant-program/technology-initiative-grant-awards-tig-projects-funded-year/2021-tig-award-project-descriptions"
+    },
+    {
+      "year": 2022,
+      "grantee_as_printed": "Michigan Advocacy Program (MAP)",
+      "state": "MI",
+      "amount_usd": 598970,
+      "service": "LSNTAP",
+      "named_as": "LSNTAP",
+      "scope": "whole",
+      "national_part_usd": 598970,
+      "quote": "MAP will manage the Legal Services National Technology Assistance Project (LSNTAP) for the next two years. LSNTAP is a national platform that ensures that LSC-funded legal services providers across the country can utilize technology effectively within their organization.",
+      "source": "https://www.lsc.gov/press-release/legal-services-corporation-awards-46-million-technology-grants-29-legal-aid-organizations"
+    }
+  ],
+  "considered": [
+    {"year": 2014, "grantee_as_printed": "Northwest Justice Project", "state": "WA", "amount_printed": "$45,400",
+     "reason": "LSC's 2014 list prints only the amount; no LSC description of what it paid for was found."},
+    {"year": 2016, "grantee_as_printed": "West Tennessee Legal Services", "state": "TN", "amount_printed": "$57,860",
+     "reason": "Uses A2J Author for the grantee's own online intake; does not pay for A2J Author itself."},
+    {"year": 2017, "grantee_as_printed": "Legal Services NYC", "state": "NY", "amount_printed": "$102,750",
+     "reason": "Connects LawHelp Interactive to JustFix.nyc for the grantee's own housing clinics."},
+    {"year": 2019, "grantee_as_printed": "Philadelphia Legal Assistance Center", "state": "PA", "amount_printed": "$298,500",
+     "reason": "Tools reach users 'through the national Upsolve.org platform', which Upsolve runs, not an LSC grantee."},
+    {"year": 2019, "grantee_as_printed": "Michigan Advocacy Program", "state": "MI", "amount_printed": "$177,500",
+     "reason": "The closest call: user-experience review of 'the legal aid community's guided interviews' and work on 'the widely-used National Subject Matter Index (NSMI)'. LSC does not call the reviewed applications national, so it is left out."},
+    {"year": 2019, "grantee_as_printed": "Legal Services of Eastern Michigan", "state": "MI", "amount_printed": "$180,838",
+     "reason": "A new app for fair housing testers 'across the country', not an existing national service."},
+    {"year": 2020, "grantee_as_printed": "Atlanta Legal Aid Society, Inc.", "state": "GA", "amount_printed": "$107,504",
+     "reason": "Mostly GeorgiaLegalAid.org; also makes A2J Author documents accessible, without calling A2J Author national."},
+    {"year": 2022, "grantee_as_printed": "Pine Tree Legal Assistance, Inc. (PTLA)", "state": "ME", "amount_printed": "$152,987.94",
+     "reason": "Tools for Maine residents, offered also through StatesideLegal.org; LSC does not say any of it is for the national site."}
+  ]
+}
