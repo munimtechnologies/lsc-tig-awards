@@ -34,6 +34,11 @@ HAND = {
     "MT": {"poverty_population": 129805, "2014-2021": 601065, "2022-2025": 0, "2014-2025": 601065},
 }
 
+# The groups docs/pbif-poverty.md names, from the sandbox run of 17 October
+# 2026 (lsc-pbif-poverty-v2).
+BOTH_OVER_DOUBLE = ["AK", "IA", "KY", "ME", "VT", "WI"]
+BOTH_UNDER_HALF = sorted(NONE + ["SC", "TX"])
+
 
 def build():
     areas = basic_field.load()["service_areas"]
@@ -110,6 +115,25 @@ class Headline(unittest.TestCase):
                 self.assertLessEqual(set(both[key]), set(self.head[label][key]["states"]))
         self.assertTrue(-1 <= both["per_person_correlation"] <= 1)
 
+    def test_both_periods(self):
+        both = self.head["both_periods"]
+        self.assertEqual(both["over_double"], BOTH_OVER_DOUBLE)
+        self.assertEqual(both["under_half"], BOTH_UNDER_HALF)
+        self.assertEqual("%.2f" % both["per_person_correlation"], "0.28")
+
+    def test_doc_figures(self):
+        # Rounded figures docs/pbif-poverty.md quotes in its findings.
+        whole = self.head["2014-2025"]
+        self.assertEqual((whole["under_half"]["count"], whole["over_double"]["count"]), (22, 12))
+        self.assertEqual("%.1f" % (100 * whole["under_half"]["poverty_share"]), "38.0")
+        self.assertEqual("%.1f" % (100 * whole["under_half"]["pbif_share"]), "7.1")
+        self.assertEqual("%.1f" % (100 * whole["over_double"]["poverty_share"]), "11.3")
+        self.assertEqual("%.1f" % (100 * whole["over_double"]["pbif_share"]), "35.6")
+        self.assertEqual("%.1f" % (100 * whole["none"]["poverty_share"]), "13.3")
+        self.assertEqual("%.2f" % whole["per_person_in_poverty"], "1.21")
+        self.assertEqual("%.2f" % self.head["2014-2021"]["per_person_in_poverty"], "0.72")
+        self.assertEqual("%.2f" % self.head["2022-2025"]["per_person_in_poverty"], "0.49")
+
     def test_correlation(self):
         self.assertAlmostEqual(pbif_poverty.correlation([1, 2, 3], [2, 4, 6]), 1.0)
         self.assertAlmostEqual(pbif_poverty.correlation([1, 2, 3], [3, 2, 1]), -1.0)
@@ -120,6 +144,10 @@ class Output(unittest.TestCase):
         lines = pbif_poverty.markdown(build()).splitlines()
         self.assertEqual(len(lines), 2 + 56)
         self.assertTrue(lines[2].startswith("| "))
+
+    def test_doc_table_is_current(self):
+        with open(os.path.join(HERE, "docs", "pbif-poverty.md"), encoding="utf-8") as f:
+            self.assertIn(pbif_poverty.markdown(build()), f.read())
 
     def test_main_runs(self):
         for argv in ([], ["--json"], ["--summary"]):
