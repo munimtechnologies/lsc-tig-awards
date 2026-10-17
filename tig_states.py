@@ -9,6 +9,7 @@
     python tig_states.py --json     # the rows as JSON
     python tig_states.py --summary  # headline figures as JSON
     python tig_states.py --without-national --summary  # national-service grants set aside
+    python tig_states.py --without-national --without-services --summary  # and the 9 more
 
 Each round's grants are the list the module that checks it uses: 2014 the PDF
 on lsc.gov, one row per grantee (tig_2014_2015.py); 2016 and 2017 the archived
@@ -20,8 +21,11 @@ releases name are in --rounds but in no period. A grant counts to its
 grantee's state even where the project serves other states too (Ohio State
 Legal Services' LawHelp Interactive grants); --without-national sets aside
 the grants in data/national_grants.json, which LSC's own descriptions say pay
-for a service used in more than 40 states. Every period is set against the
-poverty population behind LSC's 2025 basic field money (poverty.py).
+for a service used in more than 40 states. --without-services sets aside the
+grants in data/national_services.json with scope 'whole', which LSC's text
+says pay only for another service it calls national; grants that also fund
+the grantee's own state stay in. Every period is set against the poverty
+population behind LSC's 2025 basic field money (poverty.py).
 """
 import argparse
 import json
@@ -37,6 +41,7 @@ import tig_history
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 NATIONAL = os.path.join(HERE, "data", "national_grants.json")
+SERVICES = os.path.join(HERE, "data", "national_services.json")
 YEARS = tuple(range(2014, 2026))
 PARTIAL = (2015,)
 PERIODS = {"2014-2019": range(2014, 2020), "2020-2025": range(2020, 2026), "2014-2025": range(2014, 2026)}
@@ -69,6 +74,14 @@ def grants(early, middle, late, awards):
 def load_national(path=NATIONAL):
     with open(path, encoding="utf-8") as f:
         return json.load(f)
+
+
+def load_services(path=SERVICES):
+    """The grants of data/national_services.json that pay only for the
+    national service (scope 'whole'), in the form set_aside takes."""
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f)
+    return {"grants": [g for g in data["grants"] if g["scope"] == "whole"]}
 
 
 def set_aside(rows, national):
@@ -240,8 +253,11 @@ def main(argv=None):
     p.add_argument("--basic-field", default=basic_field.DATA)
     p.add_argument("--competition", default=poverty.DATA)
     p.add_argument("--national", default=NATIONAL)
+    p.add_argument("--services", default=SERVICES)
     p.add_argument("--without-national", action="store_true",
                    help="set aside the national-service grants in --national")
+    p.add_argument("--without-services", action="store_true",
+                   help="set aside the grants in --services that pay only for a national service")
     p.add_argument("--rounds", action="store_true", help="print dollars per state and round")
     p.add_argument("--json", action="store_true", help="print the rows as JSON")
     p.add_argument("--summary", action="store_true", help="print headline figures as JSON")
@@ -249,6 +265,8 @@ def main(argv=None):
     grant_rows = build(args.early, args.middle, args.late, args.awards)
     if args.without_national:
         grant_rows = set_aside(grant_rows, load_national(args.national))
+    if args.without_services:
+        grant_rows = set_aside(grant_rows, load_services(args.services))
     if args.rounds:
         print(totals_markdown(grant_rows))
         print()
