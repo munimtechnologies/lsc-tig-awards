@@ -23,6 +23,7 @@ Each organization goes by the name LSC printed in its latest round. No pair join
 - **110 different organizations won at least one TIG in the 11 complete rounds**, 301 round wins in all. Counting names instead (no short form or rename joined) gives 115.
 - **No organization won all 11 rounds.** Montana Legal Services Association won 10 (all but 2019), Northwest Justice Project 9 and Legal Aid Chicago 8.
 - **32 organizations won once. 19 won five rounds or more and hold 119 of the 301 round wins (39.5%).**
+- **Repeat winners got larger grants.** The 19 that won five rounds or more received $23,613,472 of the $48,139,618 (49.1%), against 39.5% of round wins: $198,433 per round won, against $112,382 for the 32 that won once, who received 7.5% of the dollars for 10.6% of round wins. The 19 include Ohio State Legal Services, whose seven LawHelp Interactive grants ([tig-national.md](tig-national.md)) come to $4,648,850; without those, the 19 received 43.6% of the rest.
 - **61 organizations won in both periods.** 79 won in 2014-2019 and 92 in 2020-2025: of the 92, 31 had no TIG in any complete round from 2014 to 2019, and of the 79, 18 have had none since.
 - **Fewer newcomers since 2020.** From 2020 to 2025, 4 to 7 of each round's 24 to 29 organizations had won no complete round since 2014: 31 of 169 round wins (18.3%). From 2016 to 2019 it was 49 of 102 (48.0%), but those rounds look back over fewer years.
 
@@ -77,6 +78,7 @@ The seven organizations LSC's releases name for 2015 all won at least one comple
 
 - Since 2014 only. The TIG program began in 2000, so "new" means no TIG in a complete round since 2014, not a first TIG ever, and a round's look-back grows from one round (2016) to ten (2025).
 - Rounds, not grants: an organization with two grants in one round wins that round once. The 2014 list has one row per grantee.
+- Dollars per round won count Legal Services of Greater Miami's 2025 round, which LSC listed without an amount, as a round with no dollars. The lists do not say why some grants are larger, and project scope is not compared here.
 - Mergers between grantees are not followed: two grantees that later merged count as two. A rename joins two names only where data/grantee_names.json lists it with the organization's own page. The Idaho short form rests on Idaho having one LSC grantee, not on a statement by LSC.
 - Only organizations holding an LSC basic field grant may apply for a TIG, so the pool is LSC's grantees, not all legal aid organizations.
 - Information about public grants, compiled by MV2 of Munim, Inc. with AI agents working in his name. Not legal advice.

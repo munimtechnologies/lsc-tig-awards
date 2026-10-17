@@ -1,5 +1,6 @@
 # SPDX-License-Identifier: Apache-2.0
 # Copyright 2026 Munim, Inc.
+import json
 import os
 import sys
 import unittest
@@ -52,6 +53,36 @@ class Doc(unittest.TestCase):
                       "%d had no TIG in any complete round from 2014 to 2019, and of the %d, %d have had none since." % (
                           p["both"], early, late, late, late - p["both"], early, early - p["both"]), self.doc)
 
+    def test_dollars(self):
+        h = self.head
+        often = [v for k, v in h["rounds_won"].items() if int(k) >= 5]
+        self.assertEqual(sum(v["organizations"] for v in often), h["five_or_more"]["organizations"])
+        usd, wins = sum(v["usd"] for v in often), h["five_or_more"]["round_wins"]
+        once = h["rounds_won"]["1"]
+        # Hand sums of the per-group dollars: 10 rounds down to 5, then the
+        # ten groups, which reach the 11 rounds' $48,139,618.03 to the cent.
+        self.assertAlmostEqual(usd, 23613471.87, places=2)
+        self.assertAlmostEqual(once["usd"], 3596229.00, places=2)
+        self.assertAlmostEqual(sum(v["usd"] for v in h["rounds_won"].values()), h["usd"], places=2)
+        self.assertAlmostEqual(h["usd"], 48139618.03, places=2)
+        self.assertIn("**Repeat winners got larger grants.** The %d that won five rounds or more received %s of the %s (%s), "
+                      "against %s of round wins: %s per round won, against %s for the %d that won once, who received %s "
+                      "of the dollars for %s of round wins." % (
+                          h["five_or_more"]["organizations"], tig.dollars(usd), tig.dollars(h["usd"]), tig.pct(usd, h["usd"]),
+                          tig.pct(wins, h["round_wins"]), tig.dollars(usd / wins),
+                          tig.dollars(once["usd"] / once["organizations"]), once["organizations"],
+                          tig.pct(once["usd"], h["usd"]), tig.pct(once["organizations"], h["round_wins"])), self.doc)
+        self.assertGreater(usd / wins, once["usd"] / once["organizations"])
+        with open(os.path.join(HERE, "data", "national_grants.json"), encoding="utf-8") as f:
+            lhi = [g for g in json.load(f)["grants"] if g["service"] == "LawHelp Interactive"]
+        self.assertEqual(len(lhi), 7)
+        self.assertTrue(any(m["organization"] == "Ohio State Legal Services" for m in h["most"]))
+        lhi_usd = sum(g["amount_usd"] for g in lhi)
+        self.assertIn("whose seven LawHelp Interactive grants ([tig-national.md](tig-national.md)) come to %s; without "
+                      "those, the %d received %s of the rest." % (
+                          tig.dollars(lhi_usd), h["five_or_more"]["organizations"],
+                          tig.pct(usd - lhi_usd, h["usd"] - lhi_usd)), self.doc)
+
     def test_newcomers(self):
         r = {int(y): v for y, v in self.head["rounds"].items()}
         late = [v for y, v in r.items() if y >= 2020]
@@ -82,7 +113,7 @@ class Doc(unittest.TestCase):
 
     def test_links_and_commands(self):
         for text in ("python tig_grantees.py --rounds", "python tig_grantees.py --summary", "test_tig_grantees.py",
-                     "(tig-states.md)", "(tig-history.md)", "(../data/grantee_names.json)"):
+                     "(tig-states.md)", "(tig-history.md)", "(tig-national.md)", "(../data/grantee_names.json)"):
             self.assertIn(text, self.doc)
 
 
