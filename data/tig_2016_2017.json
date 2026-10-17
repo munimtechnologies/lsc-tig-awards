@@ -1,0 +1,167 @@
+{
+  "name": "lsc-tig-awards tig_2016_2017",
+  "version": "0.9.0",
+  "checked": "2026-10-17",
+  "description": "LSC Technology Initiative Grant (TIG) rounds 2016 and 2017 as printed on LSC's per-year project description pages (read from the Internet Archive's June 2019 captures: the old lsc.gov addresses now open LSC's TIG index page, which has no 2016 or 2017 list), with every amount LSC's press releases still on lsc.gov print for the same grants, the per-grantee totals those releases state, and LSC's own counts and dollar figures for each round. Read from the raw text of each document and hand-checked. Compiled by MV2 of Munim, Inc. with AI agents working in his name. CC BY 4.0.",
+  "fields": {
+    "rounds[].page": "Internet Archive capture of LSC's project description page for the round; its list is the record here",
+    "rounds[].page_today": "the page's old lsc.gov address, which now opens LSC's TIG index page with no list for the round",
+    "rounds[].sources": "LSC press releases on lsc.gov that print amounts for some or all of the round's grants: release (the round's announcement), bundle (2016: per-grantee releases bundled on one page), pbif_bundle (the same year's Pro Bono Innovation Fund per-grantee releases, some of which also announce a TIG)",
+    "grants[].grantee": "grantee name as printed on the description page (runs of spaces made single)",
+    "grants[].state": "two-letter code for the grantee's state or territory, read from its name and project description",
+    "grants[].tig": "TIG number as printed",
+    "grants[].printed": "amount as printed on the description page; null where the page prints none",
+    "amounts": "by source and TIG number, the amount each release prints in its text for that grant",
+    "grantee_totals[]": "a total a release states for one grantee's grants together",
+    "headings[]": "a per-grantee release heading whose TIG amount differs from the amount in the same release's text",
+    "statements[]": "one statement by LSC about the round, quoted from the source: counts of grants, organizations, states and territories (null where not given) and a dollar figure as a rule: more_than X, nearly X (read only as 'less than X'), about X (rounds to X at the nearest $0.1 million)"
+  },
+  "rounds": [
+    {
+      "year": 2016,
+      "page": "https://web.archive.org/web/20190611223436/https://www.lsc.gov/grants-grantee-resources/our-grant-programs/tig/2016-tig-awards-project-descriptions",
+      "page_today": "https://www.lsc.gov/grants-grantee-resources/our-grant-programs/tig/2016-tig-awards-project-descriptions",
+      "sources": {
+        "release": "https://www.lsc.gov/press-release/lsc-awards-more-42-million-technology-grants-legal-aid-organizations",
+        "bundle": "https://www.lsc.gov/press-release/2016-technology-initiative-grants-awarded-27-lsc-grantees",
+        "pbif_bundle": "https://www.lsc.gov/press-release/2016-pro-bono-innovation-grant-recipients"
+      },
+      "grants": [
+        {"grantee": "Legal Services of North Florida, Inc.", "state": "FL", "tig": "16001", "printed": "$130,121"},
+        {"grantee": "Michigan Advocacy Program", "state": "MI", "tig": "16004", "printed": "$57,000"},
+        {"grantee": "Philadelphia Legal Assistance Center", "state": "PA", "tig": "16005", "printed": "$42,000"},
+        {"grantee": "Land of Lincoln Legal Assistance Foundation, Inc.", "state": "IL", "tig": "16006", "printed": "$142,930"},
+        {"grantee": "Iowa Legal Aid", "state": "IA", "tig": "16007", "printed": null},
+        {"grantee": "West Tennessee Legal Services, Inc.", "state": "TN", "tig": "16009", "printed": "$57,860"},
+        {"grantee": "Legal Aid of NorthWest Texas", "state": "TX", "tig": "16014", "printed": "$52,000"},
+        {"grantee": "Northwest Justice Project", "state": "WA", "tig": "16015", "printed": "$83,000"},
+        {"grantee": "Statewide Legal Services of Connecticut, Inc.", "state": "CT", "tig": "16017", "printed": "$88,178"},
+        {"grantee": "Community Legal Aid SoCal", "state": "CA", "tig": "16019", "printed": "$94,064"},
+        {"grantee": "Utah Legal Services, Inc.", "state": "UT", "tig": "16020", "printed": "$202,000"},
+        {"grantee": "Statewide Legal Services of Connecticut, Inc.", "state": "CT", "tig": "16021", "printed": "$152,000"},
+        {"grantee": "Montana Legal Services Association", "state": "MT", "tig": "16023", "printed": "$116,537"},
+        {"grantee": "Central Virginia Legal Aid Society, Inc.", "state": "VA", "tig": "16025", "printed": "$62,000"},
+        {"grantee": "Coast to Coast Legal Aid of South Florida, Inc.", "state": "FL", "tig": "16026", "printed": "$66,379"},
+        {"grantee": "Ohio State Legal Services", "state": "OH", "tig": "16027", "printed": "$808,000"},
+        {"grantee": "Legal Services NYC", "state": "NY", "tig": "16029", "printed": "$77,500"},
+        {"grantee": "Idaho Legal Aid Services, Inc.", "state": "ID", "tig": "16032", "printed": "$80,934"},
+        {"grantee": "Idaho Legal Aid Services, Inc.", "state": "ID", "tig": "16033", "printed": "$251,985"},
+        {"grantee": "American Samoa Legal Aid", "state": "AS", "tig": "16034", "printed": "$61,740"},
+        {"grantee": "Michigan Advocacy Program", "state": "MI", "tig": "16035", "printed": "$127,000"},
+        {"grantee": "Ohio State Legal Services", "state": "OH", "tig": "16039", "printed": "$46,576"},
+        {"grantee": "Legal Aid of Nebraska", "state": "NE", "tig": "16040", "printed": "$132,000"},
+        {"grantee": "Southern Arizona Legal Aid, Inc.", "state": "AZ", "tig": "16041", "printed": "$80,957"},
+        {"grantee": "Memphis Area Legal Services, Inc.", "state": "TN", "tig": "16044", "printed": "$53,400"},
+        {"grantee": "Community Legal Services of Mid-Florida, Inc.", "state": "FL", "tig": "16045", "printed": "$139,200"},
+        {"grantee": "Legal Aid Foundation of Los Angeles", "state": "CA", "tig": "16049", "printed": "$159,695"},
+        {"grantee": "Legal Assistance of Western New York, Inc.", "state": "NY", "tig": "16052", "printed": "$114,223"},
+        {"grantee": "Legal Assistance of Western New York, Inc.", "state": "NY", "tig": "16053", "printed": "$47,000"},
+        {"grantee": "Legal Aid Services of Oklahoma, Inc.", "state": "OK", "tig": "16054", "printed": "$135,217"},
+        {"grantee": "Legal Aid Services of Oklahoma, Inc.", "state": "OK", "tig": "16055", "printed": "$221,746"},
+        {"grantee": "South Carolina Legal Services, Inc.", "state": "SC", "tig": "16056", "printed": "$86,245"},
+        {"grantee": "South Carolina Legal Services, Inc.", "state": "SC", "tig": "16057", "printed": "$122,000"},
+        {"grantee": "Legal Services of Northern Virginia, Inc.", "state": "VA", "tig": "16062", "printed": "$52,000"}
+      ],
+      "amounts": {
+        "release": {
+          "16017": "$88,178", "16021": "$152,000", "16026": "$66,379", "16055": "$221,746",
+          "16054": "$135,217", "16044": "$53,400", "16020": "$202,000"
+        },
+        "bundle": {
+          "16034": "$61,740", "16026": "$66,379", "16045": "$139,200", "16033": "$251,985",
+          "16032": "$80,934", "16001": "$130,121", "16055": "$221,746", "16054": "$135,217",
+          "16044": "$53,400", "16027": "$808,000", "16039": "$46,576", "16057": "$122,000",
+          "16056": "$86,245", "16017": "$88,178", "16021": "$152,000", "16020": "$202,000"
+        },
+        "pbif_bundle": {"16049": "$159,695", "16007": "$59,734"}
+      },
+      "grantee_totals": [
+        {"source": "release", "grantee": "Statewide Legal Services of Connecticut, Inc.", "tigs": ["16017", "16021"], "printed": "$240,178"},
+        {"source": "release", "grantee": "Legal Aid Services of Oklahoma, Inc.", "tigs": ["16054", "16055"], "printed": "$356,963"},
+        {"source": "bundle", "grantee": "Idaho Legal Aid Services, Inc.", "tigs": ["16032", "16033"], "printed": "$322,919", "note": "Heading 'Idaho Legal Aid Services Receives $322,919 in Technology Grants' and text 'a total of $322,919', then 'its $251,985 grant' and 'A second, $80,934 grant'."},
+        {"source": "bundle", "grantee": "Legal Aid Services of Oklahoma, Inc.", "tigs": ["16054", "16055"], "printed": "$356,963"},
+        {"source": "bundle", "grantee": "Ohio State Legal Services", "tigs": ["16027", "16039"], "printed": "$854,576"},
+        {"source": "bundle", "grantee": "South Carolina Legal Services, Inc.", "tigs": ["16056", "16057"], "printed": "$208,245"},
+        {"source": "bundle", "grantee": "Statewide Legal Services of Connecticut, Inc.", "tigs": ["16017", "16021"], "printed": "$240,178"}
+      ],
+      "headings": [],
+      "statements": [
+        {"source": "page", "quote": "In 2016, LSC made 34 Technology Initiative Grant (TIG) awards totaling $4.2 million to 27 grantees.",
+         "grants": 34, "organizations": 27, "states": null, "territories": null, "usd": {"about": 4200000}},
+        {"source": "release", "quote": "The Legal Services Corporation (LSC) today announced 34 Technology Initiative Grants (TIG) to 27 legal services organizations in 20 states and one territory.",
+         "grants": 34, "organizations": 27, "states": 20, "territories": 1, "usd": null},
+        {"source": "release", "quote": "LSC Awards More Than $4.2 Million in Technology Grants to Legal Aid Organizations",
+         "grants": null, "organizations": null, "states": null, "territories": null, "usd": {"more_than": 4200000}},
+        {"source": "bundle", "quote": "The Legal Services Corporation (LSC) today announced 34 Technology Initiative Grants (TIG) to 27 legal services organizations in 20 states and one territory.",
+         "grants": 34, "organizations": 27, "states": 20, "territories": 1, "usd": null},
+        {"source": "bundle", "quote": "ASLA is one of 27 recipients of 2016 LSC Technology Initiative Grant funding totaling more than $4.2 million.",
+         "grants": null, "organizations": 27, "states": null, "territories": null, "usd": {"more_than": 4200000}}
+      ]
+    },
+    {
+      "year": 2017,
+      "page": "https://web.archive.org/web/20190611223338/https://www.lsc.gov/grants-grantee-resources/our-grant-programs/tig/2017-tig-awards-project-descriptions",
+      "page_today": "https://www.lsc.gov/grants-grantee-resources/our-grant-programs/tig/2017-tig-awards-project-descriptions",
+      "sources": {
+        "release": "https://www.lsc.gov/press-release/lsc-awards-nearly-4-million-technology-grants-legal-aid-organizations-1",
+        "pbif_bundle": "https://www.lsc.gov/press-release/2017-pro-bono-innovation-grant-recipients"
+      },
+      "grants": [
+        {"grantee": "Kansas Legal Services, Inc.", "state": "KS", "tig": "17004", "printed": "$159,110"},
+        {"grantee": "Northwest Justice Project", "state": "WA", "tig": "17005", "printed": "$185,250"},
+        {"grantee": "Pine Tree Legal Assistance, Inc.", "state": "ME", "tig": "17007", "printed": "$175,250"},
+        {"grantee": "Legal Services Vermont", "state": "VT", "tig": "17010", "printed": "$145,114"},
+        {"grantee": "Montana Legal Services Association", "state": "MT", "tig": "17011", "printed": "$221,995"},
+        {"grantee": "Montana Legal Services Association", "state": "MT", "tig": "17013", "printed": "$86,250"},
+        {"grantee": "Pine Tree Legal Assistance, Inc.", "state": "ME", "tig": "17015", "printed": "$86,000"},
+        {"grantee": "Legal Aid Society of Hawaii", "state": "HI", "tig": "17023", "printed": "$102,103"},
+        {"grantee": "Legal Services of Northwest Minnesota Corporation", "state": "MN", "tig": "17025", "printed": "$153,500"},
+        {"grantee": "Southeast Louisiana Legal Services Corporation", "state": "LA", "tig": "17026", "printed": "$68,119"},
+        {"grantee": "Southeast Louisiana Legal Services Corporation", "state": "LA", "tig": "17027", "printed": "$35,000"},
+        {"grantee": "Legal Services of North Florida, Inc.", "state": "FL", "tig": "17030", "printed": "$89,726"},
+        {"grantee": "New Mexico Legal Aid", "state": "NM", "tig": "17032", "printed": "$143,478"},
+        {"grantee": "Community Legal Services of Mid-Florida, Inc.", "state": "FL", "tig": "17033", "printed": "$160,888"},
+        {"grantee": "Ohio State Legal Services", "state": "OH", "tig": "17037", "printed": "$751,250"},
+        {"grantee": "Nassau/Suffolk Law Services Committee, Inc.", "state": "NY", "tig": "17039", "printed": "$104,250"},
+        {"grantee": "Volunteer Lawyers Project of the Boston Bar Association", "state": "MA", "tig": "17040", "printed": "$69,250"},
+        {"grantee": "Legal Services of Northern Virginia, Inc.", "state": "VA", "tig": "17041", "printed": "$97,750"},
+        {"grantee": "West Tennessee Legal Services, Inc.", "state": "TN", "tig": "17045", "printed": "$229,191"},
+        {"grantee": "Legal Services NYC", "state": "NY", "tig": "17046", "printed": "$102,750"},
+        {"grantee": "Southwest Virginia Legal Aid Society, Inc.", "state": "VA", "tig": "17050", "printed": "$115,250"},
+        {"grantee": "Atlanta Legal Aid Society, Inc.", "state": "GA", "tig": "17052", "printed": "$134,720"},
+        {"grantee": "Philadelphia Legal Assistance Center", "state": "PA", "tig": "17053", "printed": "$165,250"},
+        {"grantee": "Bay Area Legal Services, Inc.", "state": "FL", "tig": "17055", "printed": "$136,705"},
+        {"grantee": "Michigan Advocacy Program", "state": "MI", "tig": "17056", "printed": "$209,825"}
+      ],
+      "amounts": {
+        "release": {
+          "17055": "$136,705", "17033": "$160,888", "17030": "$89,726", "17052": "$134,720",
+          "17023": "$102,103", "17004": "$159,110", "17026": "$68,119", "17027": "$35,000",
+          "17040": "$69,250", "17007": "$175,250", "17015": "$86,000", "17056": "$209,825",
+          "17025": "$153,500", "17011": "$221,995", "17013": "$86,250", "17032": "$143,478",
+          "17046": "$102,750", "17039": "$104,250", "17037": "$751,250", "17053": "$165,250",
+          "17045": "$229,191", "17010": "$145,114", "17041": "$97,750", "17050": "$115,250",
+          "17005": "$185,250"
+        },
+        "pbif_bundle": {
+          "17055": "$136,705", "17026": "$68,119", "17040": "$69,250", "17046": "$102,750",
+          "17041": "$97,750", "17005": "$185,250"
+        }
+      },
+      "grantee_totals": [],
+      "headings": [
+        {"source": "pbif_bundle", "tig": "17005", "heading": "$97,750", "note": "Heading 'Northwest Justice Project Receives $298,564 Pro Bono Innovation Fund Grant, $97,750 Technology Initiative Grant'; the text below it says 'a $185,250 Technology Initiative Grant'. $97,750 is the amount in the heading just above it, Legal Services of Northern Virginia's."}
+      ],
+      "statements": [
+        {"source": "page", "quote": "In 2017, LSC awarded 25 technology grants (TIGs) to 22 legal services organizations in 18 states.",
+         "grants": 25, "organizations": 22, "states": 18, "territories": null, "usd": null},
+        {"source": "release", "quote": "The Legal Services Corporation (LSC) today announced 25 Technology Initiative Grants (TIG) to 22 legal services organizations in 18 states.",
+         "grants": 25, "organizations": 22, "states": 18, "territories": null, "usd": null},
+        {"source": "release", "quote": "LSC Awards Nearly $4 Million in Technology Grants to Legal Aid Organizations",
+         "grants": null, "organizations": null, "states": null, "territories": null, "usd": {"nearly": 4000000}},
+        {"source": "pbif_bundle", "quote": "Legal Services of Northern Virginia is receiving one of 25 grants.",
+         "grants": 25, "organizations": null, "states": null, "territories": null, "usd": null}
+      ]
+    }
+  ]
+}
