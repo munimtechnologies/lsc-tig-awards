@@ -70,6 +70,8 @@ rounds" means the other 11.
   None of LSC's 2022-2025 TIG releases mentions LawHelp Interactive. Because a grant
   counts to its grantee's state, Ohio's figures, and every state's share, should be read
   with these seven grants in mind: without them Ohio had $1,252,423.
+  [tig-national.md](tig-national.md) sets them aside: Ohio's index then falls below 1.0
+  in every period (`python tig_states.py --without-national`).
 
 ## Limits
 
