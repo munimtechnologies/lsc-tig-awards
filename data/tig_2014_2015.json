@@ -1,0 +1,156 @@
+{
+  "version": "0.10.0",
+  "license": "CC BY 4.0",
+  "compiled_by": "MV2 of Munim, Inc., with AI agents working in his name",
+  "read_on": "2026-10-17",
+  "note": "LSC's 2014 and 2015 Technology Initiative Grant (TIG) rounds. 2014: the full list is a two-page PDF still on lsc.gov (one row per grantee; its Internet Archive copy of 27 Sep 2015 is byte-identical). 2015: LSC's list page never held a list (the archived page of 6 Nov 2015 is a summary paragraph) and the address now opens the press release, so only the grants named in LSC's releases are known. Amounts are strings as printed, with stray spaces removed; where a document prints a stray space the exact text is in as_printed.",
+  "rounds": [
+    {
+      "year": 2014,
+      "announced": "2014-10-17",
+      "list": {
+        "kind": "pdf",
+        "url": "https://www.lsc.gov/sites/default/files/LSC/2014-tig-awards4-smlfile.pdf",
+        "bytes": 96612,
+        "sha256": "1685c827118fbb7d04f04461b0b3326df43b2d37fb29e46ee4ffa5a6964760c2",
+        "pdf_created": "2014-10-17",
+        "archived": "https://web.archive.org/web/20150927103037/http://www.lsc.gov/sites/default/files/LSC/2014-tig-awards4-smlfile.pdf",
+        "archived_sha256": "1685c827118fbb7d04f04461b0b3326df43b2d37fb29e46ee4ffa5a6964760c2",
+        "rows": "one per grantee",
+        "stated_total": "$3,467,978"
+      },
+      "stated": {"projects": 38, "organizations": null, "places": 22, "grants": null},
+      "grantees": [
+        {"id": "14-01", "grantee": "Center for Arkansas Legal Services", "state": "AR", "printed": "$81,400", "grants": null},
+        {"id": "14-02", "grantee": "Bay Area Legal Aid", "state": "CA", "printed": "$168,324", "grants": 2},
+        {"id": "14-03", "grantee": "Legal Aid Foundation of Los Angeles", "state": "CA", "printed": "$24,069", "grants": null},
+        {"id": "14-04", "grantee": "Legal Services of Northern California", "state": "CA", "printed": "$88,650", "grants": null},
+        {"id": "14-05", "grantee": "Statewide Legal Services of Connecticut", "state": "CT", "printed": "$129,726", "grants": null},
+        {"id": "14-06", "grantee": "Legal Services of Greater Miami", "state": "FL", "printed": "$104,756", "grants": null},
+        {"id": "14-07", "grantee": "Legal Aid Society of Hawaii", "state": "HI", "printed": "$92,917", "grants": null},
+        {"id": "14-08", "grantee": "Iowa Legal Aid", "state": "IA", "printed": "$36,372", "grants": null},
+        {"id": "14-09", "grantee": "Idaho Legal Services", "state": "ID", "printed": "$35,487", "grants": null},
+        {"id": "14-10", "grantee": "Land of Lincoln Legal Assistance Foundation, Inc.", "state": "IL", "printed": "$102,845", "grants": null},
+        {"id": "14-11", "grantee": "Legal Assistance Foundation", "state": "IL", "printed": "$68,900", "grants": null},
+        {"id": "14-12", "grantee": "Legal Aid Society", "state": "KY", "printed": "$182,445", "grants": null},
+        {"id": "14-13", "grantee": "Acadiana Legal Services Corporation", "state": "LA", "printed": "$58,788", "grants": null},
+        {"id": "14-14", "grantee": "Southeast Louisiana Legal Services Corporation", "state": "LA", "printed": "$31,400", "grants": null},
+        {"id": "14-15", "grantee": "Pine Tree Legal Assistance, Inc.", "state": "ME", "printed": "$138,139", "grants": 2},
+        {"id": "14-16", "grantee": "Legal Aid of Western Michigan", "state": "MI", "printed": "$81,400", "grants": null},
+        {"id": "14-17", "grantee": "Anishinabe Legal Services, Inc.", "state": "MN", "printed": "$70,975", "grants": null},
+        {"id": "14-18", "grantee": "Central Minnesota Legal Services, Inc.", "state": "MN", "printed": "$78,400", "grants": null},
+        {"id": "14-19", "grantee": "Montana Legal Services Association", "state": "MT", "printed": "$52,946", "grants": null},
+        {"id": "14-20", "grantee": "Legal Aid of Nebraska", "state": "NE", "printed": "$91,400", "grants": null},
+        {"id": "14-21", "grantee": "Legal Assistance of Western New York, Inc.", "state": "NY", "printed": "$195,527", "grants": 3},
+        {"id": "14-22", "grantee": "Legal Aid of Western Ohio, Inc.", "state": "OH", "printed": "$94,150", "grants": null},
+        {"id": "14-23", "grantee": "Ohio State Legal Services", "state": "OH", "printed": "$725,200", "grants": null},
+        {"id": "14-24", "grantee": "Puerto Rico Legal Services, Inc.", "state": "PR", "printed": "$83,900", "grants": null},
+        {"id": "14-25", "grantee": "Legal Aid Society of Middle Tennessee and the Cumberland", "state": "TN", "printed": "$78,862", "grants": null},
+        {"id": "14-26", "grantee": "Utah Legal Services, Inc.", "state": "UT", "printed": "$31,400", "grants": null},
+        {"id": "14-27", "grantee": "Central Virginia Legal Aid Society, Inc.", "state": "VA", "printed": "$251,400", "grants": null},
+        {"id": "14-28", "grantee": "Legal Services of Northern Virginia, Inc.", "state": "VA", "printed": "$91,400", "grants": null},
+        {"id": "14-29", "grantee": "Virginia Legal Aid Society, Inc.", "state": "VA", "printed": "$151,400", "grants": null},
+        {"id": "14-30", "grantee": "Northwest Justice Project", "state": "WA", "printed": "$45,400", "grants": null}
+      ],
+      "sources": {
+        "release": "https://www.lsc.gov/press-release/lsc-awards-nearly-35-million-2014-technology-grants-legal-aid-organizations",
+        "local": "https://www.lsc.gov/press-release/lsc-awards-nearly-35-million-2014-technology-grants-legal-aid-organizations-local"
+      },
+      "archived_sources": {
+        "release": "https://web.archive.org/web/20150924055709/http://www.lsc.gov/media-center/press-releases/2014/lsc-awards-nearly-35-million-2014-technology-grants-legal-aid-0",
+        "local": "https://web.archive.org/web/20151026183419/http://www.lsc.gov/media-center/press-releases/2014/lsc-awards-nearly-35-million-2014-technology-grants-legal-aid"
+      },
+      "amounts": {
+        "release": {
+          "14-02": "$168,324", "14-06": "$104,756", "14-12": "$182,445", "14-15": "$138,139",
+          "14-20": "$91,400", "14-21": "$195,527", "14-23": "$725,200", "14-25": "$78,862"
+        },
+        "local": {
+          "14-02": "$168,324", "14-06": "$104,756", "14-15": "$138,139", "14-21": "$195,527",
+          "14-23": "$735,200", "14-27": "$251,400", "14-28": "$91,400", "14-29": "$151,400"
+        }
+      },
+      "as_printed": {
+        "release": {"14-02": "$168, 324", "14-21": "$195, 527"},
+        "local": {"14-15": "$138, 139"}
+      },
+      "group_totals": [
+        {"source": "release", "label": "Virginia (three grantees)", "ids": ["14-27", "14-28", "14-29"], "printed": "$494,200", "as_printed": "$494, 200"},
+        {"source": "local", "label": "Virginia (three grantees)", "ids": ["14-27", "14-28", "14-29"], "printed": "$494,200", "as_printed": "$494, 200"}
+      ],
+      "parts": [
+        {"source": "local", "id": "14-02", "printed": ["$53,990", "$114,334"]},
+        {"source": "local", "id": "14-15", "printed": ["$75,270", "$62,869"], "as_printed": ["$75,270", "$62, 869"]},
+        {"source": "local", "id": "14-21", "printed": ["$28,737", "$82,895", "$83,895"], "as_printed": ["$28, 737", "$82,895", "$83, 895"]}
+      ],
+      "names": [
+        {"id": "14-25", "list": "Legal Aid Society of Middle Tennessee and the Cumberland", "release": "Legal Aid Society of Middle Tennessee and the Cumberlands"},
+        {"id": "14-23", "list": "Ohio State Legal Services", "release": "Ohio State Legal Services Association"},
+        {"id": "14-06", "list": "Legal Services of Greater Miami", "release": "Legal Services of Greater Miami, Inc."},
+        {"id": "14-21", "list": "Legal Assistance of Western New York, Inc.", "release": "Legal Assistance of Western New York"}
+      ],
+      "statements": [
+        {"source": "list", "quote": "22 STATES & TERRITORIES / 38 PROJECTS / TOTAL FUNDING: $3,467,978", "projects": 38, "organizations": null, "places": 22, "usd": {"exactly": 3467978}},
+        {"source": "release", "quote": "LSC Awards Nearly $3.5 Million in 2014 Technology Grants to Legal Aid Organizations", "projects": null, "organizations": null, "places": null, "usd": {"nearly": 3500000}},
+        {"source": "release", "quote": "today released a list of 38 projects nationwide that will receive Technology Initiative Grant (TIG) funding in 2014", "projects": 38, "organizations": null, "places": null, "usd": null},
+        {"source": "local", "quote": "one of 38 recipients of 2014 LSC-TIG funding totaling nearly $3.5 million", "projects": null, "organizations": 38, "places": null, "usd": {"nearly": 3500000}}
+      ],
+      "cumulative": {"source": "release", "quote": "Since its start in 2000, LSC's TIG program has funded 570 technology projects totaling more than $46 million.", "grants": 570, "usd": {"more_than": 46000000}}
+    },
+    {
+      "year": 2015,
+      "announced": "2015-11-04",
+      "list": {
+        "kind": "none",
+        "url": "http://www.lsc.gov/technology-initiative-grant-awards-2015",
+        "archived": "https://web.archive.org/web/20151106232057/http://www.lsc.gov/technology-initiative-grant-awards-2015",
+        "archived_sha256": "a874b9e96b0632c405220b947e753fdca6b3fed197cafcb344d0dbe3500bb57e",
+        "note": "The archived page (25 captures, 6 Nov 2015 to 20 Sep 2019) holds one summary paragraph and links to the releases, no list. The address now redirects to the release. No per-year 2015 description page was ever captured.",
+        "stated_total": null
+      },
+      "stated": {"projects": null, "organizations": 30, "places": null, "grants": 36},
+      "grantees": [
+        {"id": "15-01", "grantee": "Legal Aid Society of Orange County, Inc.", "state": "CA", "printed": "$152,200", "grants": 1, "printed_from": "release"},
+        {"id": "15-02", "grantee": "Volunteer Lawyers Project of the Boston Bar Association", "state": "MA", "printed": "$137,200", "grants": 1, "printed_from": "release"},
+        {"id": "15-03", "grantee": "Lone Star Legal Aid", "state": "TX", "printed": "$130,438", "grants": 1, "printed_from": "release"},
+        {"id": "15-04", "grantee": "Northwest Justice Project", "state": "WA", "printed": "$505,660", "grants": 2, "printed_from": "release"},
+        {"id": "15-05", "grantee": "Legal Aid of West Virginia, Inc.", "state": "WV", "printed": "$90,600", "grants": 1, "printed_from": "release"},
+        {"id": "15-06", "grantee": "LAF", "state": "IL", "printed": "$70,750", "grants": 1, "printed_from": "pbif_bundle"},
+        {"id": "15-07", "grantee": "Blue Ridge Legal Services", "state": "VA", "printed": "$127,200", "grants": 1, "printed_from": "pbif_bundle"}
+      ],
+      "sources": {
+        "release": "https://www.lsc.gov/press-release/lsc-awards-more-42-million-2015-technology-grants-legal-aid-organizations",
+        "bundle": "https://www.lsc.gov/press-release/2015-technology-initiative-grants-awarded-30-lsc-grantees",
+        "pbif_bundle": "https://www.lsc.gov/press-release/2015-pro-bono-innovation-grant-recipients",
+        "event": "https://www.lsc.gov/press-release/kennedy-lsc-president-join-legal-aid-leaders-announce-technology-grant-volunteer"
+      },
+      "archived_sources": {
+        "release": "https://web.archive.org/web/20151116005007/http://www.lsc.gov/media-center/press-releases/2015/lsc-awards-more-42-million-2015-technology-grants-legal-aid",
+        "bundle": "https://web.archive.org/web/20151121003811/http://www.lsc.gov/media-center/press-releases/2015/2015-technology-initiative-grants-awarded-30-lsc-grantees",
+        "laf_event": "https://web.archive.org/web/20151026144715/http://www.lsc.gov/media-center/press-releases/2015/quigley-lsc-chair-join-laf-announce-pro-bono-technology-grants-help"
+      },
+      "amounts": {
+        "release": {"15-01": "$152,200", "15-02": "$137,200", "15-03": "$130,438", "15-04": "$505,660", "15-05": "$90,600"},
+        "bundle": {"15-01": "$152,200", "15-02": "$137,200", "15-03": "$130,438", "15-04": "$505,660", "15-05": "$90,600"},
+        "pbif_bundle": {"15-06": "$70,750", "15-07": "$127,200"},
+        "event": {"15-02": "$137,200"}
+      },
+      "as_printed": {},
+      "group_totals": [],
+      "parts": [
+        {"source": "bundle", "id": "15-04", "printed": ["$75,700", "$429,960"]}
+      ],
+      "names": [
+        {"id": "15-01", "list": "Legal Aid Society of Orange County, Inc.", "release": "Legal Aid Society of Orange County, Inc.", "bundle_heading": "Legal Aid of Orange County, Inc.", "bundle_text": "Legal Aid Society of Orange County"}
+      ],
+      "statements": [
+        {"source": "list", "quote": "30 LSC Grantees nationwide will receive funding for LSC Technology Initiative Grant (TIG) in 2015.", "projects": null, "organizations": 30, "places": null, "usd": null},
+        {"source": "release", "quote": "LSC Awards More Than $4.2 Million in 2015 Technology Grants to Legal Aid Organizations", "projects": null, "organizations": null, "places": null, "usd": {"more_than": 4200000}},
+        {"source": "release", "quote": "announced today that 30 organizations nationwide will receive Technology Initiative Grant (TIG) funding in 2015", "projects": null, "organizations": 30, "places": null, "usd": null},
+        {"source": "bundle", "quote": "one of 30 recipients of 2015 LSC-TIG funding totaling more than $4.2 million", "projects": null, "organizations": 30, "places": null, "usd": {"more_than": 4200000}},
+        {"source": "pbif_bundle", "quote": "LSC's $4 million TIG program, which is in its 16th year, awarded 36 grants this year.", "projects": null, "organizations": null, "places": null, "usd": null, "grants": 36}
+      ],
+      "cumulative": {"source": "release", "quote": "Since its inception in 2000, LSC's TIG program has awarded 644 grants for a total of more than $53 million.", "grants": 644, "usd": {"more_than": 53000000}}
+    }
+  ]
+}
