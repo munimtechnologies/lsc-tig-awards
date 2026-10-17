@@ -1,0 +1,35 @@
+{
+  "name": "lsc-tig-awards grantee_names",
+  "version": "0.16.0",
+  "checked": "2026-10-17",
+  "license": "CC BY 4.0",
+  "compiled_by": "MV2 of Munim, Inc., with AI agents working in his name",
+  "description": "Grantee names in LSC's Technology Initiative Grant (TIG) lists, 2014-2025, that tig_grantees.py counts as another name's organization. Names that differ only by a leading 'The' or a trailing 'Inc.' need no entry. Each organization goes by the name LSC printed in its latest round. Mergers between two grantees are not followed.",
+  "fields": {
+    "state": "two-letter code, as in the TIG lists",
+    "printed": "the name as LSC printed it, without a leading 'The' or a trailing 'Inc.'",
+    "organization": "the organization's name as LSC printed it in its latest round",
+    "kind": "spelling: the same name written differently; short_form: a shorter name for the organization in one list; renamed: the organization announced a new name",
+    "years": "rounds in which LSC printed this name",
+    "source": "for a rename, the organization's own page that states it; otherwise null",
+    "note": "what the match rests on"
+  },
+  "names": [
+    {"state": "DC", "printed": "Neighborhood Legal Services Program of the District of Columbia", "organization": "Neighborhood Legal Services Program", "kind": "spelling", "years": [2019, 2020, 2023], "source": null},
+    {"state": "HI", "printed": "Legal Aid Society of Hawaii", "organization": "Legal Aid Society of Hawai'i", "kind": "spelling", "years": [2014, 2017, 2018], "source": null},
+    {"state": "IL", "printed": "Legal Aid of Chicago", "organization": "Legal Aid Chicago", "kind": "spelling", "years": [2024], "source": null},
+    {"state": "LA", "printed": "Acadiana Legal Services Corporation", "organization": "Acadiana Legal Service Corporation", "kind": "spelling", "years": [2014], "source": null},
+    {"state": "LA", "printed": "Southeast Louisiana Legal Services Corporation", "organization": "Southeast Louisiana Legal Services", "kind": "spelling", "years": [2014, 2017, 2021], "source": null},
+    {"state": "MO", "printed": "Mid-Missouri Legal Services Corporation", "organization": "Mid-Missouri Legal Services", "kind": "spelling", "years": [2023], "source": null},
+    {"state": "PA", "printed": "Philadelphia Legal Assistance", "organization": "Philadelphia Legal Assistance Center", "kind": "spelling", "years": [2023], "source": null},
+    {"state": "TN", "printed": "Legal Aid Society of Middle Tennessee and the Cumberland", "organization": "Legal Aid Society of Middle Tennessee and the Cumberlands", "kind": "spelling", "years": [2014], "source": null, "note": "LSC's 2014 release prints 'Cumberlands' for the same grant (data/tig_2014_2015.json, names)."},
+    {"state": "TX", "printed": "Legal Aid of NorthWest Texas", "organization": "Legal Aid of Northwest Texas", "kind": "spelling", "years": [2016], "source": null},
+    {"state": "ID", "printed": "Idaho Legal Services", "organization": "Idaho Legal Aid Services", "kind": "short_form", "years": [2014], "source": null, "note": "LSC's 2014 list (PDF) prints 'Idaho Legal Services'. Idaho is one LSC service area, ID-1, served by Idaho Legal Aid Services (data/basic_field_2025.json), which won TIGs in 2016 and 2024. No other Idaho grantee appears in any TIG list."},
+    {"state": "CA", "printed": "Legal Aid Society of Orange County", "organization": "Community Legal Aid SoCal", "kind": "renamed", "years": [2015], "source": "https://www.communitylegalsocal.org/legal-aid-society-of-orange-county-and-community-legal-services-re-brand-to-become-community-legal-aid-socal/", "note": "New name announced 1 February 2019."},
+    {"state": "IL", "printed": "LAF", "organization": "Legal Aid Chicago", "kind": "renamed", "years": [2015], "source": "https://legalaidchicago.org/who-we-are/our-history/", "note": "'the Legal Assistance Foundation of Metropolitan Chicago, now known as Legal Aid Chicago'. LAF was its short name."},
+    {"state": "IL", "printed": "Legal Assistance Foundation", "organization": "Legal Aid Chicago", "kind": "renamed", "years": [2014, 2018], "source": "https://legalaidchicago.org/who-we-are/our-history/", "note": "'the Legal Assistance Foundation of Metropolitan Chicago, now known as Legal Aid Chicago'."},
+    {"state": "IL", "printed": "Land of Lincoln Legal Assistance Foundation", "organization": "Land of Lincoln Legal Aid", "kind": "renamed", "years": [2014, 2016], "source": "https://www.bentoneveningnews.com/news/20190108/land-of-lincoln-legal-aid-new-name-same-great-organization", "note": "New name announced January 2019."},
+    {"state": "MN", "printed": "Legal Aid Service of Northeastern Minnesota", "organization": "Justice North", "kind": "renamed", "years": [2019, 2022], "source": "https://www.givemn.org/organization/Justicenorth", "note": "'On October 30, 2023, we officially became Justice North.'"},
+    {"state": "NH", "printed": "Legal Advice & Referral Center", "organization": "603 Legal Aid", "kind": "renamed", "years": [2019], "source": "https://www.603legalaid.org/who-we-are", "note": "'On June 1, 2021, LARC and Pro Bono merged into a new organization, 603 Legal Aid' (Pro Bono: the New Hampshire Bar Association's Pro Bono Referral Program, not an LSC grantee)."}
+  ]
+}
