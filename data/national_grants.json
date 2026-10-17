@@ -1,0 +1,72 @@
+{
+  "version": "0.1.0",
+  "description": "LSC Technology Initiative Grants that LSC's own descriptions say pay for a service used in more than 40 states, though each counts to its grantee's state. tig_states.py --without-national sets them aside. Each grant matches exactly one row of the list its round's module checks, by year, state and amount. Quotes are LSC's words as saved from the source (whitespace normalised; an ellipsis marks a cut).",
+  "license": "CC BY 4.0",
+  "compiled_by": "MV2 of Munim, Inc., with AI agents working in his name",
+  "checked": "2026-10-17",
+  "grants": [
+    {
+      "year": 2014,
+      "grantee_as_printed": "Ohio State Legal Services Association",
+      "state": "OH",
+      "amount_usd": 725200,
+      "service": "LawHelp Interactive",
+      "quote": "$725,200 to Ohio State Legal Services Association to support and enhance LawHelp Interactive (LHI), the national online document assembly service ...",
+      "source": "https://www.lsc.gov/press-release/lsc-awards-nearly-35-million-2014-technology-grants-legal-aid-organizations"
+    },
+    {
+      "year": 2016,
+      "grantee_as_printed": "Ohio State Legal Services Association",
+      "state": "OH",
+      "amount_usd": 808000,
+      "service": "LawHelp Interactive",
+      "quote": "Ohio State Legal Services Association received $808,000 to maintain LawHelp Interactive (LHI), the national online document assembly platform, used in more that forty states ...",
+      "source": "https://web.archive.org/web/20190611223436/https://www.lsc.gov/grants-grantee-resources/our-grant-programs/tig/2016-tig-awards-project-descriptions"
+    },
+    {
+      "year": 2017,
+      "grantee_as_printed": "Ohio State Legal Services",
+      "state": "OH",
+      "amount_usd": 751250,
+      "service": "LawHelp Interactive",
+      "quote": "Ohio State Legal Services received $751,250 to enhance LawHelp Interactive, a website that allows low-income people without access to a lawyer to prepare their own legal forms online. ... Enhancements will allow legal aid programs nationwide to manage ...",
+      "source": "https://web.archive.org/web/20190611223338/https://www.lsc.gov/grants-grantee-resources/our-grant-programs/tig/2017-tig-awards-project-descriptions"
+    },
+    {
+      "year": 2018,
+      "grantee_as_printed": "Ohio State Legal Services",
+      "state": "OH",
+      "amount_usd": 783000,
+      "service": "LawHelp Interactive",
+      "quote": "Ohio State Legal Services Association received funding to support outreach, operations, training, and improvements for LawHelp Interactive (LHI). LHI is the national online document assembly initiative used by more than 40 states ...",
+      "source": "https://www.lsc.gov/grants/technology-initiative-grant-program/technology-initiative-grant-awards-tig-projects-funded-year/2018-tig-awards-project-descriptions"
+    },
+    {
+      "year": 2019,
+      "grantee_as_printed": "Ohio State Legal Services",
+      "state": "OH",
+      "amount_usd": 790000,
+      "service": "LawHelp Interactive",
+      "quote": "Ohio State Legal Services will continue growing the capability and reliability of LawHelp Interactive (LHI), a free online resource for drafting legal forms and documents in over 40 states.",
+      "source": "https://www.lsc.gov/grants/technology-initiative-grant-program/technology-initiative-grant-awards-tig-projects-funded-year/2019-tig-awards-project-descriptions"
+    },
+    {
+      "year": 2020,
+      "grantee_as_printed": "Ohio State Legal Services",
+      "state": "OH",
+      "amount_usd": 526400,
+      "service": "LawHelp Interactive",
+      "quote": "Ohio State Legal Services will support LawHelp Interactive (LHI), a national document assembly platform used in more than 40 states.",
+      "source": "https://www.lsc.gov/grants/technology-initiative-grant-program/technology-initiative-grant-awards-tig-projects-funded-year/2020-tig-awards-project-descriptions"
+    },
+    {
+      "year": 2021,
+      "grantee_as_printed": "Ohio State Legal Services",
+      "state": "OH",
+      "amount_usd": 265000,
+      "service": "LawHelp Interactive",
+      "quote": "Funding will continue LSC’s support of LawHelp Interactive (LHI), a national document assembly platform used in more than 40 states by over 1 million people last year.",
+      "source": "https://www.lsc.gov/grants/technology-initiative-grant-program/technology-initiative-grant-awards-tig-projects-funded-year/2021-tig-award-project-descriptions"
+    }
+  ]
+}

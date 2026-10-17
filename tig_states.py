@@ -8,6 +8,7 @@
     python tig_states.py --rounds   # dollars per round, then per state and round
     python tig_states.py --json     # the rows as JSON
     python tig_states.py --summary  # headline figures as JSON
+    python tig_states.py --without-national --summary  # national-service grants set aside
 
 Each round's grants are the list the module that checks it uses: 2014 the PDF
 on lsc.gov, one row per grantee (tig_2014_2015.py); 2016 and 2017 the archived
@@ -17,7 +18,9 @@ description pages, with Iowa's 2016 amount from the PBIF release
 published amount. LSC never printed a 2015 list: the seven grantees its
 releases name are in --rounds but in no period. A grant counts to its
 grantee's state even where the project serves other states too (Ohio State
-Legal Services' LawHelp Interactive grants). Every period is set against the
+Legal Services' LawHelp Interactive grants); --without-national sets aside
+the grants in data/national_grants.json, which LSC's own descriptions say pay
+for a service used in more than 40 states. Every period is set against the
 poverty population behind LSC's 2025 basic field money (poverty.py).
 """
 import argparse
@@ -33,6 +36,7 @@ import tig_2016_2017
 import tig_history
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+NATIONAL = os.path.join(HERE, "data", "national_grants.json")
 YEARS = tuple(range(2014, 2026))
 PARTIAL = (2015,)
 PERIODS = {"2014-2019": range(2014, 2020), "2020-2025": range(2020, 2026), "2014-2025": range(2014, 2026)}
@@ -60,6 +64,24 @@ def grants(early, middle, late, awards):
             rows.append({"year": a["year"], "grantee": a["grantee"], "state": a["state"],
                          "amount_usd": a["amount_usd"]})
     return rows
+
+
+def load_national(path=NATIONAL):
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def set_aside(rows, national):
+    """The grant rows without the grants in data/national_grants.json. Each
+    must match exactly one row by year, state and amount."""
+    out = list(rows)
+    for n in national["grants"]:
+        hits = [i for i, g in enumerate(out)
+                if g["year"] == n["year"] and g["state"] == n["state"] and g["amount_usd"] == n["amount_usd"]]
+        if len(hits) != 1:
+            raise ValueError("%d grant rows match %s %s %s" % (len(hits), n["year"], n["state"], n["amount_usd"]))
+        del out[hits[0]]
+    return out
 
 
 def round_totals(rows):
@@ -217,11 +239,16 @@ def main(argv=None):
     p.add_argument("--awards", default=tig.DATA)
     p.add_argument("--basic-field", default=basic_field.DATA)
     p.add_argument("--competition", default=poverty.DATA)
+    p.add_argument("--national", default=NATIONAL)
+    p.add_argument("--without-national", action="store_true",
+                   help="set aside the national-service grants in --national")
     p.add_argument("--rounds", action="store_true", help="print dollars per state and round")
     p.add_argument("--json", action="store_true", help="print the rows as JSON")
     p.add_argument("--summary", action="store_true", help="print headline figures as JSON")
     args = p.parse_args(argv)
     grant_rows = build(args.early, args.middle, args.late, args.awards)
+    if args.without_national:
+        grant_rows = set_aside(grant_rows, load_national(args.national))
     if args.rounds:
         print(totals_markdown(grant_rows))
         print()
