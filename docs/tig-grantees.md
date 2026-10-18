@@ -74,6 +74,52 @@ Organizations and newcomers per round ("new" means no complete round won since 2
 
 The seven organizations LSC's releases name for 2015 all won at least one complete round too.
 
+## The base: LSC's 2025 grantees
+
+Only organizations that hold an LSC basic field grant may apply for a TIG or a PBIF grant, so the base for the counts on this page and in [pbif-history.md](pbif-history.md) is LSC's grantees. `grantee_base.py` takes the 2025 grantees from [data/basic_field_2025.json](../data/basic_field_2025.json), LSC's Notice of Intent to Award for 2025 (89 FR 88814) with its estimated annualized 2025 funding, and matches each one to the TIG organizations above and to the PBIF organizations. Service areas that print the same name are one grantee, counted in the state that holds most of its dollars.
+
+    python grantee_base.py            # one row per 2025 grantee
+    python grantee_base.py --summary  # the figures in this section, as JSON
+
+`test_grantee_base.py` pins these counts, checked by hand against the notice. `test_grantee_base_doc.py` checks this section against the code.
+
+- **130 organizations hold a 2025 basic field grant, and 114 of them (87.7%) won a TIG or a PBIF grant from 2014 to 2025**: 74 won both, 34 a TIG only and 6 PBIF only. All 80 PBIF organizations are among the 130.
+- **16 won neither.** Together they hold $31,906,185 (6.2%) of the $513,988,916 in estimated 2025 funding for the 130. The largest of them, MidPenn Legal Services, has $3,765,838; every grantee with more won at least one of the two programs.
+- **Two TIG organizations match no 2025 grantee.** Ohio State Legal Services (7 rounds) has no 2025 service area under its name. Memphis Area Legal Services (2 rounds) is named only in TN-4, the one service area the notice leaves undecided ("Memphis Area Legal Services, Inc. or West Tennessee Legal Services, Inc", $2,111,084), which counts as no grantee here. The other 292 of the 301 round wins went to 2025 grantees.
+- **The share of winners is higher for larger grantees.** Below $3M, 56 of 69 grantees (81.2%) won at least one of the two programs; from $3M up, 58 of 61 (95.1%) did, including all 24 with $6M or more. Basic field funding mostly follows the number of people in poverty in each service area ([LSC's allocation process](https://www.lsc.gov/grants/basic-field-grant/basic-field-allocation-process)), so a tier measures size, not performance, and the lists do not say why the share rises with it.
+
+| Estimated 2025 basic field funding | Grantees | Won a TIG | Won PBIF | Won both | Won neither | Won either |
+|---|---|---|---|---|---|---|
+| under $1M | 12 | 8 | 5 | 3 | 2 | 83.3% |
+| $1M to $3M | 57 | 43 | 33 | 30 | 11 | 80.7% |
+| $3M to $6M | 37 | 34 | 27 | 27 | 3 | 91.9% |
+| $6M and over | 24 | 23 | 15 | 14 | 0 | 100.0% |
+
+Each tier includes its lower bound and excludes its upper one.
+
+The 16 that won neither:
+
+| Organization | State | Basic field 2025 | Service areas |
+|---|---|---|---|
+| MidPenn Legal Services | PA | $3,765,838 | PA-25 |
+| South Jersey Legal Services | NJ | $3,695,134 | MNJ, NJ-20 |
+| Three Rivers Legal Services | FL | $3,382,885 | FL-14 |
+| Legal Aid Society of Greater Cincinnati | OH | $2,369,019 | OH-18 |
+| Legal Services of Southern Missouri | MO | $2,233,446 | MO-7 |
+| Micronesian Legal Services Corporation | MP | $2,223,505 | GU-1, MP-1 |
+| Neighborhood Legal Services | NY | $2,032,390 | NY-24 |
+| Dakota Plains Legal Services | SD | $1,984,652 | NSD-1, SD-4 |
+| Central Jersey Legal Services | NJ | $1,869,464 | NJ-17 |
+| Summit Legal Aid | PA | $1,632,271 | PA-27 |
+| South Coastal Counties Legal Services | MA | $1,579,769 | MA-12 |
+| Essex-Newark Legal Services Project | NJ | $1,378,205 | NJ-8 |
+| Rhode Island Legal Services | RI | $1,347,809 | RI-1 |
+| Legal Services of Northern Michigan | MI | $1,199,133 | MI-9 |
+| Northwestern Legal Services | PA | $912,334 | PA-26 |
+| Community Law Office | PR | $300,331 | PR-2 |
+
+LSC has built tracks for this group. Its 2026 PBIF Project Incubation Grants are for newcomers: "Project Incubation Grants are available to organizations that have never received PBIF funding", and to organizations with no PBIF grant since 2019 or an unsuccessful 2025 application ([PBIF program description](https://www.lsc.gov/grants/pro-bono-innovation-fund/pbif-program-description)). LSC's December 2019 PBIF notice ([84 FR 67477](https://www.govinfo.gov/content/pkg/FR-2019-12-10/html/2019-26499.htm)) said its Transformation Grants were "primarily intended for LSC grantees who have been unsuccessful applying for Project Grants" or had never applied. Its 2018 TIG notice ([FR Doc. 2018-02435](https://www.govinfo.gov/content/pkg/FR-2018-02-07/html/2018-02435.htm)) offered Technology Improvement Projects of up to $25,000, for which "only LSC grantees that have not had a TIG award in the last five years (since 2013) are eligible". The lists name winners, not applicants, so whether the 16 applied is not known from them.
+
 ## Limits
 
 - Since 2014 only. The TIG program began in 2000, so "new" means no TIG in a complete round since 2014, not a first TIG ever, and a round's look-back grows from one round (2016) to ten (2025).
@@ -81,4 +127,6 @@ The seven organizations LSC's releases name for 2015 all won at least one comple
 - Dollars per round won count Legal Services of Greater Miami's 2025 round, which LSC listed without an amount, as a round with no dollars. The lists do not say why some grants are larger, and project scope is not compared here.
 - Mergers between grantees are not followed: two grantees that later merged count as two. A rename joins two names only where data/grantee_names.json lists it with the organization's own page. The Idaho short form rests on Idaho having one LSC grantee, not on a statement by LSC.
 - Only organizations holding an LSC basic field grant may apply for a TIG, so the pool is LSC's grantees, not all legal aid organizations.
+- The base is the 2025 list. An organization that won while it was a grantee and is not one in 2025 under the same name is in no group, and a grantee formed by a merger counts only under its 2025 name, without its predecessors' wins. The basic field figures are LSC's estimates in the notice, not final awards.
+- "Won neither" says nothing about applying. The tier table shows how the share of winners changes with basic field funding, not why.
 - Information about public grants, compiled by MV2 of Munim, Inc. with AI agents working in his name. Not legal advice.
