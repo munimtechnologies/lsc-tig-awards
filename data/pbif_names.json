@@ -1,0 +1,23 @@
+{
+  "name": "lsc-tig-awards pbif_names",
+  "version": "0.18.0",
+  "checked": "2026-10-18",
+  "license": "CC BY 4.0",
+  "compiled_by": "MV2 of Munim, Inc., with AI agents working in his name",
+  "description": "Grantee names in LSC's Pro Bono Innovation Fund (PBIF) lists, 2014-2025, that pbif_grantees.py counts as another name's organization, found by hand review of every PBIF name that matched no Technology Initiative Grant (TIG) organization. Names that differ only by a leading 'The' or a trailing 'Inc.', and names data/grantee_names.json already joins, need no entry. Mergers between two grantees are not followed.",
+  "fields": {
+    "state": "two-letter code, as in the PBIF lists",
+    "printed": "the name as LSC printed it, without a leading 'The' or a trailing 'Inc.'",
+    "organization": "the organization's name as the TIG lists print it (tig_grantees.py)",
+    "kind": "spelling: the same name written differently; short_form: a shorter name for the organization in one list; renamed: the organization announced a new name",
+    "years": "PBIF rounds in which LSC printed this name",
+    "source": "for a rename, the organization's own page that states it; otherwise null",
+    "note": "what the match rests on"
+  },
+  "names": [
+    {"state": "DC", "printed": "D.C. Neighborhood Legal Services Program", "organization": "Neighborhood Legal Services Program", "kind": "spelling", "years": [2016], "source": null, "note": "D.C. is the District of Columbia; LSC's 2019 PBIF release prints 'Neighborhood Legal Services Program of the District of Columbia', the name of LSC's grantee for service area DC-1 (data/basic_field_2025.json)."},
+    {"state": "PA", "printed": "Legal Aid of Southeastern PA", "organization": "Legal Aid of Southeastern Pennsylvania", "kind": "spelling", "years": [2021], "source": null, "note": "PA abbreviates Pennsylvania; the PBIF Awards page prints the full name for 2025, as do the TIG lists and LSC's 2025 basic field grants (PA-23)."},
+    {"state": "MT", "printed": "Montana Legal Services", "organization": "Montana Legal Services Association", "kind": "short_form", "years": [2018], "source": null, "note": "Every Montana LSC service area (MT-1, MMT, NMT-1) is served by Montana Legal Services Association (data/basic_field_2025.json). No other Montana grantee appears in any TIG or PBIF list."},
+    {"state": "VT", "printed": "Legal Services Law Line of Vermont", "organization": "Legal Services Vermont", "kind": "renamed", "years": [2016, 2018], "source": "https://www.vtlawhelp.org/law-line-now-called-legal-services-vermont", "note": "'Legal Services Law Line of Vermont, Inc. will now be called Legal Services Vermont.' Dated 25 January 2019. A new name, not a merger."}
+  ]
+}
