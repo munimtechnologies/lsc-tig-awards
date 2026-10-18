@@ -1,0 +1,56 @@
+{
+ "name": "lsc-pbif-2026",
+ "description": "LSC Pro Bono Innovation Fund 2026 round as LSC's two 14 October 2026 press releases print it, before the PBIF Awards page lists the round (checked 18 October 2026: the page still ends at 2025). Grantee names and amounts are copied as printed (whole dollars). `kind` is `grant` or `scholarship` (the new Grantee Engagement Scholarships). `printed_by` is LSC, or the member of Congress whose quote in the release gives the amount. Each award's state is the place its release names. Read by hand twice from the saved pages, 18 October 2026. CC BY 4.0.",
+ "round": {
+  "year": 2026,
+  "stated_total": "more than $4.15 million",
+  "stated_total_usd": 4150000,
+  "stated_organizations": 20,
+  "stated_states": 18,
+  "scholarship_organizations": 9,
+  "running_quote": "Since the PBIF grant program began in 2014, LSC has awarded 200 grants totaling more than $55 million.",
+  "running_count": 200,
+  "previous_running_count": 180
+ },
+ "releases": [
+  {
+   "date": "2026-10-14",
+   "title": "LSC awards $4.15M for pro bono legal services across 18 states",
+   "url": "https://www.lsc.gov/press-release/lsc-awards-415m-pro-bono-legal-services-across-18-states",
+   "scope": "national",
+   "complete": false,
+   "stated_total_usd": 4150000,
+   "stated_organizations": 20,
+   "quote": "The Legal Services Corporation (LSC) is awarding more than $4.15 million to 20 legal services organizations across 18 states."
+  },
+  {
+   "date": "2026-10-14",
+   "title": "California legal services receive $950,000 for pro bono initiatives",
+   "url": "https://www.lsc.gov/press-release/california-legal-services-receive-950000-pro-bono-initiatives",
+   "scope": "CA",
+   "complete": true,
+   "stated_total_usd": 950759,
+   "stated_organizations": 3,
+   "quote": "The Legal Services Corporation (LSC) is awarding $950,759 across three California legal services organizations."
+  }
+ ],
+ "awards": [
+  {"grantee": "Central California Legal Services", "state": "CA", "kind": "grant", "printed": "$486,356", "printed_by": "LSC",
+   "sources": ["https://www.lsc.gov/press-release/california-legal-services-receive-950000-pro-bono-initiatives"]},
+  {"grantee": "Inland Counties Legal Services", "state": "CA", "kind": "grant", "printed": "$455,403", "printed_by": "LSC",
+   "sources": ["https://www.lsc.gov/press-release/lsc-awards-415m-pro-bono-legal-services-across-18-states",
+               "https://www.lsc.gov/press-release/california-legal-services-receive-950000-pro-bono-initiatives"]},
+  {"grantee": "Greater Bakersfield Legal Assistance", "state": "CA", "kind": "scholarship", "printed": "$9,000", "printed_by": "LSC",
+   "sources": ["https://www.lsc.gov/press-release/california-legal-services-receive-950000-pro-bono-initiatives"]},
+  {"grantee": "Southeast Louisiana Legal Services", "state": "LA", "kind": "grant", "printed": "$282,365", "printed_by": "LSC",
+   "sources": ["https://www.lsc.gov/press-release/lsc-awards-415m-pro-bono-legal-services-across-18-states"]},
+  {"grantee": "New Mexico Legal Aid", "state": "NM", "kind": "grant", "printed": "$275,405", "printed_by": "LSC",
+   "sources": ["https://www.lsc.gov/press-release/lsc-awards-415m-pro-bono-legal-services-across-18-states"]},
+  {"grantee": "Appalachian Research and Defense Fund of Kentucky", "state": "KY", "kind": "grant", "printed": "$385,880", "printed_by": "LSC",
+   "sources": ["https://www.lsc.gov/press-release/lsc-awards-415m-pro-bono-legal-services-across-18-states"]},
+  {"grantee": "Legal Aid of East Tennessee", "state": "TN", "kind": "grant", "printed": "$395,614", "printed_by": "LSC",
+   "sources": ["https://www.lsc.gov/press-release/lsc-awards-415m-pro-bono-legal-services-across-18-states"]},
+  {"grantee": "Legal Services of Long Island", "state": "NY", "kind": "grant", "printed": "$300,000", "printed_by": "Rep. Andrew R. Garbarino (NY-2)",
+   "sources": ["https://www.lsc.gov/press-release/lsc-awards-415m-pro-bono-legal-services-across-18-states"]}
+ ]
+}
