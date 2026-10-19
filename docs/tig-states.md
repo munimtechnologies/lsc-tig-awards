@@ -73,6 +73,37 @@ rounds" means the other 11.
   [tig-national.md](tig-national.md) sets them aside: Ohio's index then falls below 1.0
   in every period (`python tig_states.py --without-national`).
 
+## Both programs by state
+
+LSC's other competitive program, the Pro Bono Innovation Fund (PBIF), is set against the same poverty population in [pbif-poverty.md](pbif-poverty.md). `programs_by_state.py` (Apache-2.0, no new data) puts the two programs together for 2014-2025: TIG's 11 complete rounds from `tig_states.py` and PBIF's named grants from `pbif_poverty.py`. Both programs are open only to organizations holding an LSC basic field grant. The groups and sums below were derived by hand before the code first ran and are pinned in `test_programs_by_state.py`.
+
+    python programs_by_state.py            # both programs per person in poverty, most over-represented first
+    python programs_by_state.py --groups   # both / TIG only / PBIF only / neither
+    python programs_by_state.py --summary  # headline figures as JSON
+
+| Programs won 2014-2025 | Jurisdictions | People in poverty | Share | TIG | PBIF |
+|---|---|---|---|---|---|
+| Both | 38 | 36,067,489 | 85.3% | $44,131,601 | $50,332,803 |
+| TIG only | 13 | 5,339,646 | 12.6% | $4,008,017 | $0 |
+| PBIF only | 2 | 593,498 | 1.4% | $0 | $738,173 |
+| Neither | 3 | 301,159 | 0.7% | $0 | $0 |
+| All | 56 | 42,301,792 | 100.0% | $48,139,618 | $51,070,976 |
+
+- **Together the two programs come to $2.35 per person in poverty**: $1.14 from TIG ($48,139,618) and $1.21 from PBIF ($51,070,976).
+- **38 of the 56 jurisdictions had a grant from both programs, and they hold 85.3% of the poverty population.** TIG reached 51 of the 56, PBIF 40.
+- **PBIF reached only two places TIG did not: Maryland and the U.S. Virgin Islands** (1.4% of the poverty population, $738,173 in PBIF grants). Maryland, with 574,160 people in poverty, is the largest jurisdiction with no TIG in the 11 complete rounds.
+- **TIG reached 13 that PBIF did not**: Alabama, American Samoa, Arizona, Connecticut, Delaware, Mississippi, North Dakota, New Hampshire, Oklahoma, Oregon, Puerto Rico, South Dakota and Wyoming (12.6% of the poverty population). Puerto Rico alone holds 3.0%.
+- **Three had neither: Guam, the MP-1 service area and Rhode Island** (0.7% of the poverty population). All three have LSC basic field grantees.
+- **Across the 56 jurisdictions, the correlation between TIG and PBIF dollars per person in poverty is 0.68** (unweighted Pearson, so a few small jurisdictions with large per-person figures pull it around).
+- **The five highest combined indexes:** VT (15.69), DC (9.31), MT (8.67), AK (7.43), ME (4.83). The index is a jurisdiction's share of both programs' dollars divided by its share of the poverty population. Together these five hold 1.3% of the poverty population and 10.3% of both programs' dollars, so in places this small a single grant moves the index a long way.
+- **6 at double their share or more in both programs** (AK, DC, ME, MT, VT, WV); **12 under half in both** (AL, AZ, GU, IN, MP, MS, NC, PR, RI, SC, SD, TX).
+
+Read these with the limits below in mind, and three more:
+
+- The lists name winners, not applicants, so a jurisdiction with no grant may have had no applicant.
+- LSC never published a 2015 TIG list (23 of its 30 grantees are unnamed), so Maryland, the Virgin Islands, Guam, MP-1 and Rhode Island could each have had a 2015 TIG.
+- MP is LSC's MP-1 service area, not the Northern Mariana Islands alone. Its grantee, Micronesian Legal Services Corporation, also works in the Federated States of Micronesia: LSC's advisory opinion [AO-2017-007](https://www.lsc.gov/about-lsc/laws-regulations-and-guidance/advisory-opinions/ao-2017-007) quotes the Compact of Free Association Act, under which LSC's services "shall be made available to the Federated States of Micronesia and to the Marshall Islands." LSC prints no poverty population for MP-1 or Guam, so `poverty.py` derives both from their 2025 amounts.
+
 ## Limits
 
 - Amounts are as LSC printed them, from the list each module uses. Where LSC's
