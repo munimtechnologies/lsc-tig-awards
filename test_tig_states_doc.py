@@ -40,7 +40,8 @@ class Doc(unittest.TestCase):
         self.assertIn("Seven had one in 10: %s and %s." % (", ".join(ten[:-1]), ten[-1]), self.doc)
         self.assertEqual(len(ten), 7)
         self.assertEqual(rounds["0"], ["GU", "MD", "MP", "RI", "VI"])
-        self.assertIn("**Maryland and Rhode Island had none**, nor did Guam, the Northern Mariana Islands and the U.S. Virgin Islands.", self.doc)
+        self.assertIn("**Maryland and Rhode Island had none**, nor did Guam, the MP-1 service area and the U.S. Virgin Islands.", self.doc)
+        self.assertNotIn("the Northern Mariana Islands and the U.S. Virgin Islands", self.doc)
 
     def test_ohio(self):
         oh = self.by["OH"]

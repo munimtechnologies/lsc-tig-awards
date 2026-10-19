@@ -416,7 +416,7 @@ Every TIG round from 2014 to 2025 has now been checked against LSC's own documen
 
 [docs/tig-states.md](docs/tig-states.md) puts the 11 complete rounds (all but 2015) together by state: $48,139,618 in 335 grants.
 
-- **No state had a grant in all 11 rounds; seven had one in 10** (CA, FL, IL, MI, MT, OH and PA). Maryland and Rhode Island had none, nor did Guam, the Northern Mariana Islands and the U.S. Virgin Islands.
+- **No state had a grant in all 11 rounds; seven had one in 10** (CA, FL, IL, MI, MT, OH and PA). Maryland and Rhode Island had none, nor did Guam, the MP-1 service area and the U.S. Virgin Islands.
 - **Ohio got 22.2% of TIG dollars in 2014-2019 and 5.4% in 2020-2025.** Most of it was Ohio State Legal Services' grants for LawHelp Interactive, the national online forms platform: $4,648,850 in seven rounds from 2014 to 2021, and none named in LSC's 2022-2025 releases.
 - **With PBIF added, 38 of the 56 jurisdictions had a grant from both programs** (85.3% of the poverty population). PBIF reached only Maryland and the U.S. Virgin Islands where TIG did not, TIG reached 13 jurisdictions where PBIF did not, and Guam, the MP-1 service area and Rhode Island had neither ([docs/tig-states.md](docs/tig-states.md)).
 

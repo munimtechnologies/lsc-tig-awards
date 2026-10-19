@@ -47,7 +47,7 @@ rounds" means the other 11.
 ## Findings
 
 - **No state had a grant in all 11 complete rounds.** Seven had one in 10: CA, FL, IL, MI, MT, OH and PA.
-- **Maryland and Rhode Island had none**, nor did Guam, the Northern Mariana Islands and the U.S. Virgin Islands.
+- **Maryland and Rhode Island had none**, nor did Guam, the MP-1 service area and the U.S. Virgin Islands.
   All five have LSC basic field grantees. Any of them could be among the 23 unnamed 2015
   grantees.
 - **Ohio got 22.2% of the dollars in 2014-2019 and 5.4% in 2020-2025** (12.3% over the
