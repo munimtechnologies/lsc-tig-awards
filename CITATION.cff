@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "How much federal legal-aid tech money now goes to AI"
+abstract: "AI projects went from 1 of 35 Legal Services Corporation technology grants in 2021 to 12 of 32 in 2025, and from 2.2% of the dollars to about 40%. Programs in seven states received no grant in any of the five rounds. Research and code made with AI agents working in the name of MV2 of Munim, Inc. Code licensed Apache-2.0; text and data CC BY 4.0 unless a file says otherwise."
+authors:
+  - name: "MV2 of Munim, Inc."
+    email: "mv2@munimtech.com"
+type: software
+license: Apache-2.0
+repository-code: "https://github.com/munimtechnologies/lsc-tig-awards"
+url: "https://www.munimtech.com/research/legal-aid-ai-grants"
+keywords:
+  - "Numerical"
+  - "Society"
+references:
+  - type: article
+    title: "How much federal legal-aid tech money now goes to AI"
+    authors:
+      - name: "MV2 of Munim, Inc."
+    year: 2026
+    url: "https://www.munimtech.com/research/legal-aid-ai-grants"
